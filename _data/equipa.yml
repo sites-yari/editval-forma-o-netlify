@@ -1,0 +1,64 @@
+lista:
+  equipa_pt:
+    -
+      nome: SANDRA ARAÚJO
+      cargo: Administradora
+      texto: Gestora de Recursos Humanos e Formação. Embaixadora da Rede Europeia de Empreendedorismo Feminino. Formadora especialista nas áreas de Mudança Organizacional, Recursos Humanos, Responsabilidade Social e Igualdade de Género.
+      telefone: +351 933 666 144
+      email: sandra.araujo@editvalue.com
+    -
+      nome: SARA OLIVEIRA
+      cargo: Consultora-Formadora
+      texto: Consultora e Formadora especialista na área de Recursos Humanos, Comportamento Organizacional e Língua Inglesa.
+      telefone: +351 933 666 145
+      email: sara.oliveira@editvalue.com
+    -
+      nome: ANDRÉ COSTA
+      cargo: Formador
+      texto: Formador especialista nas áreas de Gestão de Recursos Humanos, Inovação e Empreendedorismo.
+      telefone: +351 918 889 992
+      email: andre.costa@editvalue.com
+    -
+      nome: MANUEL FERNANDES
+      cargo: Formador
+      texto: Formador especialista nas áreas de Gestão Industrial, Informática e Benchmarking.
+      telefone: +351 918 889 924
+      email: manuel.fernandes@editvalue.com
+    -
+      nome: NUNO PINTO BASTOS
+      cargo: Formador
+      texto: Formador especialista nas áreas de Gestão Estratégica, Marketing e Comunicação.
+      telefone: +351 918 880 033
+      email: nuno.pintobastos@editvalue.com
+    -
+      nome: CRISTIANO GUIMARÃES
+      cargo: Formador
+      texto: Formador especialista nas áreas de Gestão Financeira e Auditoria Fiscal.
+      telefone: +351 918 889 590
+      email: cristiano.guimaraes@editvalue.com
+    -
+      nome: ANDREIA LEITE
+      cargo: Formadora
+      texto: Formadora especialista na área de Software de Gestão Empresarial.
+      telefone: +351 918 889 885
+      email: andreia.leite@editvalue.com
+    -
+      nome: FÁBIO CRUZ
+      cargo: Formador
+      texto: Formador especialista na área de Auditoria Fiscal.
+      telefone: +351 918 889 492
+      email: fabio.cruz@editvalue.com
+    -
+      nome: PAULA FERREIRA
+      cargo: Formadora
+      texto: Formadora especialista nas áreas de Contabilidade e Fiscalidade.
+      telefone: +351 918 889 444
+      email: paula.ferreira@editvalue.com
+    -
+      nome: TÂNIA RODRIGUES
+      cargo: Formadora
+      texto: Formadora especialista nas áreas de Contabilidade e Fiscalidade.
+      telefone: +351 918 889 704
+      email: tania.rodrigues@editvalue.com
+
+    

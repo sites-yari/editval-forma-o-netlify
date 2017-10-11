@@ -10,20 +10,46 @@
                                 <!-- EN -->
                                 <li class='en-index-en'>
                                     <div class='wrapper'>
-                                        <a href='en.html' target='' alt=''><span class='icon'></span><span class='label'>en</span></a>
+                                        {% if page.class == "index-pt" or page.class == "media-pt" or page.class == "rede-pt" %}
+                                            <a href='en.html' target='' alt=''><span class='icon'></span><span class='label'>en</span></a>
+                                        {% elsif page.class == "equipa-pt" %}
+                                            <a href='en/team.html' target='' alt=''><span class='icon'></span><span class='label'>en</span></a>
+                                        {% elsif page.class == "servicos-pt" %}
+                                            <a href='en/services.html' target='' alt=''><span class='icon'></span><span class='label'>en</span></a>
+                                        {% elsif page.class == "contactos-pt" %}
+
+                                        {% endif %}
                                     </div>
                                 </li>
 
                                 <!-- ES -->
                                 <li class='es-index-es'>
                                     <div class='wrapper'>
-                                        <a href='es.html' target='' alt=''><span class='icon'></span><span class='label'>es</span></a>
+                                        {% if page.class == "index-pt" or page.class == "media-pt" or page.class == "rede-pt" %}
+                                            <a href='es.html' target='' alt=''><span class='icon'></span><span class='label'>es</span></a>
+                                        {% elsif page.class == "equipa-pt" %}
+                                            <a href='es/equipo.html' target='' alt=''><span class='icon'></span><span class='label'>es</span></a>
+                                        {% elsif page.class == "servicos-pt" %}
+                                            <a href='es/servicios.html' target='' alt=''><span class='icon'></span><span class='label'>es</span></a>
+                                        {% elsif page.class == "contactos-pt" %}
+
+                                        {% endif %}
                                     </div>
                                 </li>
 
                                 <!-- CONSULTORIA -->
                                 <li class='consultoria'>
-                                    <div class='wrapper'><a href='http://consultoria.editvalue.com/index' data-href-domain-fix="com" target='' alt=''><span class='icon'></span><span class='label'>Consultoria</span></a></div>
+                                    {% if page.class == "index-pt" or page.class == "media-pt" %}                                        
+                                        <div class='wrapper'><a href='http://consultoria.editvalue.com/index' data-href-domain-fix="com" target='' alt=''><span class='icon'></span><span class='label'>Consultoria</span></a></div>
+                                    {% elsif page.class == "equipa-pt" %}
+                                        <div class='wrapper'><a href='http://consultoria.editvalue.com/equipa' data-href-domain-fix="com" target='' alt=''><span class='icon'></span><span class='label'>Consultoria</span></a></div>                                    
+                                    {% elsif page.class == "servicos-pt" %}
+                                        <div class='wrapper'><a href='http://consultoria.editvalue.com/servicos' data-href-domain-fix="com" target='' alt=''><span class='icon'></span><span class='label'>Consultoria</span></a></div>                                    
+                                    {% elsif page.class == "rede-pt" %}
+                                        <div class='wrapper'><a href='http://consultoria.editvalue.com/rede' data-href-domain-fix="com" target='' alt=''><span class='icon'></span><span class='label'>Consultoria</span></a></div>                                                                        
+                                    {% elsif page.class == "contactos-pt" %}
+
+                                    {% endif %}
                                 </li>
 
                                 <!-- AREA CLIENTE -->
