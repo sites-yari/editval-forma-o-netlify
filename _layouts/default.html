@@ -4,7 +4,16 @@
         <div class='clearfix' id='main_container'>
             {% include header.html %}
             <div class='clearfix' id='middle_container'>
-                {% include menu.html %}
+                {% if page.idiom == "pt" %}
+                    {% include menu.html %}
+
+                {% elsif page.idiom == "en" %}
+                    {% include menu-en.html %}
+
+                {% elsif page.idiom == "es" %}
+                    {% include menu-es.html %}
+                {% endif%}
+                
                 <div class='' id='container3'>
                     <div class='contents'>
                         {{content}}

@@ -7,57 +7,117 @@
                     <div class='content' id='content_14731_container'>
                         <div class='nested-menu language_header'>
                             <ul>
-                                <!-- EN -->
-                                <li class='en-index-en'>
-                                    <div class='wrapper'>
-                                        {% if page.class == "index-pt" or page.class == "media-pt" or page.class == "rede-pt" %}
-                                            <a href='en.html' target='' alt=''><span class='icon'></span><span class='label'>en</span></a>
-                                        {% elsif page.class == "equipa-pt" or page.class == "formacao-pt" %}
-                                            <a href='en/team.html' target='' alt=''><span class='icon'></span><span class='label'>en</span></a>
-                                        {% elsif page.class == "servicos-pt" %}
-                                            <a href='en/services.html' target='' alt=''><span class='icon'></span><span class='label'>en</span></a>
-                                        {% elsif page.class == "contactos-pt" %}
-                                            <a href='en/contacts.html' target='' alt=''><span class='icon'></span><span class='label'>en</span></a>
-                                        {% endif %}
-                                    </div>
-                                </li>
+                            <!-- *******************************| PT pages |************************************-->
+                                {% if page.idiom == "pt" %}
+                                    <!-- EN -->
+                                    <li class='en-index-en'>
+                                        <div class='wrapper'>
+                                            {% if page.class == "index-pt" or page.class == "media-pt" or page.class == "rede-pt" %}
+                                                <a href='en.html' target='' alt=''><span class='icon'></span><span class='label'>en</span></a>
+                                            {% elsif page.class == "equipa-pt" or page.class == "formacao-pt" %}
+                                                <a href='en/team.html' target='' alt=''><span class='icon'></span><span class='label'>en</span></a>
+                                            {% elsif page.class == "servicos-pt" %}
+                                                <a href='en/services.html' target='' alt=''><span class='icon'></span><span class='label'>en</span></a>
+                                            {% elsif page.class == "contactos-pt" %}
+                                                <a href='en/contacts.html' target='' alt=''><span class='icon'></span><span class='label'>en</span></a>
+                                            {% endif %}
+                                        </div>
+                                    </li>
 
-                                <!-- ES -->
-                                <li class='es-index-es'>
-                                    <div class='wrapper'>
-                                        {% if page.class == "index-pt" or page.class == "media-pt" or page.class == "rede-pt" %}
+                                    <!-- ES -->
+                                    <li class='es-index-es'>
+                                        <div class='wrapper'>
+                                            {% if page.class == "index-pt" or page.class == "media-pt" or page.class == "rede-pt" %}
+                                                <a href='es.html' target='' alt=''><span class='icon'></span><span class='label'>es</span></a>
+                                            {% elsif page.class == "equipa-pt" or page.class == "formacao-pt" %}
+                                                <a href='es/equipo.html' target='' alt=''><span class='icon'></span><span class='label'>es</span></a>
+                                            {% elsif page.class == "servicos-pt" %}
+                                                <a href='es/servicios.html' target='' alt=''><span class='icon'></span><span class='label'>es</span></a>
+                                            {% elsif page.class == "contactos-pt" %}
+                                                <a href='es/contactos.html' target='' alt=''><span class='icon'></span><span class='label'>es</span></a>
+                                            {% endif %}
+                                        </div>
+                                    </li>
+
+                                    <!-- CONSULTORIA -->
+                                    <li class='consultoria'>
+                                        {% if page.class == "index-pt" or page.class == "media-pt" or page.class == "formacao-pt" %}                                        
+                                            <div class='wrapper'><a href='http://consultoria.editvalue.com/index' data-href-domain-fix="com" target='' alt=''><span class='icon'></span><span class='label'>Consultoria</span></a></div>
+                                        {% elsif page.class == "equipa-pt" %}
+                                            <div class='wrapper'><a href='http://consultoria.editvalue.com/equipa' data-href-domain-fix="com" target='' alt=''><span class='icon'></span><span class='label'>Consultoria</span></a></div>                                    
+                                        {% elsif page.class == "servicos-pt" %}
+                                            <div class='wrapper'><a href='http://consultoria.editvalue.com/servicos' data-href-domain-fix="com" target='' alt=''><span class='icon'></span><span class='label'>Consultoria</span></a></div>                                    
+                                        {% elsif page.class == "rede-pt" %}
+                                            <div class='wrapper'><a href='http://consultoria.editvalue.com/rede' data-href-domain-fix="com" target='' alt=''><span class='icon'></span><span class='label'>Consultoria</span></a></div>                                                                        
+                                        {% elsif page.class == "contactos-pt" %}
+                                        <div class='wrapper'><a href='http://consultoria.editvalue.com/contactos' data-href-domain-fix="com" target='' alt=''><span class='icon'></span><span class='label'>Consultoria</span></a></div>
+                                        {% endif %}
+                                    </li>
+
+                                    <!-- AREA CLIENTE -->
+                                    <li class='clientes -last '>
+                                        <div class='wrapper'>
+                                            <a href='https://dynamicvalue.editvalue.com/' target='' alt=''><span class='icon'></span><span class='label'>Área de clientes</span></a>
+                                        </div>
+                                    </li>
+
+                            <!-- *******************************| EN pages |************************************-->
+                                {% elsif page.idiom == "en" %}
+                                    <!-- EN -->
+                                    <li class='es-index-es'>
+                                        <div class='wrapper'>
+                                        {% if page.class == "index-en" %}
                                             <a href='es.html' target='' alt=''><span class='icon'></span><span class='label'>es</span></a>
-                                        {% elsif page.class == "equipa-pt" or page.class == "formacao-pt" %}
-                                            <a href='es/equipo.html' target='' alt=''><span class='icon'></span><span class='label'>es</span></a>
-                                        {% elsif page.class == "servicos-pt" %}
-                                            <a href='es/servicios.html' target='' alt=''><span class='icon'></span><span class='label'>es</span></a>
-                                        {% elsif page.class == "contactos-pt" %}
-                                            <a href='es/contactos.html' target='' alt=''><span class='icon'></span><span class='label'>es</span></a>
+                                        {% elsif page.class == "equipa-en" %}
+
+                                        {% elsif page.class == "servicos-en" %}
+
+                                        {% elsif page.class == "contactos-en" %}
+
                                         {% endif %}
-                                    </div>
-                                </li>
+                                        </div>
+                                    </li>
 
-                                <!-- CONSULTORIA -->
-                                <li class='consultoria'>
-                                    {% if page.class == "index-pt" or page.class == "media-pt" or page.class == "formacao-pt" %}                                        
-                                        <div class='wrapper'><a href='http://consultoria.editvalue.com/index' data-href-domain-fix="com" target='' alt=''><span class='icon'></span><span class='label'>Consultoria</span></a></div>
-                                    {% elsif page.class == "equipa-pt" %}
-                                        <div class='wrapper'><a href='http://consultoria.editvalue.com/equipa' data-href-domain-fix="com" target='' alt=''><span class='icon'></span><span class='label'>Consultoria</span></a></div>                                    
-                                    {% elsif page.class == "servicos-pt" %}
-                                        <div class='wrapper'><a href='http://consultoria.editvalue.com/servicos' data-href-domain-fix="com" target='' alt=''><span class='icon'></span><span class='label'>Consultoria</span></a></div>                                    
-                                    {% elsif page.class == "rede-pt" %}
-                                        <div class='wrapper'><a href='http://consultoria.editvalue.com/rede' data-href-domain-fix="com" target='' alt=''><span class='icon'></span><span class='label'>Consultoria</span></a></div>                                                                        
-                                    {% elsif page.class == "contactos-pt" %}
-                                    <div class='wrapper'><a href='http://consultoria.editvalue.com/contactos' data-href-domain-fix="com" target='' alt=''><span class='icon'></span><span class='label'>Consultoria</span></a></div>
-                                    {% endif %}
-                                </li>
+                                    <!-- ES -->
+                                    <li class='index'>
+                                        <div class='wrapper'>
+                                        {% if page.class == "index-en" %}
+                                            <a href='index.html' target='' alt=''><span class='icon'></span><span class='label'>pt</span></a>
+                                        {% elsif page.class == "equipa-en" %}
 
-                                <!-- AREA CLIENTE -->
-                                <li class='clientes -last '>
-                                    <div class='wrapper'>
+                                        {% elsif page.class == "servicos-en" %}
+
+                                        {% elsif page.class == "contactos-en" %}
+
+                                        {% endif %}
+                                        </div>
+                                    </li>
+
+                                    <!-- CONSULTORIA -->
+                                    <li class='consultoria'>
+                                        <div class='wrapper'>
+                                        {% if page.class == "index-en" %}                                                
+                                            <a href='http://consultoria.editvalue.com/en' data-href-domain-fix="com" target='' alt=''><span class='icon'></span><span class='label'>Consulting</span></a>
+                                        {% elsif page.class == "equipa-en" %}
+
+                                        {% elsif page.class == "servicos-en" %}
+
+                                        {% elsif page.class == "contactos-en" %}
+
+                                        {% endif %}
+                                        </div>
+                                    </li>
+
+                                    <!-- AREA CLIENTE -->
+                                    <li class='clientes -last ' style="display: none;">
+                                        <div class='wrapper'>
                                         <a href='https://dynamicvalue.editvalue.com/' target='' alt=''><span class='icon'></span><span class='label'>Área de clientes</span></a>
-                                    </div>
-                                </li>
+                                        </div>
+                                    </li>
+                            <!-- *******************************| ES pages |************************************-->
+                                {% elsif page.idiom == "es" %}
+
+                                {% endif %}
                             </ul>
                         </div>
                     </div>
