@@ -61,4 +61,64 @@ lista:
       telefone: +351 918 889 704
       email: tania.rodrigues@editvalue.com
 
-    
+  equipa_en:
+    -
+      nome: SANDRA ARAÚJO
+      cargo: CEO
+      texto: Manager Human Resources and Training, Trainer expert in the areas of Management, Change Management, Human Resources, Social Responsibility and Gender Equality and Ambassador of the European Network of Women Entrepreneurs.
+      telefone: +351 933 666 144
+      email: sandra.araujo@editvalue.com
+    -
+      nome: SARA OLIVEIRA
+      cargo: Consultant-Trainer
+      texto: Consultant and Trainer expert in the areas of Labour, Enterprise Economics and Team Building.
+      telefone: +351 933 666 145
+      email: sara.oliveira@editvalue.com
+    -
+      nome: ANDRÉ COSTA
+      cargo: Trainer
+      texto: Trainer expert in the areas of Human Resources Management, Innovation and Entrepreneurship.
+      telefone: +351 918 889 992
+      email: andre.costa@editvalue.com
+    -
+      nome: MANUEL FERNANDES
+      cargo: Trainer
+      texto: Trainer expert in the areas of Industrial Management, Informatics and Benchmarking.
+      telefone: +351 918 889 924
+      email: manuel.fernandes@editvalue.com
+    -
+      nome: NUNO PINTO BASTOS
+      cargo: Trainer
+      texto: Trainer expert in the areas of Strategic Management, Marketing and Communication.
+      telefone: +351 918 880 033
+      email: nuno.pintobastos@editvalue.com
+    -
+      nome: CRISTIANO GUIMARÃES
+      cargo: Trainer
+      texto: Trainer expert in the areas of Financial Management and Controller.
+      telefone: +351 918 889 590
+      email: cristiano.guimaraes@editvalue.com
+    -
+      nome: ANDREIA LEITE
+      cargo: Trainer
+      texto: Trainer expert in the area of Software Enterprise Management.
+      telefone: +351 918 889 885
+      email: andreia.leite@editvalue.com
+    -
+      nome: FÁBIO CRUZ
+      cargo: Trainer
+      texto: Trainer expert in the area of ​​Tax Audit.
+      telefone: +351 918 889 492
+      email: fabio.cruz@editvalue.com
+    -
+      nome: PAULA FERREIRA
+      cargo: Trainer
+      texto: Trainer expert in the areas of Accounting and Taxation.
+      telefone: +351 918 889 444
+      email: paula.ferreira@editvalue.com
+    -
+      nome: TÂNIA RODRIGUES
+      cargo: Trainer
+      texto: Trainer expert in the areas of Accounting and Taxation.
+      telefone: +351 918 889 704
+      email: tania.rodrigues@editvalue.com  
