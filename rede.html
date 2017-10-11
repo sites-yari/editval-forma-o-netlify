@@ -10,303 +10,37 @@ rede_active?: active
     <li class="container left">
       <div class="content" id="content_14845_container">
         <div class="list parcerias " id="list_138">
+          
           <h1 style="margin: 0 1px;">
             <span class="value">Parcerias</span><span class="i18n"></span>
           </h1>
+
           <div class="items">
-
+            {% assign wire = site.posts | where: "category" , "Parcerias" %}                                      
             <ul>
+              {% for post in wire %}
               <li class="i-0 odd" id="item-28188">
                 <div class="item">
                   <div class="image">
-                    <a href="http://www.jmmsroc.pt/novo/academia" target="_blank">
-                      <img alt="Academia-jmmsroc" class="blur" src="images/dynamic/W1siZnUiLCJodHRwczovL2FkYWdhd2ViLnMzLmFtYXpvbmF/academia-jmmsroc6599.png?sha=119be92805cc8d64">
+                    <a href="{{post.link}}" target="_blank">
+                      <img alt="Academia-jmmsroc" class="blur" src="{{post.imagem_image_path}}">
                     </a>
                   </div>
                   <div class="folder">
                     <div class="name">
-                      <a href="http://www.jmmsroc.pt/novo/academia" target="_blank">
+                      <a href="{{post.link}}" target="_blank">
                         <span class="label">Nome</span>
-                        <span class="value">Academia JMMsroc</span>
+                        <span class="value">{{post.title}}</span>
                       </a>
                     </div>
                     <div class="text1">
                       <span class="label">Texto 1</span>
-                      <span class="value"><p>Sob a égide do lema “Qualidade em Continuidade”, a Sociedade de Revisores Oficiais de Contas, Joaquim Guimarães, Manuela Malheiro e Mário Guimarães, SROC criou a <strong>Academia JMMsroc</strong>. Como entidade acreditada pela Ordem dos TOC, tem por missão proporcionar formação de excelência aos interessados, nas áreas de gestão, contabilidade, fiscalidade e nos vários ramos do direito, contribuindo assim, de forma significativa, para a qualificação e formação permanente do capital humano das empresas e entidades.</p></span>
+                      <span class="value"><p>{{post.text}}</p></span>
                     </div>
                   </div>
                 </div>
               </li>
-              
-              <li class="i-0 odd" id="item-28188">
-                <div class="item">
-                  <div class="image">
-                    <a href="http://academia.geojustica.pt/" target="_blank">
-                      <img alt="Academia-jmmsroc" class="blur" src="images/dynamic/W1siZnUiLCJodHRwczovL2FkYWdhd2ViLnMzLmFtYXpvbmF/logo_academia_geo_vf-048626.png?sha=29c8e6f4eeb6e97f">
-                    </a>
-                  </div>
-
-                  <div class="folder">
-                    <div class="name">
-                      <a href="http://academia.geojustica.pt/" target="_blank">
-                        <span class="label">Nome</span>
-                        <span class="value">Academia Geojustiça</span>
-                      </a>
-                    </div>
-
-                    <div class="text1">
-                      <span class="label">Texto 1</span>
-                      <span class="value"><p><span class="value">A Academia Geojusti&ccedil;a visa dotar os profissionais da &aacute;rea da justi&ccedil;a de compet&ecirc;ncias t&eacute;cnicas inerentes &agrave; representa&ccedil;&atilde;o do espa&ccedil;o e respetivos fen&oacute;menos espaciais e de ferramentas necess&aacute;rias para uma correta interpreta&ccedil;&atilde;o dessa informa&ccedil;&atilde;o. A Academia organiza cursos, semin&aacute;rios, col&oacute;quios e outros eventos, principalmente direcionados a profissionais da &aacute;rea da justi&ccedil;a, propondo forma&ccedil;&otilde;es diversificadas, alternativas, qualificadas e acreditadas.</span></p></span>
-                    </div>
-
-                  </div>
-
-                </div>
-              </li>
-              
-              <li class="i-0 odd" id="item-28188">
-                <div class="item">
-                  <div class="image">
-                    <a href="http://www.eeg.uminho.pt/" target="_blank">
-                      <img alt="Academia-jmmsroc" class="blur" src="images/dynamic/W1siZnUiLCJodHRwczovL2FkYWdhd2ViLnMzLmFtYXpvbmF/MTQ1MDYwOTk3NiJdLFsicCIsInRodW1iIiwiMTA0eDEwNCM/eeg19b7.gif?sha=8fe4ffd2664b76f4">
-                    </a>
-                  </div>
-
-                  <div class="folder">
-                    <div class="name">
-                      <a href="http://www.eeg.uminho.pt/" target="_blank">
-                        <span class="label">Nome</span>
-                        <span class="value">Escola de Economia e Gestão UMinho</span>
-                      </a>
-                    </div>
-
-                    <div class="text1">
-                      <span class="label">Texto 1</span>
-                      <span class="value"><p>Fundada em 1973, a Universidade do Minho é uma universidade pública com autonomia administrativa e financeira. A Escola de Economia e Gestão, é uma das suas unidades orgânicas de ensino e investigação, à qual compete assegurar o ensino, a investigação e outros projetos de interação com a sociedade, no âmbito das ciências económicas, empresariais e políticas.</p>
-  </span>
-                    </div>
-
-                  </div>
-
-                </div>
-              </li>
-              
-              <li class="i-0 odd" id="item-28188">
-                <div class="item">
-                  <div class="image">
-                    <a href="http://www.iefp.pt/" target="_blank">
-                      <img alt="Academia-jmmsroc" class="blur" src="images/dynamic/W1siZnUiLCJodHRwczovL2FkYWdhd2ViLnMzLmFtYXpvbmF/instituto-empregoce0d.gif?sha=c88b8abf19395c23">
-                    </a>
-                  </div>
-
-                  <div class="folder">
-                    <div class="name">
-                      <a href="http://www.iefp.pt/" target="_blank">
-                        <span class="label">Nome</span>
-                        <span class="value">Instituto do Emprego e Formação Profissional</span>
-                      </a>
-                    </div>
-
-                    <div class="text1">
-                      <span class="label">Texto 1</span>
-                      <span class="value"><p>Criado em 1979, o Instituto do Emprego e Formação Profissional é um organismo público sob a tutela do Ministério do Trabalho e da Solidariedade Social. Tem como competências principais a execução das políticas de emprego e formação profissional, definidas e aprovadas pelo governo. É dotado de autonomia administrativa e financeira, revestindo a forma de serviço personalizado do Estado, para o qual são transferidas as respectivas competências.</p>
-  </span>
-                    </div>
-
-                  </div>
-
-                </div>
-              </li>
-              
-              <li class="i-0 odd" id="item-28188">
-                <div class="item">
-                  <div class="image">
-                    <a href="http://www.iapmei.pt/" target="_blank">
-                      <img alt="Academia-jmmsroc" class="blur" src="images/dynamic/W1siZnUiLCJodHRwczovL2FkYWdhd2ViLnMzLmFtYXpvbmF/logo_iapmei409b.gif?sha=99cccedb96ac763f">
-                    </a>
-                  </div>
-
-                  <div class="folder">
-                    <div class="name">
-                      <a href="http://www.iapmei.pt/" target="_blank">
-                        <span class="label">Nome</span>
-                        <span class="value">Instituto de Apoio às Pequenas e Médias Empresas e à Inovação</span>
-                      </a>
-                    </div>
-
-                    <div class="text1">
-                      <span class="label">Texto 1</span>
-                      <span class="value"><p>O Instituto de Apoio às Pequenas e Médias Empresas e à Inovação, é o principal instrumento das políticas económicas direccionadas para as micro, pequenas e médias empresas dos setores industrial, comercial, de serviços e construção, cabendo-lhe agenciar condições favoráveis para o reforço do espírito e da competitividade empresarial existentes no nosso país.</p>
-  </span>
-                    </div>
-
-                  </div>
-
-                </div>
-              </li>
-              
-              <li class="i-0 odd" id="item-28188">
-                <div class="item">
-                  <div class="image">
-                    <a href="http://www.aiminho.pt/" target="_blank">
-                      <img alt="Academia-jmmsroc" class="blur" src="images/dynamic/W1siZnUiLCJodHRwczovL2FkYWdhd2ViLnMzLmFtYXpvbmF/aiminhoe9ba.png?sha=766e48bec65fab0f">
-                    </a>
-                  </div>
-
-                  <div class="folder">
-                    <div class="name">
-                      <a href="http://www.aiminho.pt/" target="_blank">
-                        <span class="label">Nome</span>
-                        <span class="value">Associação Industrial do Minho</span>
-                      </a>
-                    </div>
-
-                    <div class="text1">
-                      <span class="label">Texto 1</span>
-                      <span class="value"><p>A AIMinho - Associação Empresarial é uma associação regional multisectorial. Criada em 1975, é hoje uma das principais associações empresariais do país, tendo uma forte afirmação no movimento associativo. A AIMinho tem como Missão estimular a iniciativa privada, atuando como agente facilitador da atividade empresarial, promovendo o desenvolvimento da economia de mercado, a criação de riqueza e uma melhor prestação de serviços à comunidade em todos os aspetos socioeconómicos da atividade empresarial.</p>
-  </span>
-                    </div>
-
-                  </div>
-
-                </div>
-              </li>
-              
-              <li class="i-0 odd" id="item-28188">
-                <div class="item">
-                  <div class="image">
-                    <a href="http://www.ane.pt/" target="_blank">
-                      <img alt="Academia-jmmsroc" class="blur" src="images/dynamic/W1siZnUiLCJodHRwczovL2FkYWdhd2ViLnMzLmFtYXpvbmF/MTQ1MDYwOTk3NiJdLFsicCIsInRodW1iIiwiMTA0eDEwNCM/aned4d6.png?sha=e0a5f3fbda7040f5">
-                    </a>
-                  </div>
-
-                  <div class="folder">
-                    <div class="name">
-                      <a href="http://www.ane.pt/" target="_blank">
-                        <span class="label">Nome</span>
-                        <span class="value">Associação Nacional das Empresárias</span>
-                      </a>
-                    </div>
-
-                    <div class="text1">
-                      <span class="label">Texto 1</span>
-                      <span class="value"><p style="text-align:justify">Responsável pelo crescimento da Mulher na economia, a&nbsp;ANE foi criada em Maio de 1990 com principal objetivo de apoiar o desenvolvimento pleno da Mulher, na sua condição de Empresária/Gestora, fomentando novas iniciativas empresariais femininas e promovendo a sua participação no debate dos grandes temas económicos e sociais.&nbsp;Presentemente, a ANE é a Associação com maior representatividade e intervenção no apoio das iniciativas empresariais femininas.</p>
-  </span>
-                    </div>
-
-                  </div>
-
-                </div>
-              </li>
-              
-              <li class="i-0 odd" id="item-28188">
-                <div class="item">
-                  <div class="image">
-                    <a href="http://www.aaum.pt/" target="_blank">
-                      <img alt="Academia-jmmsroc" class="blur" src="images/dynamic/W1siZnUiLCJodHRwczovL2FkYWdhd2ViLnMzLmFtYXpvbmF/aaum0d99.gif?sha=b68c703012165b7b">
-                    </a>
-                  </div>
-
-                  <div class="folder">
-                    <div class="name">
-                      <a href="http://www.aaum.pt/" target="_blank">
-                        <span class="label">Nome</span>
-                        <span class="value">Associação Académica da Universidade do Minho</span>
-                      </a>
-                    </div>
-
-                    <div class="text1">
-                      <span class="label">Texto 1</span>
-                      <span class="value"><p>A Associação Académica da Universidade do Minho é uma entidade sem fins lucrativos que representa todos os alunos da Universidade do Minho. Criada em Dezembro de 1977, foi a segunda associação portuguesa a receber o título de Instituição de Utilidade Pública. Sediada em Braga e Guimarães, este organismo académico tem como objectivo fundamental contribuir para a promoção da formação cívica, física, cultural e científica dos seus associados.</p>
-  </span>
-                    </div>
-
-                  </div>
-
-                </div>
-              </li>
-              
-              <li class="i-0 odd" id="item-28188">
-                <div class="item">
-                  <div class="image">
-                    <a href="http://www.aaeum.pt/" target="_blank">
-                      <img alt="Academia-jmmsroc" class="blur" src="images/dynamic/W1siZnUiLCJodHRwczovL2FkYWdhd2ViLnMzLmFtYXpvbmF/aaeumeeb6.gif?sha=c701be6b6f8b010b">
-                    </a>
-                  </div>
-
-                  <div class="folder">
-                    <div class="name">
-                      <a href="http://www.aaeum.pt/" target="_blank">
-                        <span class="label">Nome</span>
-                        <span class="value">Associação dos Antigos Estudantes da Universidade do Minho</span>
-                      </a>
-                    </div>
-
-                    <div class="text1">
-                      <span class="label">Texto 1</span>
-                      <span class="value"><p>A Associação dos Antigos Estudantes da Universidade do Minho existe, oficialmente, desde Setembro de 1989. Com o propósito de representar e defender os interesses dos antigos estudantes (licenciados, mestres e doutorados) da Universidade do Minho, os principais objectivos desta associação têm-se pautado no crescimento e implantação junto da comunidade universitária e da sociedade em geral, através de actividades formativas, culturais, recreativas e desportivas.</p>
-  </span>
-                    </div>
-
-                  </div>
-
-                </div>
-              </li>
-              
-              <li class="i-0 odd" id="item-28188">
-                <div class="item">
-                  <div class="image">
-                    <a href="http://www.rum.pt/" target="_blank">
-                      <img alt="Academia-jmmsroc" class="blur" src="images/dynamic/W1siZnUiLCJodHRwczovL2FkYWdhd2ViLnMzLmFtYXpvbmF/MTQ1MDYwOTk3NiJdLFsicCIsInRodW1iIiwiMTA0eDEwNCM/rumc32c.gif?sha=e07489ee0b3db12d">
-                    </a>
-                  </div>
-
-                  <div class="folder">
-                    <div class="name">
-                      <a href="http://www.rum.pt/" target="_blank">
-                        <span class="label">Nome</span>
-                        <span class="value">Rádio Universitária do Minho</span>
-                      </a>
-                    </div>
-
-                    <div class="text1">
-                      <span class="label">Texto 1</span>
-                      <span class="value"><p>A Rádio Universitária do Minho é um organismo autónomo da Associação Académica da Universidade do Minho. Legalizada em 1989, esta rádio universitária encontra-se localizada em Braga, emitindo regionalmente na frequência 97.5 Fm e em livestreaming para todo o mundo. Formada por um corpo de profissionais marcadamente jovem e com um forte potencial, visa a educação musical e cultural privilegiando conteúdos informativos de interesse científico e académico.</p>
-  </span>
-                    </div>
-
-                  </div>
-
-                </div>
-              </li>
-              
-              <li class="i-0 odd" id="item-28188">
-                <div class="item">
-                  <div class="image">
-                    <a href="http://www.rsopt.com/rederso/index.html" target="_blank">
-                      <img alt="Academia-jmmsroc" class="blur" src="images/dynamic/W1siZnUiLCJodHRwczovL2FkYWdhd2ViLnMzLmFtYXpvbmF/rsoptdc7c.png?sha=ff51c043d3728c4a">
-                    </a>
-                  </div>
-
-                  <div class="folder">
-                    <div class="name">
-                      <a href="http://www.rsopt.com/rederso/index.html" target="_blank">
-                        <span class="label">Nome</span>
-                        <span class="value">Rede Nacional de Responsabilidade Social</span>
-                      </a>
-                    </div>
-
-                    <div class="text1">
-                      <span class="label">Texto 1</span>
-                      <span class="value"><p>A rede RSOPT é uma&nbsp;estrutura&nbsp;aberta, pública, multi-setorial e multi-funcional, formada por diversas pessoas e organizações comprometidas com o tema da responsabilidade social. Tem como missão promover o desenvolvimento, operacionalização e incorporação de conceitos e ferramentas de responsabilidade social nas organizações, promover a convergência e disseminação de conhecimento nesta área e contribuir de forma significativa e real para a implementação de políticas e práticas sustentadas na gestão das organizações.</p>
-  </span>
-                    </div>
-
-                  </div>
-
-                </div>
-              </li>
-              
+              {% endfor %}
             </ul>
           </div>
         </div>
@@ -337,222 +71,69 @@ rede_active?: active
                 <span class="label">Nome</span>
                 <span class="value">Comércio</span>
               </div>
-
               <div class="text1" style="padding-top: 0; ">
+                  {% for rede in site.data.rede.lista.comercio %}
                 <span class="label">Texto 1</span>
                 <span class="value">
-                  
-                  
-                  Conforsense Unipessoal Lda <br>
-                  
-                  Drogaria Feliz Lda <br>
-                  
-                  Earboxwear, SA <br>
-                  
-                  Farmácia S. José <br>
-                  
-                  Frescos do Dia - Supermercado Unipessoal Lda <br>
-                  
-                  Jaime Oculista Unipessoal Lda <br>
-                  
-                  Joarca - Armazém de Tecidos Lda <br>
-                  
-                  Mercado da Pedra - Comércio de Rochas Ornamentais, Lda   <br>
-                  
-                  Nuno Miguel Faria Martins Unipessoal Lda  <br>
-                  
-                  Pneu Feliz - Comércio de Pneus Lda <br>
-                  
-                  Rosa Maria Costa &amp; Filhos Lda <br>
-                  
-                  Tubinox - Aços Inoxidáveis Lda <br>
-                  
-                  
+                  {{rede}} <br>
                 </span>
+                  {% endfor %}
               </div>
             </div>
           </li>
-
+               
           <li class="i-1   no-image odd" id="item-6700">
             <div class="item">
               <div class="name">
                 <span class="label">Nome</span>
                 <span class="value">Serviços</span>
               </div>
-
               <div class="text1">
+                  {% for rede in site.data.rede.lista.servicos %} 
                 <span class="label">Texto 1</span>
                 <span class="value">
-                  
-                  
-                  Alberto Barbosa &amp; Filhos, S.A. (Alfilux) <br>
-                  
-                  Aliqual - Segurança Alimentar e no Trabalho, Lda <br>
-                  
-                  Auto Sueco S.A <br>
-                  
-                  Bellekorpus - Formação e Comércio de Artigos para Estética Lda <br>
-                  
-                  Cardan S.A. <br>
-                  
-                  Casa de Saúde de Guimarães S.A. <br>
-                  
-                  Cefolgest - Formação e Consultoria Lda <br>
-                  
-                  Centro Social e Paroquial de Mindelo <br>
-                  
-                  Cobersun Lda <br>
-                  
-                  EDIT VALUE Consultoria Empresarial Lda <br>
-                  
-                  FSTC Unipessoal Lda <br>
-                  
-                  Foco Criativo Unipessoal Lda <br>
-                  
-                  Fundação Lar Santo António <br>
-                  
-                  Geojustiça Lda <br>
-                  
-                  Gizz Lda <br>
-                  
-                  HVB - Hospital Veterinário de Braga Lda <br>
-                  
-                  Japel - Montagens Elétricas Lda <br>
-                  
-                  Jorge Luís Navarro Lda <br>
-                  
-                  José Castro &amp; Filhos S.A. <br>
-                  
-                  José Rodrigues Vieira &amp; Filhos Lda (Abadia D&#39;Este) <br>
-                  
-                  Pichelaria InstalJoane Lda   <br>
-                  
-                  
+                  {{rede}} <br>
                 </span>
+                {% endfor %}
               </div>
             </div>
           </li>
-
+                
           <li class="i-2   no-image odd" id="item-6700">
             <div class="item">
               <div class="name">
                 <span class="label">Nome</span>
                 <span class="value">Indústria</span>
               </div>
-
               <div class="text1" style="padding-top: 0;">
+                  {% for rede in site.data.rede.lista.industria %}
                 <span class="label">Texto 1</span>
                 <span class="value">
-                  
-                  
-                  Amertrade Têxteis Lda <br>
-                  
-                  Amishoes Calçados Lda <br>
-                  
-                  BRC Bordados Lda <br>
-                  
-                  Best Wear Unipessoal Lda <br>
-                  
-                  Bordainveste - Fábrica de Bordados Lda <br>
-                  
-                  Central Carnes - Matadouro Central de Entre o Douro e Minho S.A. <br>
-                  
-                  Combined Tex - Comércio de Malhas Lda  <br>
-                  
-                  FermentUM - Engenharia das Fermentações Lda <br>
-                  
-                  Flexicel Portugal Lda <br>
-                  
-                  Fábrica de Chocolates Casa Grande Lda <br>
-                  
-                  ICM - Indústria de Carnes do Minho S.A. <br>
-                  
-                  Impetus Portugal Texteis S.A. <br>
-                  
-                  Interhigiene - Indústria de Produtos de Higiene Lda <br>
-                  
-                  Lourofood Lda <br>
-                  
-                  Lusoimpress Artes Gráficas S.A. <br>
-                  
-                  Majoba - Confecções Lda | PME Líder <br>
-                  
-                  Malhas CEF S.A. <br>
-                  
-                  Nogueira &amp; Monteiro Lda <br>
-                  
-                  Olivia Santos Indústria de Confeções Lda <br>
-                  
-                  Panizende - Panificadora de Esposende Lda <br>
-                  
-                  Porminho - Indústria e Comércio de Carnes Lda <br>
-                  
-                  Primor Carcutaria Prima S.A. <br>
-                  
-                  Rosa Maria Baptista - Confecções Lda <br>
-                  
-                  Sarreliber S.A. <br>
-                  
-                  Taíde Confeccções Lda   <br>
-                  
-                  
+                  {{rede}} <br>
                 </span>
+                {% endfor %}
               </div>
             </div>
           </li>
-
+                   
           <li class="i-3   no-image odd" id="item-6700">
             <div class="item">
               <div class="name">
                 <span class="label">Nome</span>
                 <span class="value">Entidades</span>
               </div>
-
               <div class="text1">
+                  {% for rede in site.data.rede.lista.entidades %} 
                 <span class="label">Texto 1</span>
                 <span class="value">
-                  
-                  
-                  Agrupamento de Escolas Gonçalo Sampaio <br>
-                  
-                  Agência de Desenvolvimento Regional do Vale do Ave <br>
-                  
-                  Associação Comercial de Braga <br>
-                  
-                  Associação Empresarial de Fafe, Cabeceiras de Basto e Celorico de Basto <br>
-                  
-                  Associação Empresarial de Portugal <br>
-                  
-                  Associação Industrial do Minho <br>
-                  
-                  Associação Nacional de Empresárias <br>
-                  
-                  Bragahabit E.M. <br>
-                  
-                  Câmara Municipal de Amarante <br>
-                  
-                  Câmara Municipal de Fafe <br>
-                  
-                  Escola Superior de Estudos Indústriais e de Gestão <br>
-                  
-                  Escola de Economia e Gestão da Universidade do Minho <br>
-                  
-                  Fundação para a Divulvação das Tecnologias de Informação <br>
-                  
-                  Instituto de Apoio às Pequenas e Médias Empresas e à Inovação <br>
-                  
-                  Instituto de Emprego e Formação Profissional <br>
-                  
-                  MARP Associação de Mulheres Agricultoras e Rurais Portuguesas <br>
-                  
-                  Theatro Circo, S.A. <br>
-                  
-                  
+                  {{rede}}<br>
                 </span>
+                {% endfor %}
               </div>
             </div>
           </li>
         </ul>
+
         <div class="footer">
         </div>
       </div>
