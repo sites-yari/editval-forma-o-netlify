@@ -12,12 +12,12 @@
                                     <div class='wrapper'>
                                         {% if page.class == "index-pt" or page.class == "media-pt" or page.class == "rede-pt" %}
                                             <a href='en.html' target='' alt=''><span class='icon'></span><span class='label'>en</span></a>
-                                        {% elsif page.class == "equipa-pt" %}
+                                        {% elsif page.class == "equipa-pt" or page.class == "formacao-pt" %}
                                             <a href='en/team.html' target='' alt=''><span class='icon'></span><span class='label'>en</span></a>
                                         {% elsif page.class == "servicos-pt" %}
                                             <a href='en/services.html' target='' alt=''><span class='icon'></span><span class='label'>en</span></a>
                                         {% elsif page.class == "contactos-pt" %}
-
+                                            <a href='en/contacts.html' target='' alt=''><span class='icon'></span><span class='label'>en</span></a>
                                         {% endif %}
                                     </div>
                                 </li>
@@ -27,19 +27,19 @@
                                     <div class='wrapper'>
                                         {% if page.class == "index-pt" or page.class == "media-pt" or page.class == "rede-pt" %}
                                             <a href='es.html' target='' alt=''><span class='icon'></span><span class='label'>es</span></a>
-                                        {% elsif page.class == "equipa-pt" %}
+                                        {% elsif page.class == "equipa-pt" or page.class == "formacao-pt" %}
                                             <a href='es/equipo.html' target='' alt=''><span class='icon'></span><span class='label'>es</span></a>
                                         {% elsif page.class == "servicos-pt" %}
                                             <a href='es/servicios.html' target='' alt=''><span class='icon'></span><span class='label'>es</span></a>
                                         {% elsif page.class == "contactos-pt" %}
-
+                                            <a href='es/contactos.html' target='' alt=''><span class='icon'></span><span class='label'>es</span></a>
                                         {% endif %}
                                     </div>
                                 </li>
 
                                 <!-- CONSULTORIA -->
                                 <li class='consultoria'>
-                                    {% if page.class == "index-pt" or page.class == "media-pt" %}                                        
+                                    {% if page.class == "index-pt" or page.class == "media-pt" or page.class == "formacao-pt" %}                                        
                                         <div class='wrapper'><a href='http://consultoria.editvalue.com/index' data-href-domain-fix="com" target='' alt=''><span class='icon'></span><span class='label'>Consultoria</span></a></div>
                                     {% elsif page.class == "equipa-pt" %}
                                         <div class='wrapper'><a href='http://consultoria.editvalue.com/equipa' data-href-domain-fix="com" target='' alt=''><span class='icon'></span><span class='label'>Consultoria</span></a></div>                                    
@@ -48,7 +48,7 @@
                                     {% elsif page.class == "rede-pt" %}
                                         <div class='wrapper'><a href='http://consultoria.editvalue.com/rede' data-href-domain-fix="com" target='' alt=''><span class='icon'></span><span class='label'>Consultoria</span></a></div>                                                                        
                                     {% elsif page.class == "contactos-pt" %}
-
+                                    <div class='wrapper'><a href='http://consultoria.editvalue.com/contactos' data-href-domain-fix="com" target='' alt=''><span class='icon'></span><span class='label'>Consultoria</span></a></div>
                                     {% endif %}
                                 </li>
 
