@@ -61,6 +61,7 @@ lista:
       telefone: +351 918 889 704
       email: tania.rodrigues@editvalue.com
 
+
   equipa_en:
     -
       nome: SANDRA ARAÚJO
@@ -120,5 +121,68 @@ lista:
       nome: TÂNIA RODRIGUES
       cargo: Trainer
       texto: Trainer expert in the areas of Accounting and Taxation.
+      telefone: +351 918 889 704
+      email: tania.rodrigues@editvalue.com  
+
+
+  equipa_es:
+    -
+      nome: SANDRA ARAÚJO
+      cargo: Administradora
+      texto: Gerente de Recursos Humanos y Entrenamiento, Entrenadora experta en las áreas de Gestión, Cambio Organizacional, Recursos Humanos, Responsabilidad Social e Igualdad de Género y Embajadora de la Red Europea de Mujeres Emprendedoras.
+      telefone: +351 933 666 144
+      email: sandra.araujo@editvalue.com
+    -
+      nome: SARA OLIVEIRA
+      cargo: Entrenador
+      texto: Entrenadora experta en las áreas de Trabajo, Economía de la Empresa y Trabajo en Equipo.
+      telefone: +351 933 666 145
+      email: sara.oliveira@editvalue.com
+    -
+      nome: ANDRÉ COSTA
+      cargo: Entrenador
+      texto: Entrenador experto en las áreas de gestión de recursos humanos, la innovación y el espíritu empresarial.
+      telefone: +351 918 889 992
+      email: andre.costa@editvalue.com
+    -
+      nome: MANUEL FERNANDES
+      cargo: Entrenador
+      texto: Entrenador, experto en las áreas de Gestión Industrial, Informática y Benchmarking.
+      telefone: +351 918 889 924
+      email: manuel.fernandes@editvalue.com
+    -
+      nome: NUNO PINTO BASTOS
+      cargo: Entrenador
+      texto: Entrenador experto en las áreas de Gestión Estratégica, Marketing y Comunicación.
+      telefone: +351 918 880 033
+      email: nuno.pintobastos@editvalue.com
+    -
+      nome: CRISTIANO GUIMARÃES
+      cargo: Entrenador
+      texto: Entrenador experto en las áreas de Gestión Financiera y Contraloría.
+      telefone: +351 918 889 590
+      email: cristiano.guimaraes@editvalue.com
+    -
+      nome: ANDREIA LEITE
+      cargo: Entrenadora
+      texto: Entrenadora, experta en el área de software de gestión de empresa.
+      telefone: +351 918 889 885
+      email: andreia.leite@editvalue.com
+    -
+      nome: FÁBIO CRUZ
+      cargo: Entrenador
+      texto: Entrenador experto en el área de Auditoría Fiscal.
+      telefone: +351 918 889 492
+      email: fabio.cruz@editvalue.com
+    -
+      nome: PAULA FERREIRA
+      cargo: Entrenadora
+      texto: Entrenadora experta en las áreas de Contabilidad y Tributación.
+      telefone: +351 918 889 444
+      email: paula.ferreira@editvalue.com
+    -
+      nome: TÂNIA RODRIGUES
+      cargo: Entrenadora
+      texto: Entrenadora experta en las áreas de Contabilidad y Tributación.
       telefone: +351 918 889 704
       email: tania.rodrigues@editvalue.com  
