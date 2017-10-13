@@ -1,0 +1,48 @@
+<body class='older_browser ev media pt'>                
+    <ol class='contents '>
+
+      {% include menu-nested.html %}
+      
+        <li class="container left">
+            <div class='content' id='content_15777_container'>
+                <div class='gallery '>
+                <h1><span class=value>Galeria de Fotos</span><span class=i18n></span></h1>
+                <div class='album'>
+                    <div class='header'>
+                        <div class='title'>{{page.title}}</div>
+                        <div class='back'>
+                            <a href='../../../../pt-media/galeria-fotos.html'>
+                                <div class='icon'></div>
+                                <div class='label'>voltar</div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class='photos'>
+                        <ul>
+                            {% for page in page.image_list %}                                
+                            <li>
+                                <div class='wrapper'>
+                                    <a class='lightbox' href='../../../../../../{{page.link_image_path}}' rel='fotos' title=''>
+                                        <div class='thumb'><img src="../../../../../../{{page.image_path}}" /></div>
+                                        <div class='name'></div>
+                                        <div class='description'></div>
+                                    </a>
+                                </div>
+                            </li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+
+                    <script>
+                        $(document).ready(function() {
+                        $("a.lightbox").fancybox({type : "image", 'overlayShow': true, 'titleShow': true, 'titlePosition': "inside" });
+                        });
+                    </script>
+
+                    </div>
+                </div>
+            </div>
+        </li>
+    </ol>
+</body>

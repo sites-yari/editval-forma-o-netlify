@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: default
 title: Recortes 2013
 category: clipping
 main_image_path: ../../../../images/dynamic/W1siZnUiLCJodHRwczovL2FkYWdhd2ViLnMzLmFtYXpvbmF/MTQ1MDcyMDI0OCJdLFsicCIsInRodW1iIiwiMTYweDE2MCM/noticia-29-10-21033bac.png?sha=057f3f6aac6296a2

@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: default
 title: Recortes 2012
 category: clipping
 main_image_path: ../../../../images/dynamic/W1siZnUiLCJodHRwczovL2FkYWdhd2ViLnMzLmFtYXpvbmF/14-11-2012-cm54f0.png?sha=43f93819c49c3874
