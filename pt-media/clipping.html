@@ -1,0 +1,41 @@
+---
+layout: default
+title: Clipping
+class: media-pt
+media_active?: active
+clipping_active?: active
+idiom: pt
+---
+
+<body class='older_browser ev media pt'>            
+  <ol class='contents clearfix'>
+
+    {% include menu-nested.html %}
+    
+    <li class="container right ">
+      <div class='content' id='content_15079_container'>
+        <div class='gallery album clipping'>
+          <h1><span class="value">Clipping</span><span class=i18n></span></h1>
+          
+          <div class='albums'>
+            {% assign clip = site.posts | where: "category" , "clipping" %}              
+            <ul>
+              {% for post in clip %}
+              <li>
+                <a href='{{post.url}}'>
+                  <div class='thumb'><img src="{{post.main_image_path}}" /></div>
+                  <div class='name'>{{post.title}}</div>
+                  <div class='description'></div>
+                </a>
+              </li>
+              {% endfor%}
+              
+            </ul>
+          </div>
+          
+        </div>
+      </div>
+    </li>
+
+  </ol>
+</body>

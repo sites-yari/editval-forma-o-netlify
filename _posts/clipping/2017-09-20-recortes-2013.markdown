@@ -1,0 +1,24 @@
+---
+layout: posts
+title: Recortes 2013
+category: clipping
+main_image_path: ../../../../images/dynamic/W1siZnUiLCJodHRwczovL2FkYWdhd2ViLnMzLmFtYXpvbmF/MTQ1MDcyMDI0OCJdLFsicCIsInRodW1iIiwiMTYweDE2MCM/noticia-29-10-21033bac.png?sha=057f3f6aac6296a2
+image_list: 
+  - 
+    image_path: ../../../../images/dynamic/W1siZnUiLCJodHRwczovL2FkYWdhd2ViLnMzLmFtYXpvbmF/MTQ1MDcyMDI0OCJdLFsicCIsInRodW1iIiwiMTYweDE2MCM/noticia-29-10-21033bac.png?sha=057f3f6aac6296a2
+    link_image_path: ../../../../assets/sites/55a8c341acbda1dcd0000002/content_entry55a8c390acbda1868600001d/55a8c478acbda16df900015b/files/noticia-29-10-21037b9d.png?1450720248
+    subtitle: Artigo "Diário do Minho"
+    date: 29-10-2013
+  - 
+    image_path: ../../../../images/dynamic/W1siZnUiLCJodHRwczovL2FkYWdhd2ViLnMzLmFtYXpvbmF/13-11-2013-academico6088.png?sha=fc71cf6589d28578
+    link_image_path: ../../../../assets/sites/55a8c341acbda1dcd0000002/content_entry55a8c390acbda1868600001d/55a8c47facbda191a400015c/files/13-11-2013-academico21df.png?1450720273
+    subtitle: Notícia "Académico"
+    date: 13-11-2013
+class: media-pt
+media_active?: active
+clipping_active?: active
+idiom: pt
+permalink: pt-media/clipping/recortes-2013
+--- 
+
+{% include clip-post.html %}
