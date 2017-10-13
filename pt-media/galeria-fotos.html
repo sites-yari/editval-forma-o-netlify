@@ -19,72 +19,17 @@ idiom: pt
           <h1><span class=value>Galeria de Fotos</span><span class=i18n></span></h1>
 
           <div class='albums'>
+            {% assign fotos = site.posts | where: "category" , "galeria-de-fotos" %}                            
             <ul style="margin-top: 20px; margin-left: -25px; ">
-              
+              {% for post in fotos %}
               <li>
-                <a href='galeria-fotos/teatro-forum-matosinhos.html'>
-                  <div class='thumb'><img src="../images/dynamic/W1siZnUiLCJodHRwczovL2FkYWdhd2ViLnMzLmFtYXpvbmF/img_07559887.jpg?sha=b45565b411b54e85" /></div>
-                  <div class='name'>Teatro Fórum Matosinhos</div>
-                  <div class='description'>2012</div>
+                <a href='{{post.url}}'>
+                  <div class='thumb'><img src="{{post.main_image_path}}" /></div>
+                  <div class='name'>{{post.title}}</div>
+                  <div class='description'>{{post.year}}</div>
                 </a>
               </li>
-              
-              <li>
-                <a href='galeria-fotos/braga-cej-2012.html'>
-                  <div class='thumb'><img src="../images/dynamic/W1siZnUiLCJodHRwczovL2FkYWdhd2ViLnMzLmFtYXpvbmF/p62500059192.jpg?sha=1c7b74c0410a05cc" /></div>
-                  <div class='name'>Braga CEJ 2012</div>
-                  <div class='description'>2012</div>
-                </a>
-              </li>
-              
-              <li>
-                <a href='galeria-fotos/minho-empreendee-mondim-de-bastos.html'>
-                  <div class='thumb'><img src="../images/dynamic/W1siZnUiLCJodHRwczovL2FkYWdhd2ViLnMzLmFtYXpvbmF/foto-painel-26b6e.jpg?sha=9bd1d3d7daeb374f" /></div>
-                  <div class='name'>Minho Empreende Mondim de Basto</div>
-                  <div class='description'>2013</div>
-                </a>
-              </li>
-              
-              <li>
-                <a href='galeria-fotos/minho-empreende-fafe.html'>
-                  <div class='thumb'><img src="../images/dynamic/W1siZnUiLCJodHRwczovL2FkYWdhd2ViLnMzLmFtYXpvbmF/dcs_32131610.jpg?sha=d8ebca483c2329a3" /></div>
-                  <div class='name'>Minho Empreende Fafe</div>
-                  <div class='description'>2013</div>
-                </a>
-              </li>
-              
-              <li>
-                <a href='galeria-fotos/european-sme-week-bruxelas.html'>
-                  <div class='thumb'><img src="../images/dynamic/W1siZnUiLCJodHRwczovL2FkYWdhd2ViLnMzLmFtYXpvbmF/dsc02352-fileminimizer29f6.jpg?sha=d8611b801e25dcc2" /></div>
-                  <div class='name'>European SME Week Bruxelas</div>
-                  <div class='description'>2012</div>
-                </a>
-              </li>
-              
-              <li>
-                <a href='galeria-fotos/tertulia-camara-municipal-de-amarante.html'>
-                  <div class='thumb'><img src="../images/dynamic/W1siZnUiLCJodHRwczovL2FkYWdhd2ViLnMzLmFtYXpvbmF/dsc_7698a530.jpg?sha=d29072a7de04ff0b" /></div>
-                  <div class='name'>Tertúlia Câmara Municipal de Amarante</div>
-                  <div class='description'>2012</div>
-                </a>
-              </li>
-              
-              <li>
-                <a href='galeria-fotos/hapenning.html'>
-                  <div class='thumb'><img src="../images/dynamic/W1siZnUiLCJodHRwczovL2FkYWdhd2ViLnMzLmFtYXpvbmF/img_058915de.jpg?sha=eae5eafa446214a2" /></div>
-                  <div class='name'>Hapenning</div>
-                  <div class='description'>2013</div>
-                </a>
-              </li>
-              
-              <li>
-                <a href='galeria-fotos/start-point.html'>
-                  <div class='thumb'><img src="../images/dynamic/W1siZnUiLCJodHRwczovL2FkYWdhd2ViLnMzLmFtYXpvbmF/21410.jpg?sha=2ccbc07a98d54fdf" /></div>
-                  <div class='name'>Start Point</div>
-                  <div class='description'>2013</div>
-                </a>
-              </li>
-              
+              {% endfor %}
             </ul>
           </div>
           

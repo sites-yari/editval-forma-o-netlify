@@ -2,7 +2,7 @@
 layout: default
 title: European SME Week Bruxelas
 description: 
-year: 2013
+year: 2012
 category: galeria-de-fotos
 main_image_path: ../../images/dynamic/W1siZnUiLCJodHRwczovL2FkYWdhd2ViLnMzLmFtYXpvbmF/dsc02352-fileminimizer29f6.jpg?sha=d8611b801e25dcc2
 image_list: 
