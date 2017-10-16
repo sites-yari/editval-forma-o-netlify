@@ -49,10 +49,10 @@ pagination:
             </ul>
             {% endfor %}
 
-            <div class="footer" style="font-size: 12px;">
-              <table align="center" class="paginator-container">
+            <div class="footer">
+              <table align="center" class="paginator-container" style="font-size: 12px;">
                 <tr><td>
-                  <div class="paginator" align="center">
+                  <div class="paginator" align="center" >
                     <div class="pagination">
                       {% if paginator.previous_page %}
                         <a href="{{ paginator.previous_page_path }}" class="previous">P&aacute;gina anterior</a>
