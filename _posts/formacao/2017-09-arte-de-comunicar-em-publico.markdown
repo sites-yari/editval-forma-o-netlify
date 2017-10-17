@@ -1,11 +1,11 @@
 ---
-identificacao_id: equilibrar-o-uso-de-tempo
-title: Equilibrar o uso de tempo
+identificacao_id: a-arte-de-comunicar-em-publico
+title: A Arte de comunicar em público
 horas: 8
-mes: Novembro
+mes: Junho
 desconto_inscricao: Inscrição ciclo completo com 10% desconto
 category: formacao
-ciclo_category: desenvolvimento-pessoal
+ciclo_category: competencias_relacionais
 class: formacao-pt
 formacao_Active?: active
 idiom: pt
@@ -13,20 +13,15 @@ idiom: pt
 
 
 ### **ENQUADRAMENTO**
-
-Nos dias de hoje, o bom senso não é, a maior parte das vezes, suficiente para ultrapassar as inúmeras dificuldades para encontrar o equilíbrio entre três áreas importantes: pessoal, profissional e familiar. A posse de um conjunto de competências técnicas e a utilização de “ferramentas” práticas de trabalho são, cada vez mais, condições imprescindíveis para o êxito, nesta difícil missão que é a de gerir eficazmente o tempo.<br><br><br>
-
- 
-
-**Duração:** 1 dia - 8 h | **Data:** 15 de novembro | **Valor:** 60€<br><br><br>
+Porque falar em público assusta tanto? Simplesmente porque falar em público não é familiar e não se trabalha esta competência de public speaking antes de entrar na vida adulta. Seja para conseguir o emprego desejado, para uma reunião, apresentação de um produto ou dinamização de uma palestra, é essencial dominar técnicas que permitem criar uma maior sintonia com os interlocutores nestes diferentes contextos.<br><br><br>
 
  
 
-**Valor Ciclo Completo c/ 10% desconto:** 207€<br><br><br><br><br>
+**Duração:** 1 dia - 8 h | **Data:** 28 de junho | **Valor:** 60€<br><br><br>
 
  
 
- 
+**Valor Ciclo Completo c/ 10% desconto:** 162€ <br><br><br><br><br>
 
 **Condições Gerais**
 

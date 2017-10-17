@@ -5,6 +5,7 @@ horas: 16
 mes: março
 desconto_inscricao: Inscrição ciclo completo com 10% desconto
 category: formacao
+ciclo_category: desenvolvimento-pessoal
 class: formacao-pt
 formacao_Active?: active
 idiom: pt

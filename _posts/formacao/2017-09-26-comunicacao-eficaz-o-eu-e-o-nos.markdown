@@ -1,11 +1,11 @@
 ---
-identificacao_id: equilibrar-o-uso-de-tempo
-title: Equilibrar o uso de tempo
+identificacao_id: comunicacao-eficaz-o-eu-e-o-nos
+title: Comunicação eficaz- o eu e o nós
 horas: 8
-mes: Novembro
+mes: Junho
 desconto_inscricao: Inscrição ciclo completo com 10% desconto
 category: formacao
-ciclo_category: desenvolvimento-pessoal
+ciclo_category: competencias_relacionais
 class: formacao-pt
 formacao_Active?: active
 idiom: pt
@@ -13,20 +13,16 @@ idiom: pt
 
 
 ### **ENQUADRAMENTO**
+Todas as interações entre pessoas têm na sua base o processo de comunicação, sendo por isso impossível não comunicar. Mesmo pensando não comunicar, cada pessoa comunica. Tudo o que se faz, se diz e não se diz são atos de comunicação, já que os outros lhe atribuem significado. Todavia, a verdadeira comunicação existe quando há partilha e sintonia no significado das mensagens. Assim, é importante que consigamos eliminar expressões “tóxicas”, que afetam negativamente as relações interpessoais.<br><br><br>
 
-Nos dias de hoje, o bom senso não é, a maior parte das vezes, suficiente para ultrapassar as inúmeras dificuldades para encontrar o equilíbrio entre três áreas importantes: pessoal, profissional e familiar. A posse de um conjunto de competências técnicas e a utilização de “ferramentas” práticas de trabalho são, cada vez mais, condições imprescindíveis para o êxito, nesta difícil missão que é a de gerir eficazmente o tempo.<br><br><br>
-
- 
-
-**Duração:** 1 dia - 8 h | **Data:** 15 de novembro | **Valor:** 60€<br><br><br>
 
  
 
-**Valor Ciclo Completo c/ 10% desconto:** 207€<br><br><br><br><br>
+**Duração:** 1 dia - 8 h | **Data:** 27 de setembro | **Valor:** 60€<br><br><br>
 
  
 
- 
+**Valor Ciclo Completo c/ 10% desconto:** 162€<br><br><br><br><br>
 
 **Condições Gerais**
 

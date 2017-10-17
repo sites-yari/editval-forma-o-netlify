@@ -33,7 +33,17 @@ idiom: pt
     });
   </script>
 
-  {% assign formacao = site.posts | where: "category" , "formacao" %}                            
+  {% assign formacao = site.posts | where: "category" , "formacao" %}
+  {% assign ciclo_desenvolvimento = site.posts | where: "ciclo_category" , "desenvolvimento_pessoal" %}   
+  {% assign ciclo_competencias = site.posts | where: "ciclo_category" , "competencias_relacionais" %}    
+  {% assign ciclo_lideranca = site.posts | where: "ciclo_category" , "lideranca" %}                            
+  {% assign ciclo_gestao = site.posts | where: "ciclo_category" , "gestao_pessoas" %}                            
+  {% assign ciclo_criatividade = site.posts | where: "ciclo_category" , "criatividade_inovacao" %}                            
+  {% assign ciclo_linguas = site.posts | where: "ciclo_category" , "linguas_estrangeiras" %}   
+  {% assign ciclo_melhoria = site.posts | where: "ciclo_category" , "melhoria_continua" %}
+  {% assign ciclo_marketing = site.posts | where: "ciclo_category" , "marketing" %}
+  {% assign ciclo_ferramentas = site.posts | where: "ciclo_category" , "ferramentas_informacaticas" %}
+  {% assign ciclo_higiene = site.posts | where: "ciclo_category" , "higiene_seguranca" %}    
               
   <ol class='contents '>
     <li class="container expand">
@@ -217,7 +227,7 @@ idiom: pt
               </li>
               
 <!--|===================| topico 1 |================================|-->
-              {% for post in formacao %}
+              {% for post in ciclo_desenvolvimento %}
               <li class='i-0   no-image odd' id='item-28519'>
                 <div class='item'>
                   <div class='name'>
@@ -253,462 +263,34 @@ idiom: pt
                 <h1 style='background-color: transparent; margin-top: 15px; margin-bottom: 0;'>Ciclo Competências Relacionais</h1>
               </li>
               
-
+              {% for post in ciclo_competencias %}              
               <li class='i-0   no-image odd' id='item-28519'>
                 <div class='item'>
                   <div class='name'>
                     <div class='value' style="padding: 0 10px;">
                       <div style="float: right; text-align: right;">
-                        8 horas <br> 
+                          {{post.horas}} horas <br> 
                         
 
-                        Inscrição ciclo completo com 10% desconto. 
+                          {{post.desconto}} 
                       </div>
                       <span>
-                        Shake Your Team – trabalho em equipa <br />
-                        março
+                        {{post.title}} <br />
+                        {{post.mes}}
                       </span>
                     </div>
                   </div>
 
                   <div class='text1' style="font-family: arial,helvetica,sans-serif;">
                     <span class='value'>
+                      {% include formacao-to-post.html %}                        
+                      {{post}}
                       
-
-                      <div style="text-align: center;">
-                        <a href="#"
-                          data-action="toggle-visibility"
-                          data-toggle-visibility-method="slide"
-                          data-toggle-visibility-target="#shake-your-team-trabalho-em-equipa">
-                          Faça já a sua inscrição!
-                        </a>
-                      </div>
-
-                      <form id="shake-your-team-trabalho-em-equipa" method="POST" action="http://formacao.editvalue.com/entry_submissions/course_enrollments.json"
-        data-visibility-group="form[id]"
-        data-ajax-form="true"
-        data-ajax-form-fail-action="render-errors"
-        data-ajax-form-fail-field-template="applications-form-fail-field-template-shake-your-team-trabalho-em-equipa"
-        data-ajax-form-success-action="replace-form"
-        data-ajax-form-success-template="applications-form-success-template-shake-your-team-trabalho-em-equipa">
-    <input type="hidden" name="authenticity_token" value="/glqdbel53jFDo04fFmVfNnwooSnWgFg+OxvVVCzn/o=">
-
-    <div>
-      <ul style="padding: 10px 20px 0 20px;">
-        <li>
-          <p>
-            Para efetuar a sua pré-inscrição neste curso, preencha os campos que se seguem e no final
-            clique em &quot;Inscrever no Curso&quot;. Todos os campos são obrigatórios.
-          </p>
-
-          
-          <input type="hidden" name="content[course]" value="shake-your-team-trabalho-em-equipa" />
-          
-        </li>
-
-
-        
-
-      </ul>
-
-      <div style="float: left; width: 50%;">
-        <ul style="padding: 20px;">
-          <li style="font-size: larger; font-weight: bold; line-height: 24px;">
-            Dados pessoais
-          </li>
-
-          <li class="text_field required" data-ajax-form-field-wrapper="name">
-            <label>Nome</label>
-            <input name="content[name]" placeholder="" type="text" value="" required style="width: 80%;" />
-          </li>
-
-          <li class="text_field required" data-ajax-form-field-wrapper="address">
-            <label>Morada</label>
-            <input name="content[address]" placeholder="" type="text" value="" required style="width: 80%;" />
-          </li>
-
-          <li class="text_field required" data-ajax-form-field-wrapper="address2">
-            <label>Código Postal e Localidade</label>
-            <input name="content[address2]" placeholder="" type="text" value="" required style="width: 60%;" />
-          </li>
-
-          <li class="text_field required"  data-ajax-form-field-wrapper="nif">
-            <label>N.º Identificação Fiscal</label>
-            <input name="content[nif]" placeholder="" type="text" value="" required />
-          </li>
-
-          <li class="text_field required"  data-ajax-form-field-wrapper="phone">
-            <label>Telemóvel</label>
-            <input name="content[phone]" placeholder="" type="text" value="" required />
-          </li>
-
-          <li class="text_field required"  data-ajax-form-field-wrapper="email">
-            <label>Email</label>
-            <input name="content[email]" placeholder="" type="text" value="" required style="width: 80%;" />
-          </li>
-
-          <li class="selection_field" data-ajax-form-field-wrapper="member_number">
-            <label>Associado/a da AAUM, AAEUM ou AFUM?</label>
-            <select data-id="association-state">
-              <option>Não associado</option>
-              <option>Associado</option>
-            </select>
-
-            <br>
-            <br>
-
-            <label>Número de associado</label>
-            <input data-id="member-number" name="content[member_number]" placeholder="" type="text" value="" required />
-          </li>
-
-        </ul>
-      </div>
-
-      <div style="float: right; width: 50%;">
-        <ul style="padding: 20px;">
-          <li class="text_label" style="font-size: larger; font-weight: bold; line-height: 24px;">
-            <label style="padding-bottom: 0;">
-              <input type="checkbox" data-id="extra-fields">
-              Pretendo fatura emitida em nome de outra entidade
-            </label>
-          </li>
-
-          <li class="text_field" data-ajax-form-field-wrapper="company_name">
-            <label>Empresa/Organização</label>
-            <input name="content[company_name]" placeholder="" type="text" value="" data-class="extra-field" required style="width: 80%;" />
-          </li>
-
-          <li class="text_field" data-ajax-form-field-wrapper="company_address">
-            <label>Morada</label>
-            <input name="content[company_address]" placeholder="" type="text" value="" data-class="extra-field" required style="width: 80%;" />
-          </li>
-
-          <li class="text_field" data-ajax-form-field-wrapper="company_address2">
-            <label>Código Postal e Localidade</label>
-            <input name="content[company_address2]" placeholder="" type="text" value="" data-class="extra-field" required style="width: 60%;" />
-          </li>
-
-          <li class="text_field" data-ajax-form-field-wrapper="nipc">
-            <label>NIPC</label>
-            <input name="content[nipc]" placeholder="" type="text" data-class="extra-field" required value="" />
-          </li>
-
-          <li style="padding-top: 90px;">
-            <div class="actions">
-              <button class="submitBtn" value="submit">
-                <span>Increver no Curso</span>
-              </button>
-              &nbsp;
-              <button type="reset">
-                <span>Limpar formulário</span>
-              </button>
-              &nbsp;
-              <button type="reset"
-                      data-action="toggle-visibility"
-                      data-toggle-visibility-method="slide"
-                      data-toggle-visibility-target="#shake-your-team-trabalho-em-equipa">
-                <span>Cancelar</span>
-              </button>
-            </div>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </form>
-  <div style="clear: both;">
-
-  <script id="applications-form-fail-field-template-shake-your-team-trabalho-em-equipa" type="text/x-handlebars-template">
-    <span class="error">{{message}}</span>
-  </script>
-
-  <script id="applications-form-success-template-shake-your-team-trabalho-em-equipa" type="text/x-handlebars-template">
-    <span style="font-weight: bold; font-size: 14px; text-align: center; display: block; padding: 6px;">Obrigado pela sua inscrição. Aguarde pelo nosso contacto.</span>
-  </script>
-
-
-                      
-
-                      <p><strong>ENQUADRAMENTO</strong></p>
-  <p>No contexto organizacional, geralmente, n&atilde;o h&aacute; a oportunidade de escolher com quem trabalhar. Impulsionar uma equipa a fazer mais e melhor e com um n&iacute;vel elevado de compromisso n&atilde;o &eacute; uma tarefa t&atilde;o simples quanto &agrave; partida possa parecer. O trabalho em equipa requer ingredientes fundamentais para que se torne funcional e traga benef&iacute;cios pr&aacute;ticos &agrave; empresa e emocionais aos seus elementos.</p>
-  <p>&nbsp;</p>
-  <p><strong>Dura&ccedil;&atilde;o</strong>: 1 dia - 8 h | <strong>Data</strong>: 8 de mar&ccedil;o | <strong>Valor:</strong> 60&euro;</p>
-  <p>&nbsp;</p>
-  <p><strong>Valor Ciclo Completo c/ 10% desconto: </strong>162&euro;</p>
-
-                      <h4 style="margin-top: 30px;">Condições Gerais</h4>
-                      <ul style="list-style-type: disk; padding-left: 15px; font-size: 10px;" >
-
-                        
-
-                        <li style="list-style-type: disc;">
-                          Desconto de 10% na inscrição num ciclo completo de formação.
-                        </li>
-                        <li style="list-style-type: disc;">
-                          Desconto de 5€ por ação de formação para associados da AAUM.
-                        </li>
-                        <li style="list-style-type: disc;">
-                          Inclui Material de Apoio, Coffee Break e Certificado de Formação.
-                        </li>
-                        <li style="list-style-type: disc;">
-                          A EDIT VALUE® reserva-se ao direito de alterar o calendário
-                          proposto, caso as inscrições não se revelem suficientes.
-                        </li>
-                        <li style="list-style-type: disc;">
-                          A EDIT VALUE® aceita o cancelamento de inscrições e realiza a
-                          devolução integral do valor pago apenas se o cancelamento ocorrer
-                          até 48 horas antes da data de início do curso de formação.
-                        </li>
-                        <li style="list-style-type: disc;">
-                          Cursos Isentos de IVA nos termos do n.º 11, art.º 9º do Código do
-                          IVA.
-                        </li>
-                        <li style="list-style-type: disc;">
-                          O Valor do curso é dedutível no IRS (Imposto sobre o Rendimento de
-                          Pessoas Singulares) por se realizar em entidade formadora
-                          certificada.
-                        </li>
-                        <li style="list-style-type: disc;">
-                          Os interessados poderão aproveitar a Medida Cheque Formação
-                          (financiamento até 90% do valor do curso).
-                        </li>
-
-                        
-                      </ul>
                     </span>
                   </div>
                 </div>
               </li>
-              
-
-              
-
-              <li class='i-0   no-image odd' id='item-28519'>
-                <div class='item'>
-                  <div class='name'>
-                    <div class='value' style="padding: 0 10px;">
-                      <div style="float: right; text-align: right;">
-                        8 horas <br> 
-                        
-
-                        Inscrição ciclo completo com 10% desconto. 
-                      </div>
-                      <span>
-                        A Arte de comunicar em público <br />
-                        junho
-                      </span>
-                    </div>
-                  </div>
-
-                  <div class='text1' style="font-family: arial,helvetica,sans-serif;">
-                    <span class='value'>
-                      
-
-                      <div style="text-align: center;">
-                        <a href="#"
-                          data-action="toggle-visibility"
-                          data-toggle-visibility-method="slide"
-                          data-toggle-visibility-target="#a-arte-de-comunicar-em-publico">
-                          Faça já a sua inscrição!
-                        </a>
-                      </div>
-
-                      <form id="a-arte-de-comunicar-em-publico" method="POST" action="http://formacao.editvalue.com/entry_submissions/course_enrollments.json"
-        data-visibility-group="form[id]"
-        data-ajax-form="true"
-        data-ajax-form-fail-action="render-errors"
-        data-ajax-form-fail-field-template="applications-form-fail-field-template-a-arte-de-comunicar-em-publico"
-        data-ajax-form-success-action="replace-form"
-        data-ajax-form-success-template="applications-form-success-template-a-arte-de-comunicar-em-publico">
-    <input type="hidden" name="authenticity_token" value="/glqdbel53jFDo04fFmVfNnwooSnWgFg+OxvVVCzn/o=">
-
-    <div>
-      <ul style="padding: 10px 20px 0 20px;">
-        <li>
-          <p>
-            Para efetuar a sua pré-inscrição neste curso, preencha os campos que se seguem e no final
-            clique em &quot;Inscrever no Curso&quot;. Todos os campos são obrigatórios.
-          </p>
-
-          
-          <input type="hidden" name="content[course]" value="a-arte-de-comunicar-em-publico" />
-          
-        </li>
-
-
-        
-
-      </ul>
-
-      <div style="float: left; width: 50%;">
-        <ul style="padding: 20px;">
-          <li style="font-size: larger; font-weight: bold; line-height: 24px;">
-            Dados pessoais
-          </li>
-
-          <li class="text_field required" data-ajax-form-field-wrapper="name">
-            <label>Nome</label>
-            <input name="content[name]" placeholder="" type="text" value="" required style="width: 80%;" />
-          </li>
-
-          <li class="text_field required" data-ajax-form-field-wrapper="address">
-            <label>Morada</label>
-            <input name="content[address]" placeholder="" type="text" value="" required style="width: 80%;" />
-          </li>
-
-          <li class="text_field required" data-ajax-form-field-wrapper="address2">
-            <label>Código Postal e Localidade</label>
-            <input name="content[address2]" placeholder="" type="text" value="" required style="width: 60%;" />
-          </li>
-
-          <li class="text_field required"  data-ajax-form-field-wrapper="nif">
-            <label>N.º Identificação Fiscal</label>
-            <input name="content[nif]" placeholder="" type="text" value="" required />
-          </li>
-
-          <li class="text_field required"  data-ajax-form-field-wrapper="phone">
-            <label>Telemóvel</label>
-            <input name="content[phone]" placeholder="" type="text" value="" required />
-          </li>
-
-          <li class="text_field required"  data-ajax-form-field-wrapper="email">
-            <label>Email</label>
-            <input name="content[email]" placeholder="" type="text" value="" required style="width: 80%;" />
-          </li>
-
-          <li class="selection_field" data-ajax-form-field-wrapper="member_number">
-            <label>Associado/a da AAUM, AAEUM ou AFUM?</label>
-            <select data-id="association-state">
-              <option>Não associado</option>
-              <option>Associado</option>
-            </select>
-
-            <br>
-            <br>
-
-            <label>Número de associado</label>
-            <input data-id="member-number" name="content[member_number]" placeholder="" type="text" value="" required />
-          </li>
-
-        </ul>
-      </div>
-
-      <div style="float: right; width: 50%;">
-        <ul style="padding: 20px;">
-          <li class="text_label" style="font-size: larger; font-weight: bold; line-height: 24px;">
-            <label style="padding-bottom: 0;">
-              <input type="checkbox" data-id="extra-fields">
-              Pretendo fatura emitida em nome de outra entidade
-            </label>
-          </li>
-
-          <li class="text_field" data-ajax-form-field-wrapper="company_name">
-            <label>Empresa/Organização</label>
-            <input name="content[company_name]" placeholder="" type="text" value="" data-class="extra-field" required style="width: 80%;" />
-          </li>
-
-          <li class="text_field" data-ajax-form-field-wrapper="company_address">
-            <label>Morada</label>
-            <input name="content[company_address]" placeholder="" type="text" value="" data-class="extra-field" required style="width: 80%;" />
-          </li>
-
-          <li class="text_field" data-ajax-form-field-wrapper="company_address2">
-            <label>Código Postal e Localidade</label>
-            <input name="content[company_address2]" placeholder="" type="text" value="" data-class="extra-field" required style="width: 60%;" />
-          </li>
-
-          <li class="text_field" data-ajax-form-field-wrapper="nipc">
-            <label>NIPC</label>
-            <input name="content[nipc]" placeholder="" type="text" data-class="extra-field" required value="" />
-          </li>
-
-          <li style="padding-top: 90px;">
-            <div class="actions">
-              <button class="submitBtn" value="submit">
-                <span>Increver no Curso</span>
-              </button>
-              &nbsp;
-              <button type="reset">
-                <span>Limpar formulário</span>
-              </button>
-              &nbsp;
-              <button type="reset"
-                      data-action="toggle-visibility"
-                      data-toggle-visibility-method="slide"
-                      data-toggle-visibility-target="#a-arte-de-comunicar-em-publico">
-                <span>Cancelar</span>
-              </button>
-            </div>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </form>
-  <div style="clear: both;">
-
-  <script id="applications-form-fail-field-template-a-arte-de-comunicar-em-publico" type="text/x-handlebars-template">
-    <span class="error">{{message}}</span>
-  </script>
-
-  <script id="applications-form-success-template-a-arte-de-comunicar-em-publico" type="text/x-handlebars-template">
-    <span style="font-weight: bold; font-size: 14px; text-align: center; display: block; padding: 6px;">Obrigado pela sua inscrição. Aguarde pelo nosso contacto.</span>
-  </script>
-
-
-                      
-
-                      <p style="text-align: justify;"><strong>ENQUADRAMENTO</strong></p>
-  <p style="text-align: justify;">Porque falar em p&uacute;blico assusta tanto? Simplesmente porque falar em p&uacute;blico n&atilde;o &eacute; familiar e n&atilde;o se trabalha esta compet&ecirc;ncia de <em>public speaking</em> antes de entrar na vida adulta. Seja para conseguir o emprego desejado, para uma reuni&atilde;o, apresenta&ccedil;&atilde;o de um produto ou dinamiza&ccedil;&atilde;o de uma palestra, &eacute; essencial dominar t&eacute;cnicas que permitem criar uma maior sintonia com os interlocutores nestes diferentes contextos.</p>
-  <p style="text-align: justify;">&nbsp;</p>
-  <p style="text-align: justify;"><strong>Dura&ccedil;&atilde;o</strong>: 1 dia - 8 h | <strong>Data</strong>: 28 de junho | <strong>Valor:</strong> 60&euro;</p>
-  <p>&nbsp;</p>
-  <p><strong>Valor Ciclo Completo c/ 10% desconto: </strong>162&euro;&nbsp;</p>
-
-                      <h4 style="margin-top: 30px;">Condições Gerais</h4>
-                      <ul style="list-style-type: disk; padding-left: 15px; font-size: 10px;" >
-
-                        
-
-                        <li style="list-style-type: disc;">
-                          Desconto de 10% na inscrição num ciclo completo de formação.
-                        </li>
-                        <li style="list-style-type: disc;">
-                          Desconto de 5€ por ação de formação para associados da AAUM.
-                        </li>
-                        <li style="list-style-type: disc;">
-                          Inclui Material de Apoio, Coffee Break e Certificado de Formação.
-                        </li>
-                        <li style="list-style-type: disc;">
-                          A EDIT VALUE® reserva-se ao direito de alterar o calendário
-                          proposto, caso as inscrições não se revelem suficientes.
-                        </li>
-                        <li style="list-style-type: disc;">
-                          A EDIT VALUE® aceita o cancelamento de inscrições e realiza a
-                          devolução integral do valor pago apenas se o cancelamento ocorrer
-                          até 48 horas antes da data de início do curso de formação.
-                        </li>
-                        <li style="list-style-type: disc;">
-                          Cursos Isentos de IVA nos termos do n.º 11, art.º 9º do Código do
-                          IVA.
-                        </li>
-                        <li style="list-style-type: disc;">
-                          O Valor do curso é dedutível no IRS (Imposto sobre o Rendimento de
-                          Pessoas Singulares) por se realizar em entidade formadora
-                          certificada.
-                        </li>
-                        <li style="list-style-type: disc;">
-                          Os interessados poderão aproveitar a Medida Cheque Formação
-                          (financiamento até 90% do valor do curso).
-                        </li>
-
-                        
-                      </ul>
-                    </span>
-                  </div>
-                </div>
-              </li>
-              
-
-              
+              {% endfor %}
 
               <li class='i-0   no-image odd' id='item-28519'>
                 <div class='item'>

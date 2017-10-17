@@ -1,11 +1,11 @@
 ---
-identificacao_id: equilibrar-o-uso-de-tempo
-title: Equilibrar o uso de tempo
+identificacao_id: shake-your-team-trabalho-em-equipa
+title: Shake your team - trabalho em equipa
 horas: 8
-mes: Novembro
+mes: Março
 desconto_inscricao: Inscrição ciclo completo com 10% desconto
 category: formacao
-ciclo_category: desenvolvimento-pessoal
+ciclo_category: competencias_relacionais
 class: formacao-pt
 formacao_Active?: active
 idiom: pt
@@ -14,19 +14,15 @@ idiom: pt
 
 ### **ENQUADRAMENTO**
 
-Nos dias de hoje, o bom senso não é, a maior parte das vezes, suficiente para ultrapassar as inúmeras dificuldades para encontrar o equilíbrio entre três áreas importantes: pessoal, profissional e familiar. A posse de um conjunto de competências técnicas e a utilização de “ferramentas” práticas de trabalho são, cada vez mais, condições imprescindíveis para o êxito, nesta difícil missão que é a de gerir eficazmente o tempo.<br><br><br>
+No contexto organizacional, geralmente, não há a oportunidade de escolher com quem trabalhar. Impulsionar uma equipa a fazer mais e melhor e com um nível elevado de compromisso não é uma tarefa tão simples quanto à partida possa parecer. O trabalho em equipa requer ingredientes fundamentais para que se torne funcional e traga benefícios práticos à empresa e emocionais aos seus elementos.<br><br><br>
 
  
 
-**Duração:** 1 dia - 8 h | **Data:** 15 de novembro | **Valor:** 60€<br><br><br>
+**Duração:** 1 dia - 8 h | **Data:** 8 de março | **Valor:** 60€<br><br><br>
 
  
 
-**Valor Ciclo Completo c/ 10% desconto:** 207€<br><br><br><br><br>
-
- 
-
- 
+**Valor Ciclo Completo c/ 10% desconto:** 162€<br><br><br><br><br>
 
 **Condições Gerais**
 
