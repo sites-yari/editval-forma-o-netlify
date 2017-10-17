@@ -1,29 +1,27 @@
 ---
-identificacao_id: estrategias-para-lidar-com-o-stress
-title: Estratégias para lidar com o stress
+identificacao_id: comunicacao-eficaz-o-eu-e-o-nos
+title: Comunicação eficaz- o eu e o nós
 horas: 8
-mes: Abril
+mes: Setembro
 desconto_inscricao: Inscrição ciclo completo com 10% desconto
 category: formacao
-ciclo_category: desenvolvimento_pessoal
+ciclo_category: competencias_relacionais
 class: formacao-pt
 formacao_Active?: active
 idiom: pt
 ---
 
+
 ### **ENQUADRAMENTO**
-
-São amplamente conhecidos os problemas físicos, psicológicos e comportamentais associados ao elevado stress vivido pelas pessoas. Presentes em muitos momentos do quotidiano de trabalho, as organizações acabam por sofrer os efeitos ao nível da produtividade, do número de erros e na menor flexibilidade para a mudança. É fundamental traçar caminhos para a prevenção e gestão do stress, identificar práticas de regeneração e recuperação, que possam envolver a própria pessoa e/ou toda a organização.<br><br><br>
-
- 
-
-**Duração:** 1 dia - 8 h | **Data:** 3 de abril | **Valor:** 60€<br><br><br>
+Todas as interações entre pessoas têm na sua base o processo de comunicação, sendo por isso impossível não comunicar. Mesmo pensando não comunicar, cada pessoa comunica. Tudo o que se faz, se diz e não se diz são atos de comunicação, já que os outros lhe atribuem significado. Todavia, a verdadeira comunicação existe quando há partilha e sintonia no significado das mensagens. Assim, é importante que consigamos eliminar expressões “tóxicas”, que afetam negativamente as relações interpessoais.<br><br><br>
 
  
 
-**Valor Ciclo Completo c/ 10% desconto:** 207€<br><br><br><br><br>
+**Duração:** 1 dia - 8 h | **Data:** 27 de setembro | **Valor:** 60€<br><br><br>
 
  
+
+**Valor Ciclo Completo c/ 10% desconto:** 162€<br><br><br><br><br>
 
 **Condições Gerais**
 

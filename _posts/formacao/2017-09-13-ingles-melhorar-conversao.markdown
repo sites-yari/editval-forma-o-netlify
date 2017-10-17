@@ -1,29 +1,27 @@
 ---
-identificacao_id: estrategias-para-lidar-com-o-stress
-title: Estratégias para lidar com o stress
-horas: 8
-mes: Abril
+identificacao_id: ingles-melhorar-a-conversacao
+title: Inglês – melhorar a conversação
+horas: 16
+mes: Setembro
 desconto_inscricao: Inscrição ciclo completo com 10% desconto
 category: formacao
-ciclo_category: desenvolvimento_pessoal
+ciclo_category: linguas_estrangeiras
 class: formacao-pt
 formacao_Active?: active
 idiom: pt
 ---
 
+
 ### **ENQUADRAMENTO**
-
-São amplamente conhecidos os problemas físicos, psicológicos e comportamentais associados ao elevado stress vivido pelas pessoas. Presentes em muitos momentos do quotidiano de trabalho, as organizações acabam por sofrer os efeitos ao nível da produtividade, do número de erros e na menor flexibilidade para a mudança. É fundamental traçar caminhos para a prevenção e gestão do stress, identificar práticas de regeneração e recuperação, que possam envolver a própria pessoa e/ou toda a organização.<br><br><br>
-
- 
-
-**Duração:** 1 dia - 8 h | **Data:** 3 de abril | **Valor:** 60€<br><br><br>
+Num mundo globalizado, onde as conexões comerciais, financeiras, culturais e educacionais cruzam os cinco continentes, o mercado de trabalho tem vindo a exigir dos seus intervenientes a fluência na língua inglesa. O domínio do idioma significa possibilidade de crescimento, desenvolvimento e, acima de tudo, melhores condições para acompanhar as rápidas mudanças que têm vindo a ocorrer neste novo e tecnológico século. Se fala inglês, comunica com o mundo.<br><br><br>
 
  
 
-**Valor Ciclo Completo c/ 10% desconto:** 207€<br><br><br><br><br>
+**Duração:** 2 dias - 16 h | **Datas:** 13 e 20 de setembro | **Valor:** 110€<br><br><br>
 
  
+
+**Valor Ciclo Completo c/ 10% desconto:** 297€<br><br><br><br><br>
 
 **Condições Gerais**
 

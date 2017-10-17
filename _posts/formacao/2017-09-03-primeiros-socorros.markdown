@@ -1,29 +1,26 @@
 ---
-identificacao_id: estrategias-para-lidar-com-o-stress
-title: Estratégias para lidar com o stress
-horas: 8
-mes: Abril
+identificacao_id: primeiros-socorros
+title: Primeiros Socorros
+horas: 16
+mes: Novembro
 desconto_inscricao: Inscrição ciclo completo com 10% desconto
 category: formacao
-ciclo_category: desenvolvimento_pessoal
+ciclo_category: higiene_seguranca
 class: formacao-pt
 formacao_Active?: active
 idiom: pt
 ---
 
 ### **ENQUADRAMENTO**
-
-São amplamente conhecidos os problemas físicos, psicológicos e comportamentais associados ao elevado stress vivido pelas pessoas. Presentes em muitos momentos do quotidiano de trabalho, as organizações acabam por sofrer os efeitos ao nível da produtividade, do número de erros e na menor flexibilidade para a mudança. É fundamental traçar caminhos para a prevenção e gestão do stress, identificar práticas de regeneração e recuperação, que possam envolver a própria pessoa e/ou toda a organização.<br><br><br>
-
- 
-
-**Duração:** 1 dia - 8 h | **Data:** 3 de abril | **Valor:** 60€<br><br><br>
+A expressão Primeiros Socorros traduz os cuidados imediatos prestados no local de um acidente com o objetivo de manter as funções vitais até à chegada de assistência qualificada. De facto, são inúmeras as situações que possibilitam a ocorrência de eventos que requerem um atendimento de urgência no ambiente laboral, seja em virtude de acidente, seja decorrentes de contactos inadvertidos com substâncias ou formas de energia capazes de produzir traumatismo e lesões nos trabalhadores. Nestes casos, a forma como se é socorrido poderá influenciar de forma drástica a sobrevivência e a recuperação da vítima. <br><br><br>
 
  
 
-**Valor Ciclo Completo c/ 10% desconto:** 207€<br><br><br><br><br>
+**Duração:** 2 dias - 16 h | **Datas:** 6 e 13 de novembro | **Valor:** 110€<br><br><br>
 
  
+
+**Valor Ciclo Completo c/ 10% desconto:** 252€<br><br><br><br><br>
 
 **Condições Gerais**
 

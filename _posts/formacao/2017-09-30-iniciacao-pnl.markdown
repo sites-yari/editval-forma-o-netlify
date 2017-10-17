@@ -1,11 +1,11 @@
 ---
 identificacao_id: ciclo-desenvolvimento-pessoal
-title: Ciclo Desenvolvimento Pessoal
+title: Iniciação à Programação Neuro-Linguística (PNL) - First Step
 horas: 16
-mes: março
+mes: Março
 desconto_inscricao: Inscrição ciclo completo com 10% desconto
 category: formacao
-ciclo_category: desenvolvimento-pessoal
+ciclo_category: desenvolvimento_pessoal
 class: formacao-pt
 formacao_Active?: active
 idiom: pt

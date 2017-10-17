@@ -1,29 +1,27 @@
 ---
-identificacao_id: estrategias-para-lidar-com-o-stress
-title: Estratégias para lidar com o stress
-horas: 8
-mes: Abril
+identificacao_id: inteligencia-emocional-na-lideranca
+title: Inteligência Emocional na Liderança
+horas: 16
+mes: Outobro
 desconto_inscricao: Inscrição ciclo completo com 10% desconto
 category: formacao
-ciclo_category: desenvolvimento_pessoal
+ciclo_category: lideranca
 class: formacao-pt
 formacao_Active?: active
 idiom: pt
 ---
 
+
 ### **ENQUADRAMENTO**
-
-São amplamente conhecidos os problemas físicos, psicológicos e comportamentais associados ao elevado stress vivido pelas pessoas. Presentes em muitos momentos do quotidiano de trabalho, as organizações acabam por sofrer os efeitos ao nível da produtividade, do número de erros e na menor flexibilidade para a mudança. É fundamental traçar caminhos para a prevenção e gestão do stress, identificar práticas de regeneração e recuperação, que possam envolver a própria pessoa e/ou toda a organização.<br><br><br>
-
- 
-
-**Duração:** 1 dia - 8 h | **Data:** 3 de abril | **Valor:** 60€<br><br><br>
+No mundo laboral, independentemente da função a desempenhar, os elementos emocionais desempenham um papel crucial. As emoções são contagiosas. Muitas vezes de forma inconsciente os líderes influenciam o estado de espírito das suas equipas, a cada momento os líderes influenciam para melhor ou para pior o estado de espírito dos que o rodeiam. A arte de influenciar implica lidar com as próprias emoções e com as dos outros com destreza e eficiência.<br><br><br>
 
  
 
-**Valor Ciclo Completo c/ 10% desconto:** 207€<br><br><br><br><br>
+**Duração:** 2 dias - 16 h | **Datas:** 4 e 11 de outubro | **Valor:** 110€<br><br><br>
 
  
+
+**Valor Ciclo Completo c/ 10% desconto:** 252€<br><br><br><br><br>
 
 **Condições Gerais**
 

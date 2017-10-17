@@ -1,29 +1,22 @@
 ---
-identificacao_id: estrategias-para-lidar-com-o-stress
-title: Estratégias para lidar com o stress
-horas: 8
-mes: Abril
+identificacao_id: automatizar-tarefas-no-excel-nivel-avancado
+title: Automatizar tarefas no Excel (nível avançado)
+horas: 16
+mes: Outobro
 desconto_inscricao: Inscrição ciclo completo com 10% desconto
 category: formacao
-ciclo_category: desenvolvimento_pessoal
+ciclo_category: ferramentas_informaticas
 class: formacao-pt
 formacao_Active?: active
 idiom: pt
 ---
 
 ### **ENQUADRAMENTO**
+Reconhecendo a importância do Microsoft Excel para o desenvolvimento de inúmeras tarefas, pretende-se com o presente curso dotar os formandos de conhecimentos que lhes permitam apresentar soluções flexíveis quanto ao modo como se gere o trabalho a efetuar, utilizar comandos que se aplicam a operações de tratamento de tipos de dados específicos e utilizar as facilidades avançadas do Microsoft Excel no que respeita à gestão de ficheiros e explorar mais profundamente as facilidades de ligação de múltiplas folhas. <br><br><br>
 
-São amplamente conhecidos os problemas físicos, psicológicos e comportamentais associados ao elevado stress vivido pelas pessoas. Presentes em muitos momentos do quotidiano de trabalho, as organizações acabam por sofrer os efeitos ao nível da produtividade, do número de erros e na menor flexibilidade para a mudança. É fundamental traçar caminhos para a prevenção e gestão do stress, identificar práticas de regeneração e recuperação, que possam envolver a própria pessoa e/ou toda a organização.<br><br><br>
+**Duração:** 2 dias - 16 h | **Datas:** 18 e 25 de outubro | **Valor:** 110€<br><br><br>
 
- 
-
-**Duração:** 1 dia - 8 h | **Data:** 3 de abril | **Valor:** 60€<br><br><br>
-
- 
-
-**Valor Ciclo Completo c/ 10% desconto:** 207€<br><br><br><br><br>
-
- 
+**Valor Ciclo Completo c/ 10% desconto:** 297€<br><br><br><br><br>
 
 **Condições Gerais**
 

@@ -1,26 +1,20 @@
 ---
-identificacao_id: shake-your-team-trabalho-em-equipa
-title: Shake Your Team - trabalho em equipa
+identificacao_id: seo-search-engine-optimization
+title: SEO – Search Engine Optimization
 horas: 8
-mes: Março
+mes: Novembro
 desconto_inscricao: Inscrição ciclo completo com 10% desconto
 category: formacao
-ciclo_category: competencias_relacionais
+ciclo_category: marketing
 class: formacao-pt
 formacao_Active?: active
 idiom: pt
 ---
 
-
 ### **ENQUADRAMENTO**
+A otimização de sites (SEO) é um conjunto de práticas e técnicas que visam posicionar um site nos motores de busca. Se é facto que atualmente quase todas as empresas possuem uma página na internet, também é verdade que muitas ainda encontram dificuldades em fazer com que a mesma gere o retorno pretendido. A função do SEO é otimizar o conteúdo dos sites, tornando-os mais relevantes. Aplicado ao sítio da sua empresa, o SEO fará com que os clientes o encontrem mais facilmente, aumentando as visitas e o número de contactos estabelecidos. Permite ainda utilizar estratégias de marketing digital para atrair apenas o público que interessa ao seu negócio. No mesmo sentido, custa menos que os links patrocinados e os resultados tendem a ser mais duradouros, nomeadamente a médio ou longo prazo.<br><br><br>
 
-No contexto organizacional, geralmente, não há a oportunidade de escolher com quem trabalhar. Impulsionar uma equipa a fazer mais e melhor e com um nível elevado de compromisso não é uma tarefa tão simples quanto à partida possa parecer. O trabalho em equipa requer ingredientes fundamentais para que se torne funcional e traga benefícios práticos à empresa e emocionais aos seus elementos.<br><br><br>
-
- 
-
-**Duração:** 1 dia - 8 h | **Data:** 8 de março | **Valor:** 60€<br><br><br>
-
- 
+**Duração:** 1 dia - 8 h | **Datas:** 8 de novembro | **Valor:** 60€<br><br><br>
 
 **Valor Ciclo Completo c/ 10% desconto:** 162€<br><br><br><br><br>
 

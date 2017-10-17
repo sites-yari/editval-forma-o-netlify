@@ -1,29 +1,27 @@
 ---
-identificacao_id: estrategias-para-lidar-com-o-stress
-title: Estratégias para lidar com o stress
+identificacao_id: 5-s-como-implementar
+title: 5’S como implementar?
 horas: 8
-mes: Abril
+mes: Julho
 desconto_inscricao: Inscrição ciclo completo com 10% desconto
 category: formacao
-ciclo_category: desenvolvimento_pessoal
+ciclo_category: melhoria_continua
 class: formacao-pt
 formacao_Active?: active
 idiom: pt
 ---
 
+
 ### **ENQUADRAMENTO**
-
-São amplamente conhecidos os problemas físicos, psicológicos e comportamentais associados ao elevado stress vivido pelas pessoas. Presentes em muitos momentos do quotidiano de trabalho, as organizações acabam por sofrer os efeitos ao nível da produtividade, do número de erros e na menor flexibilidade para a mudança. É fundamental traçar caminhos para a prevenção e gestão do stress, identificar práticas de regeneração e recuperação, que possam envolver a própria pessoa e/ou toda a organização.<br><br><br>
-
- 
-
-**Duração:** 1 dia - 8 h | **Data:** 3 de abril | **Valor:** 60€<br><br><br>
+O 5s é uma das ferramentas de pensamento que nos ajuda a criar a cultura da disciplina, identificar problemas e gerar oportunidades para melhorias. A proposta do 5s é a de reduzir o desperdício de recursos e espaço de forma a aumentar a eficiência operacional. O objetivo é assegurar a qualidade dos processos e, consequentemente, a competitividade das organizações. Na prática, a metodologia 5S é mais do que uma ferramenta de gestão: é uma filosofia. A sua aplicação no ambiente de trabalho pretende promover a disciplina e a segurança dos processos, garantindo assim uma maior qualidade e produtividade.<br><br><br>
 
  
 
-**Valor Ciclo Completo c/ 10% desconto:** 207€<br><br><br><br><br>
+**Duração:** 1 dia - 8 h | **Datas:** 5 de julho | **Valor:** 60€<br><br><br>
 
  
+
+**Valor Ciclo Completo c/ 10% desconto:** 162€<br><br><br><br><br>
 
 **Condições Gerais**
 

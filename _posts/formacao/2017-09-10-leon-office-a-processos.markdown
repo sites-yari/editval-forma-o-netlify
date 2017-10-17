@@ -1,29 +1,27 @@
 ---
-identificacao_id: estrategias-para-lidar-com-o-stress
-title: Estratégias para lidar com o stress
+identificacao_id: lean-office-lean-aplicado-a-processos-administrativos
+title: Lean Office - Lean aplicado a processos administrativos
 horas: 8
-mes: Abril
+mes: Novembro
 desconto_inscricao: Inscrição ciclo completo com 10% desconto
 category: formacao
-ciclo_category: desenvolvimento_pessoal
+ciclo_category: melhoria_continua
 class: formacao-pt
 formacao_Active?: active
 idiom: pt
 ---
 
+
 ### **ENQUADRAMENTO**
-
-São amplamente conhecidos os problemas físicos, psicológicos e comportamentais associados ao elevado stress vivido pelas pessoas. Presentes em muitos momentos do quotidiano de trabalho, as organizações acabam por sofrer os efeitos ao nível da produtividade, do número de erros e na menor flexibilidade para a mudança. É fundamental traçar caminhos para a prevenção e gestão do stress, identificar práticas de regeneração e recuperação, que possam envolver a própria pessoa e/ou toda a organização.<br><br><br>
-
- 
-
-**Duração:** 1 dia - 8 h | **Data:** 3 de abril | **Valor:** 60€<br><br><br>
+As técnicas administrativas de produtividade são fundamentais para que as empresas possam otimizar os seus processos e eliminar tudo o que não agrega valor, tornando-as mais ágeis e mais competitivas. O Lean Office é baseado nos conceitos do Lean Manufacturing, com técnicas voltadas para os processos administrativos organizacionais. O objetivo é simples: aumentar a produtividade, rapidez e eficiência das funções administrativas, a redução e/ou eliminação de atividades que não acrescentam valor aos processos, a redução de custos e problemas de comunicação e melhor utilização da área de trabalho nos ambientes administrativos.<br><br><br>
 
  
 
-**Valor Ciclo Completo c/ 10% desconto:** 207€<br><br><br><br><br>
+**Duração:** 1 dia - 8 h | **Datas:** 22 de novembro | **Valor:** 60€<br><br><br>
 
  
+
+**Valor Ciclo Completo c/ 10% desconto:** 162€<br><br><br><br><br>
 
 **Condições Gerais**
 

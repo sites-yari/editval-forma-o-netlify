@@ -1,29 +1,27 @@
 ---
-identificacao_id: estrategias-para-lidar-com-o-stress
-title: Estratégias para lidar com o stress
-horas: 8
-mes: Abril
+identificacao_id: wonderfun-a-ciencia-do-riso-ao-servico-dos-resultados
+title: Wonderfun - a ciência do riso ao serviço dos resultados
+horas: 4
+mes: Maio
 desconto_inscricao: Inscrição ciclo completo com 10% desconto
 category: formacao
-ciclo_category: desenvolvimento_pessoal
+ciclo_category: criatividade_inovacao
 class: formacao-pt
 formacao_Active?: active
 idiom: pt
 ---
 
+
 ### **ENQUADRAMENTO**
-
-São amplamente conhecidos os problemas físicos, psicológicos e comportamentais associados ao elevado stress vivido pelas pessoas. Presentes em muitos momentos do quotidiano de trabalho, as organizações acabam por sofrer os efeitos ao nível da produtividade, do número de erros e na menor flexibilidade para a mudança. É fundamental traçar caminhos para a prevenção e gestão do stress, identificar práticas de regeneração e recuperação, que possam envolver a própria pessoa e/ou toda a organização.<br><br><br>
-
- 
-
-**Duração:** 1 dia - 8 h | **Data:** 3 de abril | **Valor:** 60€<br><br><br>
+São vários os estudos científicos que, ao longo dos anos, têm vindo a medir a eficácia do Yoga do Riso no fortalecimento da colaboração entre as pessoas e os benefícios que acarreta para a saúde física, mental e emocional, tendo impactos significativos na produtividade, no trabalho em equipa, no alívio do stress e no aumento do compromisso dos colaboradores com a organização. Pela indução de diferentes sons e técnicas o riso forçado dá lugar, de forma natural, ao riso espontâneo contribuindo para o proliferar de emoções positivas entre os participantes.<br><br><br>
 
  
 
-**Valor Ciclo Completo c/ 10% desconto:** 207€<br><br><br><br><br>
+**Duração:** 1 tarde - 4 h | **Data:** 10 de maio | **Valor:** 55€<br><br><br>
 
  
+
+**Valor Ciclo Completo c/ 10% desconto:** 153€<br><br><br><br><br>
 
 **Condições Gerais**
 

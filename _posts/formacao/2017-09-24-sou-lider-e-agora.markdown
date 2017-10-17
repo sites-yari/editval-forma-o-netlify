@@ -1,29 +1,27 @@
 ---
-identificacao_id: estrategias-para-lidar-com-o-stress
-title: Estratégias para lidar com o stress
+identificacao_id: sou-lider-e-agora
+title: Sou líder, e agora?
 horas: 8
-mes: Abril
+mes: Fevereiro
 desconto_inscricao: Inscrição ciclo completo com 10% desconto
 category: formacao
-ciclo_category: desenvolvimento_pessoal
+ciclo_category: lideranca
 class: formacao-pt
 formacao_Active?: active
 idiom: pt
 ---
 
+
 ### **ENQUADRAMENTO**
-
-São amplamente conhecidos os problemas físicos, psicológicos e comportamentais associados ao elevado stress vivido pelas pessoas. Presentes em muitos momentos do quotidiano de trabalho, as organizações acabam por sofrer os efeitos ao nível da produtividade, do número de erros e na menor flexibilidade para a mudança. É fundamental traçar caminhos para a prevenção e gestão do stress, identificar práticas de regeneração e recuperação, que possam envolver a própria pessoa e/ou toda a organização.<br><br><br>
-
- 
-
-**Duração:** 1 dia - 8 h | **Data:** 3 de abril | **Valor:** 60€<br><br><br>
+O processo de liderança é função de cada situação, o que faz com que um(a) bom(a) líder o seja numa determinada situação, mas possa não o ser numa outra situação diferente. Em primeira instância, a liderança de equipas de trabalho deve ser um exercício de aproximação e de proximidade. Ao exercer de perto a disciplina de conhecer as pessoas da sua equipa, as suas histórias, motivações, problemas e sonhos, o/a líder pode antecipar a reação da sua equipa a um determinado estímulo, seja ele uma instrução ou um elogio.<br><br><br>
 
  
 
-**Valor Ciclo Completo c/ 10% desconto:** 207€<br><br><br><br><br>
+**Duração:** 1 dia - 8 h | **Data:** 1 de fevereiro | **Valor:** 60€<br><br><br>
 
  
+
+**Valor Ciclo Completo c/ 10% desconto:** 252€<br><br><br><br><br>
 
 **Condições Gerais**
 

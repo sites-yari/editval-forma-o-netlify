@@ -1,29 +1,22 @@
 ---
-identificacao_id: estrategias-para-lidar-com-o-stress
-title: Estratégias para lidar com o stress
+identificacao_id: sensibilizar-para-a-higiene-e-seguranca-no-trabalho
+title: Sensibilizar para a Higiene e Segurança no Trabalho
 horas: 8
 mes: Abril
 desconto_inscricao: Inscrição ciclo completo com 10% desconto
 category: formacao
-ciclo_category: desenvolvimento_pessoal
+ciclo_category: higiene_seguranca
 class: formacao-pt
 formacao_Active?: active
 idiom: pt
 ---
 
 ### **ENQUADRAMENTO**
+A qualidade das condições de trabalho é um dos fatores fundamentais para o sucesso de um sistema produtivo. Nesse âmbito, a melhoria da produtividade e da competitividade das empresas passa, necessariamente, por uma intervenção no sentido da melhoria das condições de trabalho.<br><br><br>
 
-São amplamente conhecidos os problemas físicos, psicológicos e comportamentais associados ao elevado stress vivido pelas pessoas. Presentes em muitos momentos do quotidiano de trabalho, as organizações acabam por sofrer os efeitos ao nível da produtividade, do número de erros e na menor flexibilidade para a mudança. É fundamental traçar caminhos para a prevenção e gestão do stress, identificar práticas de regeneração e recuperação, que possam envolver a própria pessoa e/ou toda a organização.<br><br><br>
+**Duração:** 1 dia - 8 h | **Datas:** 19 de abril| **Valor:** 60€<br><br><br>
 
- 
-
-**Duração:** 1 dia - 8 h | **Data:** 3 de abril | **Valor:** 60€<br><br><br>
-
- 
-
-**Valor Ciclo Completo c/ 10% desconto:** 207€<br><br><br><br><br>
-
- 
+**Valor Ciclo Completo c/ 10% desconto:** 252€<br><br><br><br><br>
 
 **Condições Gerais**
 

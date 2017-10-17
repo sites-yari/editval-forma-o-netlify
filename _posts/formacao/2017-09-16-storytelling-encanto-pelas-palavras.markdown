@@ -1,27 +1,27 @@
 ---
-identificacao_id: estrategias-para-lidar-com-o-stress
-title: Estratégias para lidar com o stress
-horas: 8
-mes: Abril
+identificacao_id: storytelling-o-encanto-pelas-palavras
+title: Storytelling - o encanto pelas palavras
+horas: 4
+mes: Setembro
 desconto_inscricao: Inscrição ciclo completo com 10% desconto
 category: formacao
-ciclo_category: desenvolvimento_pessoal
+ciclo_category: criatividade_inovacao
 class: formacao-pt
 formacao_Active?: active
 idiom: pt
 ---
 
+
 ### **ENQUADRAMENTO**
-
-São amplamente conhecidos os problemas físicos, psicológicos e comportamentais associados ao elevado stress vivido pelas pessoas. Presentes em muitos momentos do quotidiano de trabalho, as organizações acabam por sofrer os efeitos ao nível da produtividade, do número de erros e na menor flexibilidade para a mudança. É fundamental traçar caminhos para a prevenção e gestão do stress, identificar práticas de regeneração e recuperação, que possam envolver a própria pessoa e/ou toda a organização.<br><br><br>
-
- 
-
-**Duração:** 1 dia - 8 h | **Data:** 3 de abril | **Valor:** 60€<br><br><br>
+Crescemos a ouvir histórias e apreendemos melhor os conceitos e informações através de uma história pela conexão emocional que esta gera. Uma história inspira as pessoas a mudar, canaliza novos comportamentos e a energia para agir ou tomar decisões. O storytelling aplica-se em diferentes contextos, permitindo ao nível comunicacional enriquecer apresentações e causar maior impacto, facilitar o processo de venda através do improviso e do reforço da empatia, melhorar a capacidade de liderança orientando a equipa por uma mesma visão, ou até reforçar a estratégia de marketing estabelecendo a ligação emocional da história com o conceito ou produto.<br><br><br>
 
  
 
-**Valor Ciclo Completo c/ 10% desconto:** 207€<br><br><br><br><br>
+**Duração:** 1 tarde - 4 h | **Data:** 11 de setembro | **Valor:** 55€<br><br><br>
+
+ 
+
+**Valor Ciclo Completo c/ 10% desconto:** 153€<br><br><br><br><br>
 
  
 

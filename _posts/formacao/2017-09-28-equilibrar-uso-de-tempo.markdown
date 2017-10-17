@@ -5,7 +5,7 @@ horas: 8
 mes: Novembro
 desconto_inscricao: Inscrição ciclo completo com 10% desconto
 category: formacao
-ciclo_category: desenvolvimento-pessoal
+ciclo_category: desenvolvimento_pessoal
 class: formacao-pt
 formacao_Active?: active
 idiom: pt

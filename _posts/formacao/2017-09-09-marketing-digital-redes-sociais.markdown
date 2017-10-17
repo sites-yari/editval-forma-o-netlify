@@ -1,29 +1,27 @@
 ---
-identificacao_id: estrategias-para-lidar-com-o-stress
-title: Estratégias para lidar com o stress
+identificacao_id: marketing-digital-e-redes-sociais
+title: Marketing Digital e Redes Sociais
 horas: 8
 mes: Abril
 desconto_inscricao: Inscrição ciclo completo com 10% desconto
 category: formacao
-ciclo_category: desenvolvimento_pessoal
+ciclo_category: marketing
 class: formacao-pt
 formacao_Active?: active
 idiom: pt
 ---
 
+
 ### **ENQUADRAMENTO**
-
-São amplamente conhecidos os problemas físicos, psicológicos e comportamentais associados ao elevado stress vivido pelas pessoas. Presentes em muitos momentos do quotidiano de trabalho, as organizações acabam por sofrer os efeitos ao nível da produtividade, do número de erros e na menor flexibilidade para a mudança. É fundamental traçar caminhos para a prevenção e gestão do stress, identificar práticas de regeneração e recuperação, que possam envolver a própria pessoa e/ou toda a organização.<br><br><br>
-
- 
-
-**Duração:** 1 dia - 8 h | **Data:** 3 de abril | **Valor:** 60€<br><br><br>
+Não há dúvidas que o Marketing Digital continuará em expansão. As empresas perceberam a importância de possuírem uma identidade digital e de marcarem o seu território no mundo online. Desenvolver a identidade digital de uma empresa ou marca é tarefa obrigatória para quem se pretender destacar na sua área de atuação. A internet proporciona uma relação humanizada entre as marcas e os consumidores, como nunca antes visto. A oportunidade de compreender exatamente cada passo da sua persona nunca esteve tão ao alcance das empresas como nos dias de hoje. Neste sentido, é preciso extrair todo o potencial que o ambiente digital oferece para conquistar e fidelizar cada vez mais clientes.<br><br><br>
 
  
 
-**Valor Ciclo Completo c/ 10% desconto:** 207€<br><br><br><br><br>
+**Duração:** 1 dia - 8 h | **Datas:** 10 de abril| **Valor:** 60€<br><br><br>
 
  
+
+**Valor Ciclo Completo c/ 10% desconto:** 162€<br><br><br><br><br>
 
 **Condições Gerais**
 

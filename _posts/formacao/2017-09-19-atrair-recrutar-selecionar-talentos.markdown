@@ -1,11 +1,11 @@
 ---
-identificacao_id: comunicacao-eficaz-o-eu-e-o-nos
-title: Comunicação eficaz- o eu e o nós
+identificacao_id: atrair-recrutar-e-selecionar-talentos
+title: Atrair, Recrutar e Selecionar Talentos
 horas: 8
-mes: Junho
+mes: Outobro
 desconto_inscricao: Inscrição ciclo completo com 10% desconto
 category: formacao
-ciclo_category: competencias_relacionais
+ciclo_category: gestao_pessoas
 class: formacao-pt
 formacao_Active?: active
 idiom: pt
@@ -13,12 +13,11 @@ idiom: pt
 
 
 ### **ENQUADRAMENTO**
-Todas as interações entre pessoas têm na sua base o processo de comunicação, sendo por isso impossível não comunicar. Mesmo pensando não comunicar, cada pessoa comunica. Tudo o que se faz, se diz e não se diz são atos de comunicação, já que os outros lhe atribuem significado. Todavia, a verdadeira comunicação existe quando há partilha e sintonia no significado das mensagens. Assim, é importante que consigamos eliminar expressões “tóxicas”, que afetam negativamente as relações interpessoais.<br><br><br>
-
+Encontrar talentos é identificar as pessoas com um conjunto de habilidades, conhecimentos, experiência, atitude, carácter e capacidade para aprender. Serão certamente os talentos ajustados à estratégia de negócio da empresa que trarão o diferencial competitivo pelo que atrair, recrutar e selecionar as pessoas certas é fundamental para o sucesso de qualquer organização.<br><br><br>
 
  
 
-**Duração:** 1 dia - 8 h | **Data:** 27 de setembro | **Valor:** 60€<br><br><br>
+**Duração:** 1 dia - 8 h | **Datas:** 9 de outubro | **Valor:** 60€<br><br><br>
 
  
 

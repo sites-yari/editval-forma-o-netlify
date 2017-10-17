@@ -1,11 +1,11 @@
 ---
-identificacao_id: shake-your-team-trabalho-em-equipa
-title: Shake Your Team - trabalho em equipa
+identificacao_id: gerir-talentos-x-y-e-z
+title: Gerir Talentos X,Y e Z
 horas: 8
-mes: Março
+mes: Fevereiro
 desconto_inscricao: Inscrição ciclo completo com 10% desconto
 category: formacao
-ciclo_category: competencias_relacionais
+ciclo_category: gestao_pessoas
 class: formacao-pt
 formacao_Active?: active
 idiom: pt
@@ -13,12 +13,11 @@ idiom: pt
 
 
 ### **ENQUADRAMENTO**
-
-No contexto organizacional, geralmente, não há a oportunidade de escolher com quem trabalhar. Impulsionar uma equipa a fazer mais e melhor e com um nível elevado de compromisso não é uma tarefa tão simples quanto à partida possa parecer. O trabalho em equipa requer ingredientes fundamentais para que se torne funcional e traga benefícios práticos à empresa e emocionais aos seus elementos.<br><br><br>
+Um dos desafios atuais das empresas é o de atrair, desenvolver e reter uma força de trabalho qualificada enquanto o mercado de trabalho continua cada vez mais exigente, a tecnologia não para de evoluir e os talentos são cada vez mais disputados. Esta situação é agravada num momento em que as organizações se deparam com a necessidade de gerir diferentes gerações de trabalhadores. Cada geração tem as suas próprias caraterísticas, valores e atitudes em relação ao trabalho, com base nas suas experiências de vida. Neste sentido, urge iniciar um processo de reestruturação nas empresas com base nas pessoas. Será fulcral identificar as boas práticas e soluções possíveis que possam garantir que esta convivência multigeracional vai criar valor para a organização agora e no futuro.<br><br><br>
 
  
 
-**Duração:** 1 dia - 8 h | **Data:** 8 de março | **Valor:** 60€<br><br><br>
+**Duração:** 1 dia - 8 h | **Datas:** 22 de fevereiro | **Valor:** 60€<br><br><br>
 
  
 
