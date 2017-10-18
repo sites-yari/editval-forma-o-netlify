@@ -2,7 +2,7 @@
 layout: post-text
 title: Como fala com as Pessoas da sua empresa?
 data: 03-05-2017
-text_image_path: ../../assets/sites/55a8c341acbda1dcd0000002/assets/5900a3f2acbda14886001b51/_15.jpg
+text_image_path: images/artigos/15.jpg
 category: artigos
 class: media-pt
 media_active?: active

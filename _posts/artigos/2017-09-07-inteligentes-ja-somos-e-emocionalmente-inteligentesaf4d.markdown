@@ -2,7 +2,7 @@
 layout: post-text
 title: Inteligentes já somos! E emocionalmente inteligentes?
 data: 01-06-2016
-text_image_path: ../../assets/sites/55a8c341acbda1dcd0000002/assets/5770f135acbda1e4c50008f2/_4.jpg
+text_image_path: images/artigos/4.jpg
 category: artigos
 class: media-pt
 media_active?: active

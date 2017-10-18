@@ -2,7 +2,7 @@
 layout: post-text
 title: Como potenciar o impacto da gestão de pessoas na gestão global?
 data: 03-04-2017
-text_image_path: ../../assets/sites/55a8c341acbda1dcd0000002/assets/58e22288acbda1674900000a/_14.jpg
+text_image_path: images/artigos/14.jpg
 category: artigos
 class: media-pt
 media_active?: active

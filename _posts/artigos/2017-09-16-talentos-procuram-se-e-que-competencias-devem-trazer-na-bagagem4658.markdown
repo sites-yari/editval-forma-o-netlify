@@ -2,7 +2,7 @@
 layout: post-text
 title: Talentos procuram-se! E que competências devem trazer na bagagem?
 data: 08-03-2017
-text_image_path: ../../assets/sites/55a8c341acbda1dcd0000002/assets/58bde96cacbda1db5a00113a/_13.jpg
+text_image_path: images/artigos/13.jpg
 category: artigos
 class: media-pt
 media_active?: active

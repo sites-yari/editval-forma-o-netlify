@@ -2,7 +2,7 @@
 layout: post-text
 title: Experiência ou Talento?
 data: 04-05-2016
-text_image_path: ../../assets/sites/55a8c341acbda1dcd0000002/assets/5770f35aacbda1c58d000949/_3.png
+text_image_path: images/artigos/3.png
 category: artigos
 class: media-pt
 media_active?: active

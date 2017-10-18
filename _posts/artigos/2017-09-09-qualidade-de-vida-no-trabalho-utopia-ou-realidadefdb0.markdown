@@ -2,7 +2,7 @@
 layout: post-text
 title: Qualidade de Vida no Trabalho. Utopia ou realidade?
 data: 01-08-2016
-text_image_path: ../../assets/sites/55a8c341acbda1dcd0000002/assets/5770f4deacbda15a24000964/_6.jpg
+text_image_path: images/artigos/6.jpg
 category: artigos
 class: media-pt
 media_active?: active

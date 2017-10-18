@@ -2,7 +2,7 @@
 layout: post-text
 title: Não tem preço, mas tem valor. Há espaço para a Felicidade na sua empresa?
 data: 05-07-2017
-text_image_path: ../../assets/sites/55a8c341acbda1dcd0000002/assets/59550798acbda16b49010bf1/_17.jpg
+text_image_path: images/artigos/17.jpg
 category: artigos
 class: media-pt
 media_active?: active

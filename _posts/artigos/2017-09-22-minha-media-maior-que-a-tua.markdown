@@ -2,7 +2,7 @@
 layout: post-text
 title: A minha média é maior que a tua! E quanto vale?
 data: 04-10-2017
-text_image_path: assets/sites/55a8c341acbda1dcd0000002/assets/59550798acbda16b49010bf1/_19.jpg
+text_image_path: images/artigos/21.jpg
 category: artigos
 class: media-pt
 media_active?: active
@@ -22,7 +22,6 @@ Porém, é imperativo apetrechar o nosso canivete suíço de mais utensílios, o
 A todos aqueles que já terminaram os seus estudos e ingressaram no mundo do trabalho, sugiro que reflitam um pouco e auscultem onde estão os colegas de universidade que terminaram com as melhores e piores médias. A que conclusão chegam? Como diria o grande liricista americano Nipsey Hussle “Podes ser tudo o que quiseres… menos mediano”.
 <br><br><br>
  
-
 **Tiago Gouveia**
 
 Responsável Desenvolvimento RH

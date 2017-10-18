@@ -2,7 +2,7 @@
 layout: post-text
 title: Quem é a pessoa mais importante na sua organização?
 data: 06-09-2017
-text_image_path: ../../assets/sites/55a8c341acbda1dcd0000002/assets/59550798acbda16b49010bf1/_18.jpg
+text_image_path: images/artigos/18.jpg
 category: artigos
 class: media-pt
 media_active?: active

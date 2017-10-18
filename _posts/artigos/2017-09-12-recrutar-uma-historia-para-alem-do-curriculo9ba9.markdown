@@ -2,7 +2,7 @@
 layout: post-text
 title: Recrutar- uma história para além do currículo?
 data: 02-11-2016
-text_image_path: ../../assets/sites/55a8c341acbda1dcd0000002/assets/57f2c6b6acbda154ac01049e/_9.jpg
+text_image_path: images/artigos/9.jpg
 category: artigos
 class: media-pt
 media_active?: active

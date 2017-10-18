@@ -2,7 +2,7 @@
 layout: post-text
 title: Quer mesmo ser chamado para uma entrevista de emprego?
 data: 07-06-2017
-text_image_path: ../../assets/sites/55a8c341acbda1dcd0000002/assets/592c4933acbda129c70025c7/_16.jpg
+text_image_path: images/artigos/16.jpg
 category: artigos
 class: media-pt
 media_active?: active

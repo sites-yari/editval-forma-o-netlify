@@ -2,7 +2,7 @@
 layout: post-text
 title: Combater o absentismo, missão impossível?
 data: 07-12-2016
-text_image_path: ../../assets/sites/55a8c341acbda1dcd0000002/assets/58382bc6acbda11269006068/_10.jpg
+text_image_path: images/artigos/10.jpg
 category: artigos
 class: media-pt
 media_active?: active

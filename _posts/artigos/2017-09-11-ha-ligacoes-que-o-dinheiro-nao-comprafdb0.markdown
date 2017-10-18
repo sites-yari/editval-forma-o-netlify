@@ -2,7 +2,7 @@
 layout: post-text
 title: Há ligações que o dinheiro não compra?
 data: 05-10-2016
-text_image_path: ../../assets/sites/55a8c341acbda1dcd0000002/assets/57f2c46eacbda122f201046a/_8.jpg
+text_image_path: images/artigos/8.jpg
 category: artigos
 class: media-pt
 media_active?: active

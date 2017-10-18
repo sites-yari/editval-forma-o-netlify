@@ -2,7 +2,7 @@
 layout: post-text
 title: Porque deve investir nas Pessoas da sua organização?
 data: 02-03-2016
-text_image_path: ../../assets/sites/55a8c341acbda1dcd0000002/assets/5770f2f6acbda1a97d000942/_2.jpg
+text_image_path: images/artigos/Artigo_1.jpg
 category: artigos
 class: media-pt
 media_active?: active

@@ -2,7 +2,7 @@
 layout: post-text
 title: Avaliar por Competências? Quais as Vantagens?
 data: 07-09-2016
-text_image_path: ../../assets/sites/55a8c341acbda1dcd0000002/assets/5770f610acbda16829000973/_7.jpg
+text_image_path: images/artigos/7.jpg
 category: artigos
 class: media-pt
 media_active?: active

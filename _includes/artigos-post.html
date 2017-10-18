@@ -31,7 +31,11 @@
                         <span class="label">Texto 1</span>
                         <span class="value">
                         <div class="text" style="font-size: 12px;">
-                            <p style="text-align: justify;"><img style="display: block; margin-left: auto; margin-right: auto;" src="../../../../{{page.text_image_path}}" alt="" width="627" height="123" /></p>
+                            {% if page.text_image_path == "no image" %}
+                            <p ></p>
+                            {% else %}
+                            <p style="text-align: justify;"><img style="display: block; margin-left: auto; margin-right: auto;" src="../../../../{{page.text_image_path}}" alt="" width="527" height="223" /></p>                            
+                            {% endif %}
                             <p style="text-align: justify; font-size: 12px;">{{content}}</p><br><br>
                         </div>
                     </span>

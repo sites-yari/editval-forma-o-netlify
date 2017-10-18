@@ -2,7 +2,7 @@
 layout: post-text
 title: Crise… Mudança… e as Pessoas?
 data: 06-07-2016
-text_image_path: ../../assets/sites/55a8c341acbda1dcd0000002/assets/5770f471acbda14659000961/_5.jpg
+text_image_path: images/artigos/5.jpg
 category: artigos
 class: media-pt
 media_active?: active

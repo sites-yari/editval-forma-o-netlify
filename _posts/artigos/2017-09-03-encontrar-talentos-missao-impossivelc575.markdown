@@ -2,7 +2,7 @@
 layout: post-text
 title: Encontrar Talentos, missão impossível?
 data: 29-01-2014
-text_image_path: 
+text_image_path: no image
 category: artigos
 class: media-pt
 media_active?: active

@@ -2,7 +2,7 @@
 layout: post-text
 title: Formação em contexto organizacional; que futuro?
 data: 01-02-2017
-text_image_path: ../../assets/sites/55a8c341acbda1dcd0000002/assets/588a1e92acbda1b63c000a03/_12.jpg
+text_image_path: images/artigos/12.jpg
 category: artigos
 class: media-pt
 media_active?: active
