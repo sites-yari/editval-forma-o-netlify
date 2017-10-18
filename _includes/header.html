@@ -178,22 +178,48 @@
                             <ul>
                                 <li class='http-editvalue-blogspot-com blogger'>
                                     <div class='wrapper'>
-                                        <a href='http://editvalue.blogspot.com/' target='_blank' alt=''><span class='icon'></span><span class='label'>Blogger</span></a>
+                                        {% if page.idiom == "pt" %}
+                                            <a href='{{site.data.paginas-sociais.pt.blogpost}}' target='_blank' alt=''><span class='icon'></span><span class='label'>Blogger</span></a>
+                                        {% elsif page.idiom == "en" %}
+                                            <a href='{{site.data.paginas-sociais.en.blogpost}}' target='_blank' alt=''><span class='icon'></span><span class='label'>Blogger</span></a>
+                                        {% elsif page.idiom == "es" %}
+                                            <a href='{{site.data.paginas-sociais.es.blogpost}}' target='_blank' alt=''><span class='icon'></span><span class='label'>Blogger</span></a>
+                                        {% endif %}
                                     </div>
                                 </li>
                                 <li class='http-twitter-com-editvalue twitter'>
                                     <div class='wrapper'>
-                                        <a href='http://twitter.com/editvalue' target='_blank' alt=''><span class='icon'></span><span class='label'>Twitter</span></a>
+                                        {% if page.idiom == "pt" %}                                            
+                                            <a href='{{site.data.paginas-sociais.pt.twitter}}' target='_blank' alt=''><span class='icon'></span><span class='label'>Twitter</span></a>
+                                        {% elsif page.idiom == "en" %}
+                                            <a href='{{site.data.paginas-sociais.en.twitter}}' target='_blank' alt=''><span class='icon'></span><span class='label'>Twitter</span></a>
+                                        {% elsif page.idiom == "es" %}
+                                            <a href='{{site.data.paginas-sociais.es.twitter}}' target='_blank' alt=''><span class='icon'></span><span class='label'>Twitter</span></a>
+                                        {% endif %}
                                     </div>
                                 </li>
                                 <li class='https-www-linkedin-com-company-edit-value-formacao-empresarial linkedin'>
                                     <div class='wrapper'>
-                                        <a href='https://www.linkedin.com/company/edit-value-formacao-empresarial' target=' _blank'
-                                            alt=''><span class='icon'></span><span class='label'>Linkedin</span></a>
+                                        {% if page.idiom == "pt" %}                                            
+                                            <a href='{{site.data.paginas-sociais.pt.linked-in}}' target=' _blank'
+                                                alt=''><span class='icon'></span><span class='label'>Linkedin</span></a>
+                                        {% elsif page.idiom == "en" %}
+                                            <a href='{{site.data.paginas-sociais.en.linked-in}}' target=' _blank'
+                                                alt=''><span class='icon'></span><span class='label'>Linkedin</span></a>
+                                        {% elsif page.idiom == "es" %}
+                                            <a href='{{site.data.paginas-sociais.es.linked-in}}' target=' _blank'
+                                                alt=''><span class='icon'></span><span class='label'>Linkedin</span></a>
+                                        {% endif %}
                                     </div>
                                 </li>
                                 <li class='http-www-facebook-com-editvalue-formacao facebook -last'>
-                                    <div class='wrapper'><a href='http://www.facebook.com/EDITVALUE.Formacao' target='_blank' alt=''><span class='icon'></span><spanclass='label'></span></a></div>
+                                    {% if page.idiom == "pt" %}                                            
+                                        <div class='wrapper'><a href='{{site.data.paginas-sociais.pt.facebook}}' target='_blank' alt=''><span class='icon'></span><spanclass='label'></span></a></div>
+                                    {% elsif page.idiom == "en" %}
+                                        <div class='wrapper'><a href='{{site.data.paginas-sociais.en.facebook}}' target='_blank' alt=''><span class='icon'></span><spanclass='label'></span></a></div>
+                                    {% elsif page.idiom == "es" %}
+                                        <div class='wrapper'><a href='{{site.data.paginas-sociais.es.facebook}}' target='_blank' alt=''><span class='icon'></span><spanclass='label'></span></a></div>
+                                    {% endif %}
                                 </li>
                             </ul>
                         </div>
