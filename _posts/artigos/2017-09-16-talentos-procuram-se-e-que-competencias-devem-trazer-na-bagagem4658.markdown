@@ -23,8 +23,8 @@ Uma certeza temos em comum a tantos outros profissionais da área de recursos hu
 
  
 
-Sandra Araújo | Sara Oliveira
+**Sandra Araújo** \| **Sara Oliveira**
 
-Gestora de Recursos Humanos | Consultora-Formadora
+Gestora de Recursos Humanos \| Consultora-Formadora
 
 EDIT VALUE® Formação Empresarial

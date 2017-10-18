@@ -23,7 +23,7 @@ Positividade no trabalho vem do sorriso do “bom dia” partilhado todas as man
 
 Descobrir o que faz uma equipa sorrir e procurar incentivar esse sorriso em diferentes momentos do ano, principalmente nos momentos de maior tensão ou volume de trabalho, deve ser também um objetivo para o ano que inicia. Quer experimentar? Certamente vai ter grandes e boas surpresas!<br><br><br>
 
-Sandra Araújo
+**Sandra Araújo**
 
 Gestora de Recursos Humanos
 

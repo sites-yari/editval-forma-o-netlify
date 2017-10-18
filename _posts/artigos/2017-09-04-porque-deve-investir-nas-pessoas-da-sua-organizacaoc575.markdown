@@ -21,7 +21,7 @@ Como pretendem as empresas aumentar os proveitos sem olhar para as pessoas? Dese
 
 Focar-se nas pessoas aumenta as hipóteses de sucesso do negócio, contribuindo para o aumento do desempenho individual, produtividade e bem-estar. Já “olhou” para as pessoas da sua organização?<br><br><br>
 
-Sandra Araújo
+**Sandra Araújo**
 
 Administradora
 

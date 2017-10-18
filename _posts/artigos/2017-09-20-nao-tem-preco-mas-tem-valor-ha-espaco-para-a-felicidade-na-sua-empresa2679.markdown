@@ -23,12 +23,12 @@ Então pensemos, a sua empresa contribui para a Felicidade dos colaboradores? É
 
 Começamos o presente por referir que a Felicidade não tem preço, mas dá trabalho. No entanto, os ganhos são imensos. Citando Máximo Gorki “Quando o trabalho é prazer, a vida é uma alegria. Quando o trabalho é dever, a vida é uma escravidão.”
 
-Deitamos mãos à obra?
+Deitamos mãos à obra?<br><br>
 
  
 
-                                        Sara Oliveira
+**Sara Oliveira**
 
-                                        Consultora – Formadora
+Consultora – Formadora
 
-                                        EDIT VALUE® CAPITAL HUMANO
+EDIT VALUE® CAPITAL HUMANO

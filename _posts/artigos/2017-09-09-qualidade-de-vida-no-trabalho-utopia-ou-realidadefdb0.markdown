@@ -22,7 +22,7 @@ E a sua organização? Já pensou no que pode fazer para melhorar a qualidade de
 
  
 
-Sara Oliveira
+**Sara Oliveira**
 
 Consultora – Formadora
 

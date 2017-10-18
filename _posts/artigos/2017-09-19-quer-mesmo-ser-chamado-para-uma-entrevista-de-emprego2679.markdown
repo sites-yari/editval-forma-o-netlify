@@ -21,10 +21,10 @@ Encabeço a direção de gestão do Theatro Circo e, para além da área finance
 **Enviar o CV em word**. O formato preferível é sempre o PDF. É não editável, o que garante a integridade da informação, e está pronto a imprimir sem necessitar de configurações adicionais. Pessoalmente gosto de ler a carta de apresentação no próprio texto do e-mail e ter o CV como anexo. Mas integrá-los num único documento também é uma boa opção porque assim asseguram que os documentos nunca serão separados quando forem arquivados e consultados posteriormente.<br>
 **Passar uma mensagem pouco profissional**. Fotos a fazer beicinho, em ambientes de copos e em poses provocantes são mais apropriadas para as redes sociais. Acreditem, já recebemos de tudo. Ah, e se têm apenas um endereço de e-mail e ele é do tipo anamokas@ ou ruibejecas@ provavelmente está na altura de criar outro.<br>
 
-Claro que nem todos os CV que recebemos são deste tipo e felizmente há exceções. Lembro-me especificamente de um jovem candidato ter conseguido uma entrevista de emprego numa altura em que nem sequer estávamos a contratar. A forma esclarecida como se dirigiu à pessoa com quem gostaria de trabalhar, o propósito da sua candidatura, o conhecimento que revelou da estrutura e o seu entusiasmo latente impressionou. Adivinham o que aconteceu?
+Claro que nem todos os CV que recebemos são deste tipo e felizmente há exceções. Lembro-me especificamente de um jovem candidato ter conseguido uma entrevista de emprego numa altura em que nem sequer estávamos a contratar. A forma esclarecida como se dirigiu à pessoa com quem gostaria de trabalhar, o propósito da sua candidatura, o conhecimento que revelou da estrutura e o seu entusiasmo latente impressionou. Adivinham o que aconteceu?<br><br>
 
  
 
-                                          Daniela Queirós
+**Daniela Queirós**
 
-      Diretora de Gestão do Theatro Circo de Braga EM, SA
+Diretora de Gestão do Theatro Circo de Braga EM, SA

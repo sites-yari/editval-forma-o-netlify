@@ -24,7 +24,7 @@ A investigação tem tornado evidente a ligação entre Inteligência Emocional 
 
  
 
-Ana Rodrigues
+**Ana Rodrigues**
 
 Consultora Formadora em Gestão de Recursos Humanos
 

@@ -26,7 +26,7 @@ Já pensou como desenvolver os talentos na organização?<br><br><br>
 
  
 
-Manuela Cunha
+**Manuela Cunha**
 
 HR Specialist IKEA Portugal
 

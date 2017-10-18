@@ -20,10 +20,10 @@ Para os colaboradores antigos tudo parece tão óbvio, porque eles têm os seus 
 
 Com isso, realizar ações de socialização e integração, ocupando-se de quem é novo na organização, tende a diminuir as rescisões de contrato no período. São ações humanas que valorizam quem chega, assim como são ações inteligentes que valoriza um investimento já feito. Pergunta-se: o novo colaborador é realmente bem-vindo na sua organização? Quais são ações de socialização e de integração que estão programadas?
 
-Moacir Rauber
+**Moacir Rauber**
 
 Palestrante, Coach e Escritor
 
-Home: www.olhemaisumavez.com.br
+Home: [www.olhemaisumavez.com.br](http://olhemaisumavez.com.br/)
 
-Blog: www.facetas.com.br
+Blog: [www.facetas.com.br](http://facetas.com.br/)

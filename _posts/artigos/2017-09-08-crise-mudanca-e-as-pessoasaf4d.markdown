@@ -22,7 +22,7 @@ Esta forma de solucionar os problemas mostra-se dispendiosa já que pode conduzi
 
  
 
-Carolina Machado
+**Carolina Machado**
 
 Professora Associada
 

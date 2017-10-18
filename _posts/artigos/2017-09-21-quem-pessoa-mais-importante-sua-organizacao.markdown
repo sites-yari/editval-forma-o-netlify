@@ -35,7 +35,7 @@ Quem é a pessoa mais importante para a sua organização? Todos somos igualment
 
 Palestrante, Coach e Escritor
 
-Home: www.olhemaisumavez.com.br
+Home: [www.olhemaisumavez.com.br](http://olhemaisumavez.com.br/)
 
-Blog: www.facetas.com.br
+Blog: [www.facetas.com.br](http://facetas.com.br/)
 

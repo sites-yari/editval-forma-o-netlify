@@ -28,12 +28,12 @@ Se por um lado concordei com o conteúdo da intervenção do CEO, por outro lado
 
 Falar de pessoas é fácil,porém agir como um simples ser humano parece ser um pouco mais difícil, embora ninguém seja mais do que isso. Por isso, se for falar de pessoas para pessoas há que falar com as pessoas. Caso contrário é melhor não aparecer...
 
-                      Já pensou como fala com as pessoas da sua empresa?
+Já pensou como fala com as pessoas da sua empresa?<br><br>
 
-                                                            Moacir Rauber
+**Moacir Rauber**
 
-                                            Palestrante, Coach e Escritor
+Palestrante, Coach e Escritor
 
-                                          Home: [www.olhemaisumavez.com.br] (http://olhemaisumavez.com.br/)
+Home: [www.olhemaisumavez.com.br] (http://olhemaisumavez.com.br/)
 
-                                                Blog: [www.facetas.com.br](http://facetas.com.br/)
+Blog: [www.facetas.com.br](http://facetas.com.br/)

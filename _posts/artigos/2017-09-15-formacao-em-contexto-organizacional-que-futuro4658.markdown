@@ -27,7 +27,7 @@ Embora sabendo que a formação presencial não deve ser banida das empresas, po
 
  <br><br><br>
 
-Liliana Fonte
+**Liliana Fonte**
 
 Training Developer/Instructional Designer
 
