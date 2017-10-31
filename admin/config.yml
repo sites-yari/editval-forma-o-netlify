@@ -20,20 +20,22 @@ collections:
       - { label: "Data de publicação", name: "date", widget: "datetime", format: "YYYY-MM-DD" }
 
   #-----| Artigos |-------------------------------|
-  - name: "artigos-economia"
-    label: "Artigos de Economia"
-    folder: "_posts/artigos-economia"
+  - name: "artigos"
+    label: "Artigos"
+    folder: "_posts/artigos"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
-      - { label: "Layout", name: "layout", widget: "hidden", default: "for-post-text" }
+      - { label: "Layout", name: "layout", widget: "hidden", default: "post-text" }
       - { label: "Titulo", name: "title", widget: "string" }
       - { label: "Data de Publicação", name: "data", widget: "datetime", format: "DD-MM-YYYY" }
-      - { label: "Autor", name: "autor", widget: "string" }
+      - { label: "Imagem", name: "text_image_path", widget: "image" }
       - { label: "Categoria", name: "category", widget: "hidden", default: "artigos" }
       - { label: "Classe", name: "class", widget: "hidden", default: "media-pt" }
       - { label: "Activo", name: "media_active?", widget: "hidden", default: "active" }
-      - { label: "Formação?", name: "formacao?", widget: "hidden", default: "artigos-economia" }
+      - { label: "artigos active?", name: "artigos_active?", widget: "hidden", default: "active" }
+      - { label: "Idioma", name: "idiom", widget: "hidden", default: "pt" }
+      - { label: "Endereço da Página", name: "permalink", widget: "string", default: "pt-media/artigos/(nome)" }
       - { label: "Contexto", name: "body", widget: "markdown" }
 
   #-----| Clipping |------------------------------|
@@ -43,13 +45,14 @@ collections:
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
-      - { label: "Layout", name: "layout", widget: "hidden", default: "for-post" }
+      - { label: "Layout", name: "layout", widget: "hidden", default: "default" }
       - { label: "Titulo", name: "title", widget: "string" }
       - { label: "Categoria", name: "category", widget: "hidden", default: "clipping" }
       - { label: "Imagem de Capa", name: "main_image_path", widget: "image" }
       - { label: "Classe", name: "class", widget: "hidden", default: "media-pt" }
       - { label: "Media Active?", name: "media_active?", widget: "hidden", default: "active" }
-      - { label: "Formação?", name: "formacao?", widget: "hidden", default: "clipping" }
+      - { label: "clipping active?", name: "clipping_active?", widget: "hidden", default: "active" }
+      - { label: "Idioma", name: "idiom", widget: "hidden", default: "pt" }
       - { label: "Nome do Endereço", name: "permalink", widget: "string", default: "pt-media/clipping/recortes-" }
       - label: "Lista de Imagens"
         name: "image_list"
@@ -67,14 +70,16 @@ collections:
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
-      - { label: "Layout", name: "layout", widget: "hidden", default: "media-post" }
+      - { label: "Layout", name: "layout", widget: "hidden", default: "default" }
       - { label: "Titulo", name: "title", widget: "string" }
       - { label: "Descrição", name: "description", widget: "string" }
+      - { label: "Ano de Publicação", name: "year", widget: "number" }
       - { label: "Categoria", name: "category", widget: "hidden", default: "galeria-de-fotos" }
       - { label: "Imagem de capa", name: "main_image_path", widget: "image" }
       - { label: "Classe", name: "class", widget: "hidden", default: "media-pt" }
       - { label: "Media Active?", name: "media_active?", widget: "hidden", default: "active" }
-      - { label: "Formação?", name: "formacao?", widget: "hidden", default: "galeria-fotos" }
+      - { label: "galeria active?", name: "galeria_active?", widget: "hidden", default: "active" }
+      - { label: "Idioma", name: "idiom", widget: "hidden", default: "pt" }
       - { label: "Nome do Endereço", name: "permalink", widget: "string", default: "pt-media/galeria-fotos/(nome)" }
       - label: "Lista de Imagens"
         name: "image_list"
@@ -90,13 +95,15 @@ collections:
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
-      - { label: "Layout", name: "layout", widget: "hidden", default: "for-post-text" }
+      - { label: "Layout", name: "layout", widget: "hidden", default: "post-text" }
       - { label: "Titulo", name: "title", widget: "string" }
       - { label: "Data de Publicação", name: "data", widget: "datetime", format: "DD-MM-YYYY" }
       - { label: "Categoria", name: "category", widget: "hidden", default: "press-release" }
       - { label: "Classe", name: "class", widget: "hidden", default: "media-pt" }
       - { label: "Media Active?", name: "media_active?", widget: "hidden", default: "active" }
-      - { label: "Formação?", name: "formacao?", widget: "press-release" }
+      - { label: "press active?", name: "press_active?", widget: "hidden", default: "active" }
+      - { label: "Idioma", name: "idiom", widget: "hidden", default: "pt" }
+      - { label: "Nome do Endereço", name: "permalink", widget: "string", default: "pt-media/press-release/(nome)" }
       - { label: "Descrição do titulo", name: "body", widget: "markdown" }
 
   #-----| Redes |---------------------------------|
@@ -112,6 +119,23 @@ collections:
       - { label: "Endereço/link", name: "link", widget: "string" }
       - { label: "Descrição", name: "text", widget: "string" }
 
+  #-----| FORMAÇÃO |---------------------------------|
+  - name: "formacao"
+    label: "Formação"
+    folder: "_posts/formacao"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "ID de identificação", name: "identificacao_id", widget: "string" }
+      - { label: "Nome", name: "title", widget: "string" }
+      - { label: "Horas", name: "horas", widget: "number" }
+      - { label: "Mês", name: "mes", widget: "string" }
+      - { label: "Desconto de Inscricão", name: "desconto_inscricao", widget: "string" }
+      - { label: "Categoria", name: "category", widget: "hidden", default: "formacao" }
+      - { label: "ciclo categoria", name: "ciclo_category", widget: "string" }
+      - { label: "formacao active?", name: "formacao_Active?", widget: "hidden", default: "active" }
+      - { label: "Classe", name: "class", widget: "hidden", default: "formacao-pt" }
+      - { label: "Idioma", name: "idiom", widget: "hidden", default: "pt" }
 
   - name: "data" #|=====================| DATA |====================================================|
     label: "Data"
