@@ -13,27 +13,25 @@ idiom: es
         <div class='list left_agenda ' id='list_157'>
           <div class='items'>
             <ul>
+              {% for es in site.data.pagina-index.es.info %}
               <li class='i-0   no-image odd'>
                 <div class='item'>
                   <div class='date'>
-                    <span>12-08-2013</span>
+                    <span>{{es.data}}</span>
                   </div>
                   <div class='name'>
                     <span class='label'>Nome</span>
-                    <span class='value'>Formación de Excelencia</span>
+                    <span class='value'>{{es.titulo}}</span>
                   </div>
                   <div class='text1'>
                     <span class='label'>Texto</span>
                     <span class='value'><p>&nbsp;</p>
-                      <p>El EDIT VALUE® Formación Empresarial dispone diversos programas de formación de excelencia.<br />
-                      <br />
-                      La integración de varios cursos de lenguas extranjeras aplicadas, estamos dedicados a una audiencia compuesta por estudiantes universitarios, jóvenes que ingresan al mercado de trabajo y profesionales de cualquier empresa.<br />
-                      <br />
-                      Transformar Competencias en Valor®.</p>
+                      <p>{{es.text}}</p>
                     </span>
                   </div>
                 </div>
               </li>
+              {% endfor %}
             </ul>
             <div class='footer'>
           </div>
@@ -54,20 +52,17 @@ idiom: es
                     <div class='name'>
                       <a href='#'>
                         <span class='label'>Nome</span>
-                        <span class='value'>TEAMBUILDING PARA SU NEGOCIO!</span>
+                        <span class='value'>{{site.data.pagina-index.es.cvtube.titulo}}</span>
                       </a>
                     </div>
                     <div class='image'>
-                      <img alt="TEAMBUILDING PARA SU NEGOCIO!" class="blur" src='images/dynamic/W1siZnUiLCJodHRwczovL2FkYWdhd2ViLnMzLmFtYXpvbmF/MTQ5NDQxMzAxNyJdLFsicCIsInRodW1iIiwiMzAweDMwMCM/teambuildinga385.png?sha=ea9becc82830c0dd' />
+                      <img alt="{{site.data.pagina-index.es.cvtube.titulo}}" class="blur" src='{{site.data.pagina-index.es.cvtube.image_path}}' />
                     </div>
                   </div>
                   <div class='text1'>
                     <span class='label'>Texto</span>
-                    <span class='value'><p>El <strong>EDIT VALUE® Formación Empresarial</strong> sugiere diversos programas de <em><strong>Teambuilding</strong></em>, formato al aire libre para su equipo. Seleccione las actividades que tenemos para ofrecer y tomar tiempo para reforzar el activo más importante que tiene en su empresa.<br />
-                      <br />
-                      Todos los participantes parten hacia la aventura y el compañerismo es forzado al extremo! Retos y puzzles deben ser resueltos para que el objetivo final se cumpla! En un paisaje impresionante, se proporcionarán momentos de pura adrenalina y diversión que estarán en la memoria de los asistentes.<br />
-                      <br />
-                      Transformar Competencias Valor®.</p>
+                    <span class='value'>
+                      <p>{{site.data.pagina-index.es.cvtube.text}}</p>
                     </span>
                   </div>
                 </div>

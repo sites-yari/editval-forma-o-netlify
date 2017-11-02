@@ -14,25 +14,25 @@ idiom: en
         <div class='list left_agenda ' id='list_157'>
           <div class='items'>
             <ul>
+              {% for en in site.data.pagina-index.en.info %}
               <li class='i-0   no-image odd'>
                 <div class='item'>
                   <div class='date'>
-                    <span>12-08-2013</span>
+                    <span>{{en.data}}</span>
                   </div>
                   <div class='name'>
                     <span class='label'>Nome</span>
-                    <span class='value'>Excellence Training</span>
+                    <span class='value'>{{en.titulo}}</span>
                   </div>
                   <div class='text1'>
                     <span class='label'>Texto</span>
                     <span class='value'><p>&nbsp;</p>
-                      <p>The EDIT VALUE® Entrepreneurial Training provides several training programs of excellence.</p>
-                      <p>Integrating several courses of applied foreign languages​​, we are focused on the audience composed of university students, young people entering the labor market and professionals of any company.</p>
-                      <p>We Turn Competencies into Value®.</p>
+                      <p>{{en.text}}</p>
                     </span>
                   </div>
                 </div>
               </li>
+              {% endfor %}
             </ul>
             <div class='footer'>
             </div>
@@ -54,21 +54,17 @@ idiom: en
                     <div class='name'>
                       <a href='#'>
                         <span class='label'>Nome</span>
-                        <span class='value'>TEAMBUILDING FOR YOUR BUSINESS!</span>
+                        <span class='value'>{{site.data.pagina-index.en.cvtube.titulo}}</span>
                       </a>
                     </div>
                     <div class='image'>
-                      <img alt="TEAMBUILDING FOR YOUR BUSINESS!" class="blur" src='images/dynamic/W1siZnUiLCJodHRwczovL2FkYWdhd2ViLnMzLmFtYXpvbmF/MTQ5NDQxMzAxNyJdLFsicCIsInRodW1iIiwiMzAweDMwMCM/teambuildinga385.png?sha=ea9becc82830c0dd' />
+                      <img alt="{{site.data.pagina-index.en.cvtube.titulo}}" class="blur" src='{{site.data.pagina-index.en.cvtube.image_path}}' />
                     </div>
                   </div>
                   <div class='text1'>
                     <span class='label'>Texto</span>
-                    <span class='value'><p>The <strong>EDIT VALUE® Entrepreneurial Training</strong> suggests you several <em><strong>Teambuilding</strong></em> programs, Outdoor format for your team. Select the activities that we are offering and take time to reinforce the most important asset you have in your company.<br />
-                      <br />
-                      All participants depart towards adventure and companionship are forced to the extreme! Challenges and puzzles must be solved so that the ultimate goal is accomplished! These adventures will take place in a stunning scenery, and we promise that these moments will be full of adrenaline, smiles and self-discovery &nbsp;as well.</p>
-
-                      <p><br />
-                      We Turn Competencies into Value®.</p>
+                    <span class='value'>
+                      <p>{{site.data.pagina-index.en.cvtube.text}}</p>
                     </span>
                   </div>
                 </div>

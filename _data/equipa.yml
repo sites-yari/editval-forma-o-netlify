@@ -1,3 +1,86 @@
+#===========================================================================================================================================
+missao:
+  pt:
+    titulo: Missão
+    image_path: assets/sites/55a8c341acbda1dcd0000002/theme/images/foreigners/edit-value-formacao/213/41926/missao1.jpg
+    text: Transformar competências em valor, fomentando o desenvolvimento organizacional e a melhoria da competitividade e da produtividade empresarial.
+  en:
+    titulo: Mission
+    image_path: assets/sites/55a8c341acbda1dcd0000002/theme/images/foreigners/edit-value-formacao/213/41926/missao1.jpg
+    text: Turn competencies into value, fostering organizational development and improvement of competitiveness and business productivity.
+  es:
+    titulo: Misión
+    image_path: assets/sites/55a8c341acbda1dcd0000002/theme/images/foreigners/edit-value-formacao/213/41926/missao1.jpg
+    text: Convertir las competencias en valor, promover el desarrollo organizacional y mejorar la competitividad y productividad empresarial.
+
+
+#===========================================================================================================================================
+visao:
+  pt:
+    titulo: Visão
+    image_path: assets/sites/55a8c341acbda1dcd0000002/theme/images/foreigners/edit-value-formacao/213/41922/visao.png
+    text: Ser uma referência na prestação de serviços de recursos humanos e formação empresarial, pela criação de valor acrescentado às pessoas nas empresas, através de um forte empenho na área de IDI e da formação contínua do capital humano, rumo à Excelência.
+  en:
+    titulo: Vision
+    image_path: assets/sites/55a8c341acbda1dcd0000002/theme/images/foreigners/edit-value-formacao/213/41922/visao.png
+    text: Be a reference in the provision of business training, by creating added value to people in business through a strong commitment to the field of RDI and training of human capital, towards Excellence.
+  es:
+    titulo: Visión
+    image_path: assets/sites/55a8c341acbda1dcd0000002/theme/images/foreigners/edit-value-formacao/213/41922/visao.png
+    text: Ser un referente en la prestación de la formación empresarial, mediante la creación de valor añadido para la gente de negocios a través de un fuerte compromiso con el campo de la Investigación & Desarrollo y la formación de capital humano, hacia la Excelencia.
+
+
+
+#===========================================================================================================================================
+valores:
+  pt:
+    titulo: Valores
+    image_path: assets/sites/55a8c341acbda1dcd0000002/theme/images/foreigners/edit-value-formacao/213/41927/valores.jpg
+    text: A nossa atuação é sustentada por um conjunto de valores nos quais acreditamos e por eles nos esforçamos, tais como;
+      <br><br>
+      . Conhecimento e inovação
+      <br><br>
+      . Compromisso e competência
+      <br><br>
+      . Espírito de equipa e dinamismo
+      <br><br>
+      . Confiança e honestidade
+      <br><br>
+      . Responsabilidade ética, social e ambiental.
+  en:
+    titulo: Values
+    image_path: assets/sites/55a8c341acbda1dcd0000002/theme/images/foreigners/edit-value-formacao/213/41927/valores.jpg
+    text: Our company's activities are based on the values we believe in and strive for it.  Mainly it is;
+      <br><br>
+      . Knowledge and innovation
+      <br><br>
+      . Commitment and competence
+      <br><br>
+      . Team spirit and dynamism
+      <br><br>
+      . Trust and honesty
+      <br><br>
+      . Ethical, social and environmental.
+  es:
+    titulo: Valores
+    image_path: assets/sites/55a8c341acbda1dcd0000002/theme/images/foreigners/edit-value-formacao/213/41927/valores.jpg
+    text: Nuestra actuación se basa en un conjunto de valores en los cuales creemos e por los cual luchamos, tales como;
+     <br><br>
+     . Conocimiento e innovación 
+     <br><br>
+     . Compromiso e competencia 
+     <br><br>
+     . Espíritu de equipo e dinamismo 
+     <br><br>
+     . Confianza e honestidad 
+     <br><br>
+     . Ética social e laboral 
+     <br><br>
+     . Respeto del medio ambiente.
+
+
+
+#===========================================================================================================================================
 lista:
   equipa_pt:
     -
