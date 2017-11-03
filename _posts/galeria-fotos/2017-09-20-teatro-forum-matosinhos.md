@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post-galeria
 title: Teatro Fórum Matosinhos
 description: 
 year: 2012
@@ -28,4 +28,3 @@ idiom: pt
 permalink: pt-media/galeria-fotos/teatro-forum-matosinhos
 --- 
 
-{% include galeria-post.html %}

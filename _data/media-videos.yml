@@ -2,6 +2,7 @@ videos:
   -
     titulo: Slot fazio
     category: videos
+    existencia: Não Existe
     link: #
     image_path: http://img.youtube.com/vi/begKcXBZhRY/0.jpg
     ano: 2017

@@ -4,7 +4,7 @@ media_folder: "assets/uploads"
 backend:
   name: git-gateway
   repo: https://github.com/sites-yari/editval-formacao-netlify
-  branch: devlp # Branch to update (optional; defaults to master)
+  branch: master # Branch to update (optional; defaults to master)
   site_domain: formacao-editvalue.netlify.com
 
 collections:
@@ -132,7 +132,7 @@ collections:
       - { label: "Mês", name: "mes", widget: "string" }
       - { label: "Desconto de Inscricão", name: "desconto_inscricao", widget: "string" }
       - { label: "Categoria", name: "category", widget: "hidden", default: "formacao" }
-      - { label: "ciclo categoria", name: "ciclo_category", widget: "string" }
+      - { label: "ciclo categoria", name: "ciclo_category", widget: "select", options: ["desenvolvimento_pessoal","competencias_relacionais","lideranca","gestao_pessoas","criatividade_inovacao","linguas_estrangeiras","melhoria_continua","marketing","ferramentas_informaticas","higiene_seguranca"] }
       - { label: "formacao active?", name: "formacao_Active?", widget: "hidden", default: "active" }
       - { label: "Classe", name: "class", widget: "hidden", default: "formacao-pt" }
       - { label: "Idioma", name: "idiom", widget: "hidden", default: "pt" }
@@ -142,7 +142,7 @@ collections:
     editor:
       preview: true
     files:
-        #---| INDEX |---
+        #---| INDEX |---------------------------------------------------
       - name: "pagina-index"
         label: "Pagina de Inicio"
         file: "_data/pagina-index.yml"
@@ -154,46 +154,33 @@ collections:
             fields:
               - label: Informação
                 name: info
-                widget: object
+                widget: list
                 fields:
                   - { label: "Data de publicação", name: "data", widget: "datetime", format: "DD-MM-YYYY" }
                   - { label: "Titulo", name: "titulo", widget: "string" }
                   - { label: "Descrição", name: "text", widget: "markdown" }
-              - label: CVtube
-                name: cvtube
-                widget: object
+              - label: Caixas de Informação
+                name: lista
+                widget: list
                 fields:
                   - { label: "Imagem", name: "image_path", widget: "image" }
                   - { label: "Titulo", name: "titulo", widget: "string" }
                   - { label: "Descrição", name: "text", widget: "markdown" }
-              - label: Learn 2 work
-                name: learn2work
-                widget: object
-                fields:
-                  - { label: "Imagem", name: "image_path", widget: "image" }
-                  - { label: "Titulo", name: "titulo", widget: "string" }
-                  - { label: "Descrição", name: "text", widget: "markdown" }
+              
           - label: EN #-------EN
             name: en
             widget: object
             fields:
               - label: Informação
                 name: info
-                widget: object
+                widget: list
                 fields:
                   - { label: "Data de publicação", name: "data", widget: "datetime", format: "DD-MM-YYYY" }
                   - { label: "Titulo", name: "titulo", widget: "string" }
                   - { label: "Descrição", name: "text", widget: "markdown" }
-              - label: CVtube
-                name: cvtube
-                widget: object
-                fields:
-                  - { label: "Imagem", name: "image_path", widget: "image" }
-                  - { label: "Titulo", name: "titulo", widget: "string" }
-                  - { label: "Descrição", name: "text", widget: "markdown" }
-              - label: Learn 2 work
-                name: learn2work
-                widget: object
+              - label: Caixas de Informação
+                name: lista
+                widget: list
                 fields:
                   - { label: "Imagem", name: "image_path", widget: "image" }
                   - { label: "Titulo", name: "titulo", widget: "string" }
@@ -204,26 +191,19 @@ collections:
             fields:
               - label: Informação
                 name: info
-                widget: object
+                widget: list
                 fields:
                   - { label: "Data de publicação", name: "data", widget: "datetime", format: "DD-MM-YYYY" }
                   - { label: "Titulo", name: "titulo", widget: "string" }
                   - { label: "Descrição", name: "text", widget: "markdown" }
-              - label: CVtube
-                name: cvtube
-                widget: object
+              - label: Caixas de Informação
+                name: lista
+                widget: list
                 fields:
                   - { label: "Imagem", name: "image_path", widget: "image" }
                   - { label: "Titulo", name: "titulo", widget: "string" }
                   - { label: "Descrição", name: "text", widget: "markdown" }
-              - label: Learn 2 work
-                name: learn2work
-                widget: object
-                fields:
-                  - { label: "Imagem", name: "image_path", widget: "image" }
-                  - { label: "Titulo", name: "titulo", widget: "string" }
-                  - { label: "Descrição", name: "text", widget: "markdown" }
-        #---| EQUIPA |---
+        #---| EQUIPA |------------------------------------------------------
       - name: "equipa"
         label: "Equipa - quem somos"
         file: "_data/equipa.yml"
@@ -335,7 +315,7 @@ collections:
                   - { label: "Descrição", name: "texto", widget: "string" }
                   - { label: "Telefone", name: "telefone", widget: "string" }
                   - { label: "Email", name: "email", widget: "string" }
-        #---| SERVIÇOS |---
+        #---| SERVIÇOS |--------------------------------------------------
       - name: "servicos"
         label: "Serviços - mais valor"
         file: "_data/servicos.yml"
@@ -349,24 +329,39 @@ collections:
                 name: solucao
                 widget: object
                 fields:
-                  - label: Avançada
-                    name: avancada
+                  - label: Caixa de Info 1 
+                    name: saber1
                     widget: object
                     fields:
-                      - { label: "Titulo", name: "titulo", widget: "string" }
-                      - { label: "Descrição", name: "text", widget: "markdown" }
-                  - label: Completa
-                    name: completa
+                      - { label: "Texto", name: "text", widget: "string" }
+                      - label: "Lista de temas"
+                        name: "x"
+                        widget: "list"
+                        fields:
+                          - { label: "Tema", name: "tema", widget: "string" }
+                          - { label: "Descrição do tema", name: "text", widget: "markdown" } 
+                  - label: Caixa de Info 2 
+                    name: saber2
                     widget: object
                     fields:
-                      - { label: "Titulo", name: "titulo", widget: "string" }
-                      - { label: "Descrição", name: "text", widget: "markdown" }
-                  - label: Personalizada
-                    name: personalizada
+                      - { label: "Texto", name: "text", widget: "string" }
+                      - label: "Lista de temas"
+                        name: "x"
+                        widget: "list"
+                        fields:
+                          - { label: "Tema", name: "tema", widget: "string" }
+                          - { label: "Descrição do tema", name: "text", widget: "markdown" } 
+                  - label: Caixa de Info 3
+                    name: saber3
                     widget: object
                     fields:
-                      - { label: "Titulo", name: "titulo", widget: "string" }
-                      - { label: "Descrição", name: "text", widget: "markdown" }
+                      - { label: "Texto", name: "text", widget: "string" }
+                      - label: "Lista de temas"
+                        name: "x"
+                        widget: "list"
+                        fields:
+                          - { label: "Tema", name: "tema", widget: "string" }
+                          - { label: "Descrição do tema", name: "text", widget: "markdown" } 
               - label: Áreas
                 name: areas
                 widget: list
@@ -382,24 +377,39 @@ collections:
                 name: solucao
                 widget: object
                 fields:
-                  - label: Avançada
-                    name: avancada
+                  - label: Caixa de Info 1 
+                    name: saber1
                     widget: object
                     fields:
-                      - { label: "Titulo", name: "titulo", widget: "string" }
-                      - { label: "Descrição", name: "text", widget: "markdown" }
-                  - label: Completa
-                    name: completa
+                      - { label: "Texto", name: "text", widget: "string" }
+                      - label: "Lista de temas"
+                        name: "x"
+                        widget: "list"
+                        fields:
+                          - { label: "Tema", name: "tema", widget: "string" }
+                          - { label: "Descrição do tema", name: "text", widget: "markdown" } 
+                  - label: Caixa de Info 2 
+                    name: saber2
                     widget: object
                     fields:
-                      - { label: "Titulo", name: "titulo", widget: "string" }
-                      - { label: "Descrição", name: "text", widget: "markdown" }
-                  - label: Personalizada
-                    name: personalizada
+                      - { label: "Texto", name: "text", widget: "string" }
+                      - label: "Lista de temas"
+                        name: "x"
+                        widget: "list"
+                        fields:
+                          - { label: "Tema", name: "tema", widget: "string" }
+                          - { label: "Descrição do tema", name: "text", widget: "markdown" } 
+                  - label: Caixa de Info 3
+                    name: saber3
                     widget: object
                     fields:
-                      - { label: "Titulo", name: "titulo", widget: "string" }
-                      - { label: "Descrição", name: "text", widget: "markdown" }
+                      - { label: "Texto", name: "text", widget: "string" }
+                      - label: "Lista de temas"
+                        name: "x"
+                        widget: "list"
+                        fields:
+                          - { label: "Tema", name: "tema", widget: "string" }
+                          - { label: "Descrição do tema", name: "text", widget: "markdown" } 
               - label: Áreas
                 name: areas
                 widget: list
@@ -415,24 +425,39 @@ collections:
                 name: solucao
                 widget: object
                 fields:
-                  - label: Avançada
-                    name: avancada
+                  - label: Caixa de Info 1 
+                    name: saber1
                     widget: object
                     fields:
-                      - { label: "Titulo", name: "titulo", widget: "string" }
-                      - { label: "Descrição", name: "text", widget: "markdown" }
-                  - label: Completa
-                    name: completa
+                      - { label: "Texto", name: "text", widget: "string" }
+                      - label: "Lista de temas"
+                        name: "x"
+                        widget: "list"
+                        fields:
+                          - { label: "Tema", name: "tema", widget: "string" }
+                          - { label: "Descrição do tema", name: "text", widget: "markdown" } 
+                  - label: Caixa de Info 2 
+                    name: saber2
                     widget: object
                     fields:
-                      - { label: "Titulo", name: "titulo", widget: "string" }
-                      - { label: "Descrição", name: "text", widget: "markdown" }
-                  - label: Personalizada
-                    name: personalizada
+                      - { label: "Texto", name: "text", widget: "string" }
+                      - label: "Lista de temas"
+                        name: "x"
+                        widget: "list"
+                        fields:
+                          - { label: "Tema", name: "tema", widget: "string" }
+                          - { label: "Descrição do tema", name: "text", widget: "markdown" } 
+                  - label: Caixa de Info 3
+                    name: saber3
                     widget: object
                     fields:
-                      - { label: "Titulo", name: "titulo", widget: "string" }
-                      - { label: "Descrição", name: "text", widget: "markdown" }
+                      - { label: "Texto", name: "text", widget: "string" }
+                      - label: "Lista de temas"
+                        name: "x"
+                        widget: "list"
+                        fields:
+                          - { label: "Tema", name: "tema", widget: "string" }
+                          - { label: "Descrição do tema", name: "text", widget: "markdown" } 
               - label: Áreas
                 name: areas
                 widget: list
@@ -440,67 +465,7 @@ collections:
                   - { label: "Titulo", name: "titulo", widget: "string" }
                   - { label: "Imagem", name: "image_path", widget: "image" }
                   - { label: "Descrição", name: "text", widget: "markdown" }
-        #---| INVESTIGAÇÃO |---
-      - name: "investigacao"
-        label: "Investigação - Núcleo i&d"
-        file: "_data/investigacao.yml"
-        description: Dados da pagina investigacao
-        fields:
-          - label: PT #----- PT
-            name: pt
-            widget: object
-            fields:
-              - label: Publicações
-                name: publicacoes
-                widget: list
-                fields:
-                  - { label: "Assunto", name: "assunto", widget: "string" }
-                  - { label: "Texto 1", name: "paragrafo1", widget: "string" }
-                  - { label: "Texto 2", name: "paragrafo2", widget: "string" }
-                  - { label: "Download", name: "link", widget: "file" }
-              - label: Textos
-                name: textos
-                widget: list
-                fields: 
-                  - { label: "Titulo", name: "titulo", widget: "string" }
-                  - { label: "Descrição", name: "paragrafo", widget: "markdown" }
-          - label: EN #----- EN
-            name: en
-            widget: object
-            fields:
-              - label: Publicações
-                name: publicacoes
-                widget: list
-                fields:
-                  - { label: "Assunto", name: "assunto", widget: "string" }
-                  - { label: "Texto 1", name: "paragrafo1", widget: "string" }
-                  - { label: "Texto 2", name: "paragrafo2", widget: "string" }
-                  - { label: "Download", name: "link", widget: "file" }
-              - label: Textos
-                name: textos
-                widget: list
-                fields: 
-                  - { label: "Titulo", name: "titulo", widget: "string" }
-                  - { label: "Descrição", name: "paragrafo", widget: "markdown" }
-          - label: ES #----- ES
-            name: es
-            widget: object
-            fields:
-              - label: Publicações
-                name: publicacoes
-                widget: list
-                fields:
-                  - { label: "Assunto", name: "assunto", widget: "string" }
-                  - { label: "Texto 1", name: "paragrafo1", widget: "string" }
-                  - { label: "Texto 2", name: "paragrafo2", widget: "string" }
-                  - { label: "Download", name: "link", widget: "file" }
-              - label: Textos
-                name: textos
-                widget: list
-                fields: 
-                  - { label: "Titulo", name: "titulo", widget: "string" }
-                  - { label: "Descrição", name: "paragrafo", widget: "markdown" }
-        #---| REDE |---
+        #---| REDE |-------------------------------------------------
       - name: "rede"
         label: "Rede - Parcerias"
         file: "_data/rede.yml"
@@ -514,45 +479,22 @@ collections:
                name: "industria"
                widget: list
                fields:
-                - { label: "Campo", name: "cliente", widget: string }
+                - { label: "Campo Industria", name: "cliente", widget: string }
              - label: "Comercio"
                name: "comercio"
                widget: list 
                fields:
-                - { label: "Campo", name: "cliente", widget: string }
+                - { label: "Campo Comercio", name: "cliente", widget: string }
              - label: "Serviços"
                name: "servicos"
                widget: list 
                fields:
-                - { label: "Campo", name: "cliente", widget: string }
+                - { label: "Campo Serviço", name: "cliente", widget: string }
              - label: "Entidades"
                name: "entidades"
                widget: list 
                fields:
-                - { label: "Campo", name: "cliente", widget: string }
-        #---| BOLSA DE IDEAS |---
-      - name: "bolsa-ideias"
-        label: "Bolsa de Ideias - Empreender"
-        file: "_data/bolsa-ideias.yml"
-        description: Dados da pagina Bolsa de Ideias
-        fields:
-          - label: Bolsa #----- Bolsa
-            name: bolsa
-            widget: list
-            fields:
-              - { label: "Titulo", name: "titulo", widget: "string" }
-              - { label: "Ditado", name: "ditado", widget: "string" }
-              - { label: "Autor", name: "autor", widget: "string" }
-              - { label: "Descrição", name: "paragrafo", widget: "markdown" }
-          - label: Ideias Partilhadas #----- clientes
-            name: ideias_partilhadas
-            widget: list
-            fields:
-              - { label: "Tema", name: "tema", widget: "string" }
-              - { label: "Resumo", name: "resumo", widget: "string" }
-              - { label: "Promotora", name: "promotora", widget: "string" }
-              - { label: "Alvo Publico", name: "publico_alvo", widget: "string" }
-              - { label: "Investimento", name: "investimento", widget: "string" }
+                - { label: "Campo Entidade", name: "cliente", widget: string }
         #---| ICONS SOCIAIS |---
       - name: "paginas-sociais"
         label: "Icons de páginas Sóciais"
@@ -595,6 +537,7 @@ collections:
             fields:
               - { label: "Titulo", name: "titulo", widget: "string" }
               - { label: "Categoria", name: "category", widget: "hidden", default: "videos" }
+              - { label: "Existe o Video?", name: "existencia", widget: "select", options: ["Não Existe","Existe"] }
               - { label: "Endereço / Link", name: "link", widget: "string" }
               - { label: "Imagem de capa", name: "image_path", widget: "image" }
               - { label: "Ano publicado", name: "ano", widget: number }
@@ -683,26 +626,6 @@ collections:
                 fields: 
                   - { label: "Aberto", name: "aberto", widget: "string" }
                   - { label: "Fechado", name: "fechado", widget: "string" }
-        #---| RUMO ECONOMICO |---
-      - name: "rumo-economico"
-        label: "Rumo Económico"
-        file: "_data/rumo-economico.yml"
-        description: Dados de rumo-economico
-        fields:
-          - label: Económia #----- economia
-            name: economia
-            widget: object
-            fields:
-             - { label: "Texto", name: "text", widget: "string" }
-             - { label: "Info", name: "info", widget: "string" }
-             - { label: "Ultimo Emitido", name: "ultimo", widget: "string" }
-             - label: "Ficheiro"
-               name: ficheiro
-               widget: object
-               fields:
-                - { label: "Data publicada", name: "data", widget: "datetime", format: "DD-MM-YYYY" }
-                - { label: "Endereço / Link", name: "link", widget: "string" }
-                - { label: "Tipo de ficheiro", name: "tipo", widget: "string" }
         #---| RODAPÉ |---
       - name: "rodape"
         label: "Rodapé"
@@ -720,7 +643,6 @@ collections:
               - { label: "Tema", name: "tema", widget: "string" }
               - { label: "Texto", name: "text", widget: "markdown" }
               - { label: "Nota", name: "nota", widget: "string" }
-              - { label: "", name: "", widget: "" }
           - label: Privacidade 
             name: privacidade
             widget: object
@@ -737,10 +659,4 @@ collections:
             widget: object
             fields:
               - { label: "Texto", name: "text", widget: "markdown" }
-              - label: Lista
-                name: x
-                widget: list
-                fields:
-                  - { label: "Tema", name: "tema", widget: "string" }
-                  - { label: "Texto", name: "text", widget: "markdown" }  
-
+              

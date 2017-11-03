@@ -18,16 +18,16 @@ idiom: en
                 <div class='item'>
                   <div class='text1' style="overflow:hidden; margin-bottom: 0; height: 192px;">
                     <span class='label'>Texto 1</span>
-                    <span class='value'><p>We develop integrated solutions of human resource management which adapt to the business model of our (potential) clients.<br />
-                        <br />
-                        <strong>EDIT VALUE® Excellence</strong><br />
-                        Reach excellency demands investment, effort, team work, leadership, proactivity and a dose of criativity. We create a product which together with these principles, mentioned above, lead the company in a way to success.<br />
-                        <br />
-                        <strong>EDIT VALUE® Innovation</strong><br />
-                        Being different implies inovation in the products, in the people and in the organization. This solution completes and strengthens the capacity of IDI, ensuring the reinforcement of specific expertise in the business model. Conceived on the basis of support to the development of tecnical and specific skills crucial to the strategic business alignment.<br />
-                        <br />
-                        <strong>EDIT VALUE® Skills</strong><br />
-                        Strengthening the team skills requires a concerted commitment to develop knowledge transversal to the function. This solution boosts the organizational culture and the fulfillment of organizational goals.</p>
+                    <span class='value'>
+                      <div>
+                          {{site.data.servicos.en.solucao.saber1.text}}<br />
+                          
+                          {% for services in site.data.servicos.en.solucao.saber1.x %}
+                          <strong>{{services.tema}}</strong><br />
+                          {{services.text}}<br />
+                          
+                          {% endfor %}
+                        </div>
                     </span>
                   </div>
                   <div class='_more_link_'>
@@ -42,20 +42,16 @@ idiom: en
                 <div class='item'>
                   <div class='text1' style="overflow:hidden; margin-bottom: 0; height: 192px;">
                     <span class='label'>Texto 1</span>
-                    <span class='value'><p><strong>Team Building EDIT VALUE®</strong><br />
-                        <br />
-                        <strong>Jumping outside the box</strong><br />
-                        Results oriented, this teambuilding action seeks to reinforce the team spirit and build the identity of your organization.<br />
-                        <br />
-                        <strong>Feed the Ego</strong><br />
-                        Developing the core competencies of organizational comunication through educational activities and centered in the communication process with the different stakeholders is the goal of this teambuilding action.<br />
-                        <br />
-                        <strong>Build Bonds</strong><br />
-                        The secret component of any organization involves the ability to work as a team. Based in this assumption we created an action of teambuilding that reinforces the identity of your company.<br />
-                        <br />
-                        <strong>Break the Routine</strong><br />
-                        Inside walls and in the end of the work day the order is not to stop smilling, therefore we provide Focus Group sessions allong with an unique cocktail that identifies the organization.<br />
-                        &nbsp;</p>
+                    <span class='value'>
+                      <div>
+                        {{site.data.servicos.en.solucao.saber2.text}}<br />
+                        
+                        {% for services in site.data.servicos.en.solucao.saber2.x %}
+                        <strong>{{services.tema}}</strong><br />
+                        {{services.text}}<br />
+                        
+                        {% endfor %}
+                      </div>
                     </span>
                   </div>
                   <div class='_more_link_'>
@@ -70,10 +66,16 @@ idiom: en
                 <div class='item'>
                   <div class='text1' style="overflow:hidden; margin-bottom: 0; height: 192px;">
                     <span class='label'>Texto 1</span>
-                    <span class='value'><p>The investment in training is the key to achieve successful results. The reinforcement of transversal knowledge (soft skills) and specific skills (hard skill) arises, nowadays, as a requirement to everyone who seeks to enhance their integration in the labor market, as well as, new professional challenges.</p>
-                      <p>Based in a solid experience and the knowledge of the labour market, we identify training actions that allow the update of skills and the enhancement of your performance.</p>
-                      <p>&nbsp;</p>
-                      <p><em>See the courses that add value in our training plan! </em></p>
+                    <span class='value'>
+                      <div>
+                        {{site.data.servicos.en.solucao.saber3.text}}<br />
+                        
+                        {% for services in site.data.servicos.en.solucao.saber3.x %}
+                        <strong>{{services.tema}}</strong><br />
+                        {{services.text}}<br />
+                        
+                        {% endfor %}
+                      </div>
                     </span>
                   </div>
                   <div class='_more_link_'>
@@ -98,88 +100,36 @@ idiom: en
       </div>
     </li>
 
+
     <li class="container left">
       <div class='content' id='content_15871_container'>
         <div class='list areas_actuacao ' id='list_153'>
           <h1><span class=value>Áreas de atuação</span><span class=i18n></span></h1>
           <div class='items'>
+
             <ul>
+              {% for services in site.data.servicos.en.areas %}
               <li class='i-0    even' id='item-10186'>
                 <div class='item'>
                   <div class='image'>
-                    <img alt="Recrutamento" class="blur" src='../assets/sites/55a8c341acbda1dcd0000002/theme/images/foreigners/edit-value-formacao/213/88424/s64-c/recrutamento.jpg' />
+                    <img alt="Recrutamento" class="blur" src='../{{services.image_path}}' />
                   </div>
                   <div class='folder'>
                     <div class='name'>
                       <span class='label'>Nome</span>
-                      <span class='value'>Recruitment and Selection</span>
+                      <span class='value'>{{services.titulo}}</span>
                     </div>
                     <div class='text1'>
                       <span class='label'>Texto 1</span>
-                      <span class='value'><p>Aiming at the perfect alignment between the candidate and the functional needs of the client organization.</p>
+                      <span class='value'><p>{{services.text}}</p>
                       </span>
                     </div>
                   </div>
                 </div>
               </li>
-
-              <li class='i-1    odd' id='item-16973'>
-                <div class='item'>
-                  <div class='image'>
-                    <img alt="Av-desempenho" class="blur" src='../assets/sites/55a8c341acbda1dcd0000002/theme/images/foreigners/edit-value-formacao/213/88418/s64-c/av-desempenho.jpg' />
-                  </div>
-                  <div class='folder'>
-                    <div class='name'>
-                      <span class='label'>Nome</span>
-                      <span class='value'>Performance Appraisal and Competency Model</span>
-                    </div>
-                    <div class='text1'>
-                      <span class='label'>Texto 1</span>
-                      <span class='value'><p>Development of indicators and tools for integrated assessment of skills and human resources.</p>
-                      </span>
-                    </div>
-                  </div>
-                </div>
-              </li>
-
-              <li class='i-2    even' id='item-16974'>
-                <div class='item'>
-                  <div class='image'>
-                    <img alt="Plano-formacao" class="blur" src='../assets/sites/55a8c341acbda1dcd0000002/theme/images/foreigners/edit-value-formacao/213/88420/s64-c/plano-formacao.jpg' />
-                  </div>
-                  <div class='folder'>
-                    <div class='name'>
-                      <span class='label'>Nome</span>
-                      <span class='value'>Management development and training plan</span>
-                    </div>
-                    <div class='text1'>
-                      <span class='label'>Texto 1</span>
-                      <span class='value'><p>Definition of the training plan to the needs of the organization with or without resorting  to a financial plan.</p>
-                      </span>
-                    </div>
-                  </div>
-                </div>
-              </li>
-
-              <li class='i-3    odd' id='item-16976'>
-                <div class='item'>
-                  <div class='image'>
-                    <img alt="Outsourcing-2" class="blur" src='../assets/sites/55a8c341acbda1dcd0000002/theme/images/foreigners/edit-value-formacao/213/88423/s64-c/outsourcing-2.jpg' />
-                  </div>
-                  <div class='folder'>
-                    <div class='name'>
-                      <span class='label'>Nome</span>
-                      <span class='value'>Outsourcing HR</span>
-                    </div>
-                    <div class='text1'>
-                      <span class='label'>Texto 1</span>
-                      <span class='value'><p>Assistence in structuring and integration of HR management practices, consistent and adjusted to the organizational strategy and business.</p>
-                      </span>
-                    </div>
-                  </div>
-                </div>
-              </li>
+              {% endfor %}
             </ul>
+
             <div class='footer'>
           </div>
         </div>

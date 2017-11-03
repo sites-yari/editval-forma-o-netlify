@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post-galeria
 title: Start Point
 description: 
 year: 2013
@@ -22,4 +22,3 @@ idiom: pt
 permalink: pt-media/galeria-fotos/start-point
 --- 
 
-{% include galeria-post.html %}

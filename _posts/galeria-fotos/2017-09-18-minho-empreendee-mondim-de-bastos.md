@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post-galeria
 title: Minho Empreende Mondim de Basto
 description: 
 year: 2013
@@ -19,4 +19,3 @@ idiom: pt
 permalink: pt-media/galeria-fotos/minho-empreende-mondim-de-basto
 --- 
 
-{% include galeria-post.html %}

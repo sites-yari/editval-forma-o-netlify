@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post-galeria
 title: European SME Week Bruxelas
 description: 
 year: 2012
@@ -40,4 +40,3 @@ idiom: pt
 permalink: pt-media/galeria-fotos/european-sme-week-bruxelas
 --- 
 
-{% include galeria-post.html %}

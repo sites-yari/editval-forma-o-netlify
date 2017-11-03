@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post-galeria
 title: Hapenning
 description: 
 year: 2013
@@ -79,5 +79,4 @@ idiom: pt
 permalink: pt-media/galeria-fotos/happening
 --- 
 
-{% include galeria-post.html %}
 

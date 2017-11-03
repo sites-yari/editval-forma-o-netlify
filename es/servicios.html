@@ -18,16 +18,16 @@ idiom: es
                 <div class='item'>
                   <div class='text1' style="overflow:hidden; margin-bottom: 0; height: 192px;">
                     <span class='label'>Texto 1</span>
-                    <span class='value'><p>Desarrollamos soluciones integradas de gestión de recurso humanos, que se adaptan al modelo de negocio de nuestros (pontenciales) clientes.<br />
-                        <br />
-                        <strong>EDIT VALUE® Excelencia</strong><br />
-                        Alcanzar la excelência exige inversión, esfuerzo, trabajo en equipo, liderazgo, proactividad y una dosis de creatividad. Nosotros creamos un produto que se ajuste a estos princípios y dará lugar a la companhia en un carril hacia el éxito!<br />
-                        <br />
-                        <strong>EDIT VALUE® Innovación</strong><br />
-                        Ser diferente implica inovación en los produtos, en las personas y en la organización. Esta solución completa y refuerza la capacidade de la IDI, aegurando el refuerzo de conocimientos específicos en el modelo de negocio. Concebido sobre la base de apoyo para el desarollo de habilidades específicas y tecnical crucial para la alineación estratégica de negócios.<br />
-                        <br />
-                        <strong>EDIT VALUE® Habilidades</strong><br />
-                        Fortalecimento de las habilidades del equipo requiere de un compromisso conjunto para desarollar el conocimiento transversal a la función. Esta solución aumenta la cultura de la organización y el cumplimiento de las metas organizacionales.</p>
+                    <span class='value'>
+                        <div>
+                          {{site.data.servicos.es.solucao.saber1.text}}<br />
+                          
+                          {% for servicios in site.data.servicos.es.solucao.saber1.x %}
+                          <strong>{{servicios.tema}}</strong><br />
+                          {{servicios.text}}<br />
+                          
+                          {% endfor %}
+                        </div>
                     </span>
                   </div>
                   <div class='_more_link_'>
@@ -42,19 +42,16 @@ idiom: es
                 <div class='item'>
                   <div class='text1' style="overflow:hidden; margin-bottom: 0; height: 192px;">
                     <span class='label'>Texto 1</span>
-                    <span class='value'><p><strong>Team Building EDIT VALUE®</strong><br />
-                        <br />
-                        <strong>Ir fuera de la caja</strong><br />
-                        Orientado a los resultados, esta acción de trabajo en equipo tiene como objetivo fortalecer el espíritu de equipo y construir la identidad de su organización.<br />
-                        <br />
-                        <strong>Alimentar el Ego</strong><br />
-                        El desarollo de las competências básicas de la comunicación organizacional a través de actividades educativas y centrada en el processo de comunicación com los distintos grupos de interés es el objectivo de esta acción de trabajo en equipo.<br />
-                        <br />
-                        <strong>Construir lazos</strong><br />
-                        El ingrediente secreto de cualquier organización implica la capacidade de trabajar en equipo. Com base en esta premissa hemos constriudo una acción de formación de equipos que refuerza la identidade de su empresa..<br />
-                        <br />
-                        <strong>Romper La Rutina</strong><br />
-                        Dentro de las paredes y en el final de la jornada de trabajo la orden es no dejar de sonreír, por lo tanto, levamos a cabo sesiones de Focus Group junto con un cóctel único que identifica a la organización.</p>
+                    <span class='value'>
+                      <div>
+                        {{site.data.servicos.es.solucao.saber2.text}}<br />
+                        
+                        {% for servicios in site.data.servicos.es.solucao.saber2.x %}
+                        <strong>{{servicios.tema}}</strong><br />
+                        {{servicios.text}}<br />
+                        
+                        {% endfor %}
+                      </div>
                     </span>
                   </div>
                   <div class='_more_link_'>
@@ -69,9 +66,16 @@ idiom: es
                 <div class='item'>
                   <div class='text1' style="overflow:hidden; margin-bottom: 0; height: 192px;">
                     <span class='label'>Texto 1</span>
-                    <span class='value'><p>La inversión en formación es clave para alcanzar el éxito profesional. La armadura transversal de conocimientos (<em>softs skills</em>) y destrezas específicas (<em>hard skill</em>) surge, hoy en día, como un requisito para todos los que buscan para mejorar su integración en el mercado laboral, así como nuevos retos profesionales.</p>
-                      <p>Com base en la sólida experiencia y el conocimiento del mercado de trabajo, se identifican acciones formativas que permitan la actualización de los conocimientos y la mejora de su rendimiento.</p>
-                      <p>Ver los cursos que agreguen valor en nuestro plan de tareas!</p>
+                    <span class='value'>
+                      <div>
+                        {{site.data.servicos.es.solucao.saber3.text}}<br />
+                        
+                        {% for servicios in site.data.servicos.es.solucao.saber3.x %}
+                        <strong>{{servicios.tema}}</strong><br />
+                        {{servicios.text}}<br />
+                        
+                        {% endfor %}
+                      </div>
                     </span>
                   </div>
                   <div class='_more_link_'>
@@ -102,84 +106,30 @@ idiom: es
         <div class='list areas_actuacao ' id='list_153'>
           <h1><span class=value>Áreas de atuação</span><span class=i18n></span></h1>
           <div class='items'>
-            <ul>
-              <li class='i-0    even' id='item-10186'>
-                <div class='item'>
-                  <div class='image'>
-                    <img alt="Recrutamento" class="blur" src='../assets/sites/55a8c341acbda1dcd0000002/theme/images/foreigners/edit-value-formacao/213/88424/s64-c/recrutamento.jpg' />
-                  </div>
-                  <div class='folder'>
-                    <div class='name'>
-                      <span class='label'>Nome</span>
-                      <span class='value'>Recrutamento e Seleção</span>
+            
+              <ul>
+                  {% for servicios in site.data.servicos.es.areas %}
+                  <li class='i-0    even' id='item-10186'>
+                    <div class='item'>
+                      <div class='image'>
+                        <img alt="Recrutamento" class="blur" src='../{{servicios.image_path}}' />
+                      </div>
+                      <div class='folder'>
+                        <div class='name'>
+                          <span class='label'>Nome</span>
+                          <span class='value'>{{servicios.titulo}}</span>
+                        </div>
+                        <div class='text1'>
+                          <span class='label'>Texto 1</span>
+                          <span class='value'><p>{{servicios.text}}</p>
+                          </span>
+                        </div>
+                      </div>
                     </div>
-                    <div class='text1'>
-                      <span class='label'>Texto 1</span>
-                      <span class='value'><p>Tendo por objetivo o alinhamento perfeito do/a candidato/a às necessidades funcionais da organização cliente.</p>
-                      </span>
-                    </div>
-                  </div>
-                </div>
-              </li>
-
-              <li class='i-1    odd' id='item-16973'>
-                <div class='item'>
-                  <div class='image'>
-                    <img alt="Av-desempenho" class="blur" src='../assets/sites/55a8c341acbda1dcd0000002/theme/images/foreigners/edit-value-formacao/213/88418/s64-c/av-desempenho.jpg' />
-                  </div>
-                  <div class='folder'>
-                    <div class='name'>
-                      <span class='label'>Nome</span>
-                      <span class='value'>Avaliação de Desempenho e Modelo de Competências</span>
-                    </div>
-                    <div class='text1'>
-                      <span class='label'>Texto 1</span>
-                      <span class='value'><p>Desenvolvimento de indicadores e ferramentas para uma avaliação integrada das competências e dos recursos humanos.</p>
-                      </span>
-                    </div>
-                  </div>
-                </div>
-              </li>
-
-              <li class='i-2    even' id='item-16974'>
-                <div class='item'>
-                  <div class='image'>
-                    <img alt="Plano-formacao" class="blur" src='../assets/sites/55a8c341acbda1dcd0000002/theme/images/foreigners/edit-value-formacao/213/88420/s64-c/plano-formacao.jpg' />
-                  </div>
-                  <div class='folder'>
-                    <div class='name'>
-                      <span class='label'>Nome</span>
-                      <span class='value'>Desenvolvimento e Gestão do Plano de Formação</span>
-                    </div>
-                    <div class='text1'>
-                      <span class='label'>Texto 1</span>
-                      <span class='value'><p>Definição do plano de formação à medidas das necessidades da organização com ou sem recurso a financiamento.</p>
-                      </span>
-                    </div>
-                  </div>
-                </div>
-              </li>
-
-              <li class='i-3    odd' id='item-16976'>
-                <div class='item'>
-                  <div class='image'>
-                    <img alt="Outsourcing-2" class="blur" src='../assets/sites/55a8c341acbda1dcd0000002/theme/images/foreigners/edit-value-formacao/213/88423/s64-c/outsourcing-2.jpg' />
-                  </div>
-                  <div class='folder'>
-                    <div class='name'>
-                      <span class='label'>Nome</span>
-                      <span class='value'>Outsourcing de RH</span>
-                    </div>
-                    <div class='text1'>
-                      <span class='label'>Texto 1</span>
-                      <span class='value'><p>Apoio na estruturação e integração de práticas de gestão de RH consistentes e ajustadas à estratégia organizacional e de negócio.</p>
-                      </span>
-                    </div>
-                  </div>
-                </div>
-              </li>
-
-            </ul>
+                  </li>
+                  {% endfor %}
+                </ul>
+            
             <div class='footer'>
             </div>
           </div>

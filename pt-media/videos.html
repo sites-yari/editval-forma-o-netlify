@@ -19,6 +19,7 @@ idiom: pt
           </div>
           <ul style="margin-top: 20px; margin-left: -25px; ">
             {% for videos in site.data.media-videos.videos %}
+            {% if videos.existencia == "Existe" %}
             <li id="article94" style="margin: 0 0 20 25px; float: left;">
               <div class="article clearfix">
                 <a href="#article94youtube" data-fancybox-ignore="overlay" data-fancybox-width="425" data-fancybox-height="355"
@@ -51,6 +52,7 @@ idiom: pt
                 </object>
               </div>
             </li>
+            {% endif %}
             {% endfor %}
           </ul>
         </div>

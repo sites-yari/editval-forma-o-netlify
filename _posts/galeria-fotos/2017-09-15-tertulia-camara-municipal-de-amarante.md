@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post-galeria
 title: Tertúlia Câmara Municipal de Amarante
 description: 
 year: 2012
@@ -28,4 +28,3 @@ idiom: pt
 permalink: pt-media/galeria-fotos/tertúlia-camara-municipal-de-amarante
 --- 
 
-{% include galeria-post.html %}

@@ -22,19 +22,22 @@ idiom: en
         <div class='text contactos '>
           <div class='i'>
             <h1>Braga | Headquarters</h1>
-            <div>Praceta João Beltrão, N.º 18<br />
-              S. Victor<br />
-              4715-292 Braga, Portugal</div>
+            <div>{{site.data.contactos.en.sede.rua}}<br>
+              {{site.data.contactos.en.sede.distrito}}<br>
+              {{site.data.contactos.en.sede.postal}}</div>
+
             <h1>Contacts</h1>
-            <div>Phone: +351 253 103 169<br />
-              Fax: +351 253 103 169<br />
-              Cell Phone: +351 933 666 144</div>
-            <div>Email: fomacao@editvalue.com</div>
+            <div>Phone: {{site.data.contactos.en.contactos.telefone}}<br>
+              Fax: {{site.data.contactos.en.contactos.fax}}<br>
+              Cell Phone: {{site.data.contactos.en.contactos.telemovel}}</div>
+            <div>Email: {{site.data.contactos.en.contactos.email}}</div>
+
             <h1>GPS</h1>
-            <div>41.550820 ºN -8.403990 ºW</div>
+            <div>{{site.data.contactos.en.gps}}</div>
+            
             <h1>Opening Hours</h1>
-            <div>Monday to Friday (9h-13h | 14h30-18h30)<br />
-              Closed on Saturdays, Sundays and holydays.</div>
+            <div>{{site.data.contactos.en.horario.aberto}}<br>
+              {{site.data.contactos.en.horario.fechado}}</div>
           </div>
         </div>
       </div>

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post-galeria
 title: Minho Empreende Fafe
 description: 
 year: 2013
@@ -16,6 +16,5 @@ idiom: pt
 permalink: pt-media/galeria-fotos/minho-empreende-fafe
 --- 
 
-{% include galeria-post.html %}
 
 

@@ -22,16 +22,13 @@ idiom: pt
                     <span class='label'>Texto 1</span>
                     <span class='value'>
                       <div>
-                        Desenvolvemos soluções integradas de GRH que se adaptam ao modelo de negócio dos nossos (potenciais) clientes.<br />
-                        <br />
-                        <strong>EDIT VALUE® Excelência</strong><br />
-                        Alcançar a Excelência exige investimento, esforço, trabalho em equipa, liderança, proatividade e muita dose de criatividade. Criamos um produto que se ajusta a estes princípios e conduzirá a empresa para o trilho do sucesso!<br />
-                        <br />
-                        <strong>EDIT VALUE® Inovação</strong><br />
-                        Ser diferente implica Inovação nos produtos, nas pessoas e na organização. Esta solução completa e reforça a capacidade de IDI garantindo o reforço das competências específicas ao modelo de negócio. Concebido numa base de apoio ao desenvolvimento das competências técnicas e específicas essenciais ao alinhamento estratégico do negócio.<br />
-                        <br />
-                        <strong>EDIT VALUE® Competências</strong><br />
-                        Fortificar as Competências da equipa implica uma aposta concertada nos conhecimentos transversais à função. Esta solução impulsiona a cultura organizacional e o cumprimento de metas organizacionais.
+                        {{site.data.servicos.pt.solucao.saber1.text}}<br />
+                        
+                        {% for servicos in site.data.servicos.pt.solucao.saber1.x %}
+                        <strong>{{servicos.tema}}</strong><br />
+                        {{servicos.text}}<br />
+                        
+                        {% endfor %}
                       </div>
                     </span>
                   </div>
@@ -48,21 +45,15 @@ idiom: pt
                   <div class='text1' style="overflow:hidden; margin-bottom: 0; height: 192px;">
                     <span class='label'>Texto 1</span>
                     <span class='value'>
-                      <div>
-                        <strong>Teambuilding EDIT VALUE®</strong><br>
-                        <br>
-                        <strong>Saltar do Quadrado</strong>
-                        <p>Com uma orientação para os resultados e o reforço da cultura organizacional as atividades vão de encontro a uma filosofia de construção dos valores de equipa, liderança, capacidade de ultrapassar desafios e trabalhar sob pressão.</p>
-                        <p><br>
-                          <strong>Alimentar o Ego</strong><br>
-                          Os participantes são encorajados a explorar o conhecimento mútuo e o reconhecimento das diferenças individuais. Pelo estímulo dos sentidos, pretende-se envolver toda a equipa e desafiá-la a transpor os riscos e desafios do dia-a-dia- de trabalho.</p>
-                        <p><br>
-                          <strong>Construir Laços</strong><br>
-                          Com o intuito de reforçar a identidade da empresa é fundamental consolidar o trabalho em equipa, de modo a consolidar laços e redes de parceria entre os <em>stakeholders</em> internos e ao mesmo tempo promover a motivação organizacional.<br>
-                          <br>
-                          <strong>Quebrar a Rotina</strong><br>
-                          Tendo a organização como pano de fundo, pretende-se estimular a equipa a manter a mente aberta, fazendo-a reconhecer a importância e o valor da mudança para a organização que representam.</p>
-                      </div>
+                        <div>
+                          {{site.data.servicos.pt.solucao.saber2.text}}<br />
+                          
+                          {% for servicos in site.data.servicos.pt.solucao.saber2.x %}
+                          <strong>{{servicos.tema}}</strong><br />
+                          {{servicos.text}}<br />
+                          
+                          {% endfor %}
+                        </div>
                     </span>
                   </div>
                   <div class='_more_link_'>
@@ -78,21 +69,15 @@ idiom: pt
                   <div class='text1' style="overflow:hidden; margin-bottom: 0; height: 192px;">
                     <span class='label'>Texto 1</span>
                     <span class='value'>
-                      <div>
-                        <strong>Formação Desempenho EDIT VALUE<sup>®</sup></strong>
-                        <p>A formação é um investimento decisivo para o sucesso profissional. O reforço das competências transversais (soft skill) e específicas (hard skill) surge, no cenário atual, como uma exigência para todos aqueles que pretendam potenciar a sua integração no mercado de trabalho e busquem novos desafios profissionais. Com base na sólida experiência e no conhecimento do mercado de trabalho, identificamos ações de formação que permitirão atualizar as competências e aumentar o seu desempenho.</p>
-                        <p><strong><em>A EDIT VALUE® Formação Empresarial é certificada pela DGERT nas áreas de :</em></strong></p>
-                        <p>- Desenvolvimento Pessoal</p>
-                        <p>- Formação de Professores e Formadores de áreas tecnológicas</p>
-                        <p>- Línguas e Literaturas Estrangeiras</p>
-                        <p>- Contabilidade e Fiscalidade</p>
-                        <p>- Gestão e Administração</p>
-                        <p>- Enquadramento na organização/empresa</p>
-                        <p>- Informática na ótica do utilizador</p>
-                        <p>- Saúde</p>
-                        <p><strong><em>Consulte os cursos que acrescentam Valor no nosso Plano de Formação Desempenho!</em></strong></p>
-                        <div>&nbsp;</div>
-                      </div>
+                        <div>
+                            {{site.data.servicos.pt.solucao.saber3.text}}<br />
+                            
+                            {% for servicos in site.data.servicos.pt.solucao.saber3.x %}
+                            <strong>{{servicos.tema}}</strong><br />
+                            {{servicos.text}}<br />
+                            
+                            {% endfor %}
+                          </div>
                     </span>
                   </div>
                   <div class='_more_link_'>
@@ -103,6 +88,8 @@ idiom: pt
                 </div>
               </li>
             </ul>
+
+            
             <div class='footer'>
               <table align='center' class='paginator-container'>
                 <tr>
@@ -123,81 +110,26 @@ idiom: pt
           <h1><span class=value>Áreas de atuação</span><span class=i18n></span></h1>
           <div class='items'>
             <ul>
+              {% for servicos in site.data.servicos.pt.areas %}
               <li class='i-0    even' id='item-10186'>
                 <div class='item'>
                   <div class='image'>
-                    <img alt="Recrutamento" class="blur" src='assets/sites/55a8c341acbda1dcd0000002/theme/images/foreigners/edit-value-formacao/213/88424/s64-c/recrutamento.jpg' />
+                    <img alt="Recrutamento" class="blur" src='{{servicos.image_path}}' />
                   </div>
                   <div class='folder'>
                     <div class='name'>
                       <span class='label'>Nome</span>
-                      <span class='value'>Recrutamento e Seleção</span>
+                      <span class='value'>{{servicos.titulo}}</span>
                     </div>
                     <div class='text1'>
                       <span class='label'>Texto 1</span>
-                      <span class='value'><p>Tendo por objetivo o alinhamento perfeito do/a candidato/a às necessidades funcionais da organização cliente.</p>
+                      <span class='value'><p>{{servicos.text}}</p>
                       </span>
                     </div>
                   </div>
                 </div>
               </li>
-
-              <li class='i-1    odd' id='item-16973'>
-                <div class='item'>
-                  <div class='image'>
-                    <img alt="Av-desempenho" class="blur" src='assets/sites/55a8c341acbda1dcd0000002/theme/images/foreigners/edit-value-formacao/213/88418/s64-c/av-desempenho.jpg' />
-                  </div>
-                  <div class='folder'>
-                    <div class='name'>
-                      <span class='label'>Nome</span>
-                      <span class='value'>Avaliação de Desempenho e Modelo de Competências</span>
-                    </div>
-                    <div class='text1'>
-                      <span class='label'>Texto 1</span>
-                      <span class='value'><p>Desenvolvimento de indicadores e ferramentas para uma avaliação integrada das competências e dos recursos humanos.</p>
-                      </span>
-                    </div>
-                  </div>
-                </div>
-              </li>
-
-              <li class='i-2    even' id='item-16974'>
-                <div class='item'>
-                  <div class='image'>
-                    <img alt="Plano-formacao" class="blur" src='assets/sites/55a8c341acbda1dcd0000002/theme/images/foreigners/edit-value-formacao/213/88420/s64-c/plano-formacao.jpg' />
-                  </div>
-                  <div class='folder'>
-                    <div class='name'>
-                      <span class='label'>Nome</span>
-                      <span class='value'>Desenvolvimento e Gestão do Plano de Formação</span>
-                    </div>
-                    <div class='text1'>
-                      <span class='label'>Texto 1</span>
-                      <span class='value'><p>Definição do plano de formação à medidas das necessidades da organização com ou sem recurso a financiamento.</p>
-                      </span>
-                    </div>
-                  </div>
-                </div>
-              </li>
-
-              <li class='i-3    odd' id='item-16976'>
-                <div class='item'>
-                  <div class='image'>
-                    <img alt="Outsourcing-2" class="blur" src='assets/sites/55a8c341acbda1dcd0000002/theme/images/foreigners/edit-value-formacao/213/88423/s64-c/outsourcing-2.jpg' />
-                  </div>
-                  <div class='folder'>
-                    <div class='name'>
-                      <span class='label'>Nome</span>
-                      <span class='value'>Outsourcing de RH</span>
-                    </div>
-                    <div class='text1'>
-                      <span class='label'>Texto 1</span>
-                      <span class='value'><p>Apoio na estruturação e integração de práticas de gestão de RH consistentes e ajustadas à estratégia organizacional e de negócio.</p>
-                      </span>
-                    </div>
-                  </div>
-                </div>
-              </li>
+              {% endfor %}
             </ul>
 
 

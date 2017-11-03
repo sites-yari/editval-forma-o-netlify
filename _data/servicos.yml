@@ -1,0 +1,211 @@
+#===========================================================================================================================================
+pt:
+  solucao:
+    saber1:
+        text: Desenvolvemos soluções integradas de GRH que se adaptam ao modelo de negócio dos nossos (potenciais) clientes.<br />
+        x: 
+          -
+            tema: EDIT VALUE® Excelência
+            text: Alcançar a Excelência exige investimento, esforço, trabalho em equipa, liderança, proatividade e muita dose de criatividade. Criamos um produto que se ajusta a estes princípios e conduzirá a empresa para o trilho do sucesso!<br />
+          -
+            tema: EDIT VALUE® Inovação
+            text: Ser diferente implica Inovação nos produtos, nas pessoas e na organização. Esta solução completa e reforça a capacidade de IDI garantindo o reforço das competências específicas ao modelo de negócio. Concebido numa base de apoio ao desenvolvimento das competências técnicas e específicas essenciais ao alinhamento estratégico do negócio.<br />
+          -
+            tema: EDIT VALUE® Competências
+            text: Fortificar as Competências da equipa implica uma aposta concertada nos conhecimentos transversais à função. Esta solução impulsiona a cultura organizacional e o cumprimento de metas organizacionais.<br />
+    saber2: 
+        text: 
+        x: 
+          -
+            tema: Teambuilding EDIT VALUE®
+            text: 
+          -
+            tema: Saltar do Quadrado
+            text: Com uma orientação para os resultados e o reforço da cultura organizacional as atividades vão de encontro a uma filosofia de construção dos valores de equipa, liderança, capacidade de ultrapassar desafios e trabalhar sob pressão.<br />
+          -
+            tema: Alimentar o Ego
+            text: Os participantes são encorajados a explorar o conhecimento mútuo e o reconhecimento das diferenças individuais. Pelo estímulo dos sentidos, pretende-se envolver toda a equipa e desafiá-la a transpor os riscos e desafios do dia-a-dia- de trabalho.<br />
+          -
+            tema: Construir Laços
+            text: Com o intuito de reforçar a identidade da empresa é fundamental consolidar o trabalho em equipa, de modo a consolidar laços e redes de parceria entre os stakeholders internos e ao mesmo tempo promover a motivação organizacional.<br />
+          -
+            tema: Quebrar a Rotina
+            text: Tendo a organização como pano de fundo, pretende-se estimular a equipa a manter a mente aberta, fazendo-a reconhecer a importância e o valor da mudança para a organização que representam.<br />
+    saber3: 
+        text:
+        x: 
+          -
+            tema: Formação Desempenho EDIT VALUE®
+            text: A formação é um investimento decisivo para o sucesso profissional. O reforço das competências transversais (soft skill) e específicas (hard skill) surge, no cenário atual, como uma exigência para todos aqueles que pretendam potenciar a sua integração no mercado de trabalho e busquem novos desafios profissionais. Com base na sólida experiência e no conhecimento do mercado de trabalho, identificamos ações de formação que permitirão atualizar as competências e aumentar o seu desempenho.<br />
+          -
+            tema: A EDIT VALUE® Formação Empresarial é certificada pela DGERT nas áreas de;
+            text: <br />. Desenvolvimento Pessoal
+                <br><br>
+                . Formação de Professores e Formadores de áreas tecnológicas
+                <br><br>
+                . Línguas e Literaturas Estrangeiras
+                <br><br>
+                . Contabilidade e Fiscalidade
+                <br><br>
+                . Gestão e Administração
+                <br><br>
+                . Enquadramento na organização/empresa
+                <br><br>
+                . Informática na ótica do utilizador
+                <br><br>
+                . Saúde
+          -
+            tema: <br />Consulte os cursos que acrescentam Valor no nosso Plano de Formação Desempenho!
+            text: 
+  areas:
+    - 
+      titulo: Recrutamento e Seleção
+      image_path: assets/sites/55a8c341acbda1dcd0000002/theme/images/foreigners/edit-value-formacao/213/88424/s64-c/recrutamento.jpg
+      text: Tendo por objetivo o alinhamento perfeito do/a candidato/a às necessidades funcionais da organização cliente.
+    - 
+      titulo: Avaliação de Desempenho e Modelo de Competências
+      image_path: assets/sites/55a8c341acbda1dcd0000002/theme/images/foreigners/edit-value-formacao/213/88418/s64-c/av-desempenho.jpg
+      text: Desenvolvimento de indicadores e ferramentas para uma avaliação integrada das competências e dos recursos humanos.
+    - 
+      titulo: Desenvolvimento e Gestão do Plano de Formação
+      image_path: assets/sites/55a8c341acbda1dcd0000002/theme/images/foreigners/edit-value-formacao/213/88420/s64-c/plano-formacao.jpg
+      text: Definição do plano de formação à medidas das necessidades da organização com ou sem recurso a financiamento.
+    - 
+      titulo: Outsourcing de RH
+      image_path: assets/sites/55a8c341acbda1dcd0000002/theme/images/foreigners/edit-value-formacao/213/88423/s64-c/outsourcing-2.jpg
+      text: Apoio na estruturação e integração de práticas de gestão de RH consistentes e ajustadas à estratégia organizacional e de negócio.
+
+
+#===========================================================================================================================================
+en:
+  solucao:
+    saber1:
+        text: <br />We develop integrated solutions of human resource management which adapt to the business model of our (potential) clients.<br />
+        x: 
+          -
+            tema: EDIT VALUE® Excellence
+            text: Reach excellency demands investment, effort, team work, leadership, proactivity and a dose of criativity. We create a product which together with these principles, mentioned above, lead the company in a way to success.<br />
+          -
+            tema: EDIT VALUE® Innovation
+            text: Being different implies inovation in the products, in the people and in the organization. This solution completes and strengthens the capacity of IDI, ensuring the reinforcement of specific expertise in the business model. Conceived on the basis of support to the development of tecnical and specific skills crucial to the strategic business alignment.<br />
+          -
+            tema: EDIT VALUE® Skills
+            text: Strengthening the team skills requires a concerted commitment to develop knowledge transversal to the function. This solution boosts the organizational culture and the fulfillment of organizational goals.<br />
+    saber2: 
+        text:
+        x: 
+          -
+            tema: Team Building EDIT VALUE®
+            text: 
+          -
+            tema: Jumping outside the box
+            text: Results oriented, this teambuilding action seeks to reinforce the team spirit and build the identity of your organization.<br />
+          -
+            tema: Feed the Ego
+            text: Developing the core competencies of organizational comunication through educational activities and centered in the communication process with the different stakeholders is the goal of this teambuilding action.<br />
+          -
+            tema: Build Bonds
+            text: The secret component of any organization involves the ability to work as a team. Based in this assumption we created an action of teambuilding that reinforces the identity of your company.<br />
+          -
+            tema: Break the Routine
+            text: Inside walls and in the end of the work day the order is not to stop smilling, therefore we provide Focus Group sessions allong with an unique cocktail that identifies the organization. <br />
+    saber3: 
+        text: <br />The investment in training is the key to achieve successful results. The reinforcement of transversal knowledge (soft skills) and specific skills (hard skill) arises, nowadays, as a requirement to everyone who seeks to enhance their integration in the labor market, as well as, new professional challenges.
+            <br><br>
+            Based in a solid experience and the knowledge of the labour market, we identify training actions that allow the update of skills and the enhancement of your performance.
+            <br><br><br><br>
+            See the courses that add value in our training plan!
+        x: 
+          -
+            tema: 
+            text: 
+          -
+            tema: 
+            text: 
+          -
+            tema: 
+            text: 
+  areas:
+    - 
+      titulo: Recruitment and Selection
+      image_path: assets/sites/55a8c341acbda1dcd0000002/theme/images/foreigners/edit-value-formacao/213/88424/s64-c/recrutamento.jpg
+      text: Aiming at the perfect alignment between the candidate and the functional needs of the client organization.
+    - 
+      titulo: Performance Appraisal and Competency Model
+      image_path: assets/sites/55a8c341acbda1dcd0000002/theme/images/foreigners/edit-value-formacao/213/88418/s64-c/av-desempenho.jpg
+      text: Development of indicators and tools for integrated assessment of skills and human resources.
+    - 
+      titulo: Management development and training plan
+      image_path: assets/sites/55a8c341acbda1dcd0000002/theme/images/foreigners/edit-value-formacao/213/88420/s64-c/plano-formacao.jpg
+      text: Definition of the training plan to the needs of the organization with or without resorting  to a financial plan.
+    - 
+      titulo: Outsourcing HR
+      image_path: assets/sites/55a8c341acbda1dcd0000002/theme/images/foreigners/edit-value-formacao/213/88423/s64-c/outsourcing-2.jpg
+      text: Assistence in structuring and integration of HR management practices, consistent and adjusted to the organizational strategy and business.
+
+#===========================================================================================================================================
+es:
+  solucao:
+    saber1:
+        text: <br />Desarrollamos soluciones integradas de gestión de recurso humanos, que se adaptan al modelo de negocio de nuestros (pontenciales) clientes.<br />
+        x: 
+          -
+            tema: EDIT VALUE® Excelencia
+            text: Alcanzar la excelência exige inversión, esfuerzo, trabajo en equipo, liderazgo, proactividad y una dosis de creatividad. Nosotros creamos un produto que se ajuste a estos princípios y dará lugar a la companhia en un carril hacia el éxito!<br />
+          -
+            tema: EDIT VALUE® Innovación
+            text: Ser diferente implica inovación en los produtos, en las personas y en la organización. Esta solución completa y refuerza la capacidade de la IDI, aegurando el refuerzo de conocimientos específicos en el modelo de negocio. Concebido sobre la base de apoyo para el desarollo de habilidades específicas y tecnical crucial para la alineación estratégica de negócios.<br />
+          -
+            tema: EDIT VALUE® Habilidades
+            text: Fortalecimento de las habilidades del equipo requiere de un compromisso conjunto para desarollar el conocimiento transversal a la función. Esta solución aumenta la cultura de la organización y el cumplimiento de las metas organizacionales.<br />
+    saber2: 
+        text:
+        x: 
+          -
+            tema: Team Building EDIT VALUE®
+            text: 
+          -
+            tema: Ir fuera de la caja
+            text: Orientado a los resultados, esta acción de trabajo en equipo tiene como objetivo fortalecer el espíritu de equipo y construir la identidad de su organización.<br />
+          -
+            tema: Alimentar el Ego
+            text: El desarollo de las competências básicas de la comunicación organizacional a través de actividades educativas y centrada en el processo de comunicación com los distintos grupos de interés es el objectivo de esta acción de trabajo en equipo.<br />
+          -
+            tema: Construir lazos
+            text: El ingrediente secreto de cualquier organización implica la capacidade de trabajar en equipo. Com base en esta premissa hemos constriudo una acción de formación de equipos que refuerza la identidade de su empresa.<br />
+          -
+            tema: Romper La Rutina
+            text: Dentro de las paredes y en el final de la jornada de trabajo la orden es no dejar de sonreír, por lo tanto, levamos a cabo sesiones de Focus Group junto con un cóctel único que identifica a la organización.<br />
+    saber3: 
+        text: <br />La inversión en formación es clave para alcanzar el éxito profesional. La armadura transversal de conocimientos (softs skills) y destrezas específicas (hard skill) surge, hoy en día, como un requisito para todos los que buscan para mejorar su integración en el mercado laboral, así como nuevos retos profesionales.
+            <br><br>
+            Com base en la sólida experiencia y el conocimiento del mercado de trabajo, se identifican acciones formativas que permitan la actualización de los conocimientos y la mejora de su rendimiento.
+            <br><br>
+            Ver los cursos que agreguen valor en nuestro plan de tareas!
+        x: 
+          -
+            tema: 
+            text: 
+          -
+            tema: 
+            text: 
+          -
+            tema: 
+            text: 
+  areas:
+    - 
+      titulo: Recrutamento e Seleção
+      image_path: assets/sites/55a8c341acbda1dcd0000002/theme/images/foreigners/edit-value-formacao/213/88424/s64-c/recrutamento.jpg
+      text: Tendo por objetivo o alinhamento perfeito do/a candidato/a às necessidades funcionais da organização cliente.
+    - 
+      titulo: Avaliação de Desempenho e Modelo de Competências
+      image_path: assets/sites/55a8c341acbda1dcd0000002/theme/images/foreigners/edit-value-formacao/213/88418/s64-c/av-desempenho.jpg
+      text: Desenvolvimento de indicadores e ferramentas para uma avaliação integrada das competências e dos recursos humanos.
+    - 
+      titulo: Desenvolvimento e Gestão do Plano de Formação
+      image_path: assets/sites/55a8c341acbda1dcd0000002/theme/images/foreigners/edit-value-formacao/213/88420/s64-c/plano-formacao.jpg
+      text: Definição do plano de formação à medidas das necessidades da organização com ou sem recurso a financiamento.
+    - 
+      titulo: Outsourcing de RH
+      image_path: assets/sites/55a8c341acbda1dcd0000002/theme/images/foreigners/edit-value-formacao/213/88423/s64-c/outsourcing-2.jpg
+      text: Apoio na estruturação e integração de práticas de gestão de RH consistentes e ajustadas à estratégia organizacional e de negócio.
