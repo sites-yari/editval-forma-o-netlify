@@ -27,7 +27,7 @@ idiom: pt
 
   <script>
     $(document).on("ready", function () {
-      if (window.location.hash == "#inscricao") {
+      if (window.location.hash != "#inscricao") {
           $("#inscricao-link").trigger("click");
       }
     });
