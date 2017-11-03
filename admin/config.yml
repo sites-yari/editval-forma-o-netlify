@@ -109,7 +109,7 @@ collections:
   #-----| Redes |---------------------------------|
   - name: "rede"
     label: "Redes"
-    folder: "_posts/redes"
+    folder: "_posts/rede"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
