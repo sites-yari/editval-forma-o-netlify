@@ -1,0 +1,573 @@
+---
+layout: default
+title: Formação
+class: formacao-pt
+formacao_active?: active
+idiom: pt
+---
+
+
+
+<body class='older_browser ev formacao pt'>            
+  <style>
+    a.enrollment {
+    background-color: green;
+    color: white;
+    padding: 20px;
+    display: block;
+    float: right;
+    font-size: 10pt;
+    border-radius: 15px;
+    text-decoration: none;
+    margin-top: 15px;
+    margin-right: 15px;
+    font-weight: bold;
+    }
+  </style>
+
+  <script>
+    $(document).on("ready", function () {
+      if (window.location.hash == "#inscricao") {
+          $("#inscricao-link").trigger("click");
+      }
+    });
+  </script>
+
+  {% assign formacao = site.posts | where: "category" , "formacao" %}
+  {% assign ciclo_desenvolvimento = site.posts | where: "ciclo_category" , "desenvolvimento_pessoal" %}   <!--|=======| topico 1 |=======|-->                
+  {% assign ciclo_competencias = site.posts | where: "ciclo_category" , "competencias_relacionais" %}     <!--|=======| topico 2 |=======|--> 
+  {% assign ciclo_lideranca = site.posts | where: "ciclo_category" , "lideranca" %}                       <!--|=======| topico 3 |=======|-->      
+  {% assign ciclo_gestao = site.posts | where: "ciclo_category" , "gestao_pessoas" %}                     <!--|=======| topico 4 |=======|-->        
+  {% assign ciclo_criatividade = site.posts | where: "ciclo_category" , "criatividade_inovacao" %}        <!--|=======| topico 5 |=======|-->                     
+  {% assign ciclo_linguas = site.posts | where: "ciclo_category" , "linguas_estrangeiras" %}              <!--|=======| topico 6 |=======|--> 
+  {% assign ciclo_melhoria = site.posts | where: "ciclo_category" , "melhoria_continua" %}                <!--|=======| topico 7 |=======|--> 
+  {% assign ciclo_marketing = site.posts | where: "ciclo_category" , "marketing" %}                       <!--|=======| topico 8 |=======|--> 
+  {% assign ciclo_ferramentas = site.posts | where: "ciclo_category" , "ferramentas_informaticas" %}    <!--|=======| topico 9 |=======|--> 
+  {% assign ciclo_higiene = site.posts | where: "ciclo_category" , "higiene_seguranca" %}                 <!--|=======| topico 10 |=======|--> 
+              
+  <ol class='contents '>
+    <li class="container expand">
+      <div class='content' id='inscricao'>
+        <div class='text publicacoes'>
+          <div class='i'>
+            <h1>Formação Desempenho | Próximos Cursos</h1>
+          </div>
+        </div>
+      </div>
+    </li>
+
+    <li class="container left">
+      <div class='content' id='content_14899_container'>
+        <div class='list publicacoes ' id='list_132'>
+          <div class='items'>
+            <ul>
+              <li>
+                <div style="text-align: center; font-family: arial, helvetica, sans-serif;">
+                  <a href="#"
+                    id="inscricao-link"
+                    data-action="toggle-visibility"
+                    data-toggle-visibility-method="slide"
+                    data-toggle-visibility-target="#top-form">
+                    Inscreva-se já no nosso Plano de Formação!
+                  </a>
+                </div>
+                <form id="top-form" method="POST" action="http://formacao.editvalue.com/entry_submissions/course_enrollments.json"
+                      data-visibility-group="form[id],.list.publicacoes li .text1"
+                      data-ajax-form="true"
+                      data-ajax-form-fail-action="render-errors"
+                      data-ajax-form-fail-field-template="applications-form-fail-field-template-top-form"
+                      data-ajax-form-success-action="replace-form"
+                      data-ajax-form-success-template="applications-form-success-template-top-form">
+                  <input type="hidden" name="authenticity_token" value="/glqdbel53jFDo04fFmVfNnwooSnWgFg+OxvVVCzn/o=">
+                  <div>
+                    <ul style="padding: 10px 20px 0 20px;">
+                      <li>
+                        <p>
+                          Para efetuar a sua pré-inscrição, preencha os campos que se seguem e no final
+                          clique em &quot;Inscrever no Curso&quot;. Todos os campos são obrigatórios.
+                        </p>
+                      </li>
+
+                      <li class="selection_field" data-ajax-form-field-wrapper="course">
+                        <label>Curso</label>
+                        <select name="content[course]" placeholder="" required>
+                          {% for post in formacao %}
+                          <option value=""></option>
+                          <option value="{{post.identificacao_id}}">{{post.title}}</option>
+                          {% endfor %}
+                        </select>
+                      </li>
+                    </ul>
+
+                    <div style="float: left; width: 50%;">
+                      <ul style="padding: 20px;">
+                        <li style="font-size: larger; font-weight: bold; line-height: 24px;">
+                          Dados pessoais
+                        </li>
+
+                        <li class="text_field required" data-ajax-form-field-wrapper="name">
+                          <label>Nome</label>
+                          <input name="content[name]" placeholder="" type="text" value="" required style="width: 80%;" />
+                        </li>
+
+                        <li class="text_field required" data-ajax-form-field-wrapper="address">
+                          <label>Morada</label>
+                          <input name="content[address]" placeholder="" type="text" value="" required style="width: 80%;" />
+                        </li>
+
+                        <li class="text_field required" data-ajax-form-field-wrapper="address2">
+                          <label>Código Postal e Localidade</label>
+                          <input name="content[address2]" placeholder="" type="text" value="" required style="width: 60%;" />
+                        </li>
+
+                        <li class="text_field required"  data-ajax-form-field-wrapper="nif">
+                          <label>N.º Identificação Fiscal</label>
+                          <input name="content[nif]" placeholder="" type="text" value="" required />
+                        </li>
+
+                        <li class="text_field required"  data-ajax-form-field-wrapper="phone">
+                          <label>Telemóvel</label>
+                          <input name="content[phone]" placeholder="" type="text" value="" required />
+                        </li>
+
+                        <li class="text_field required"  data-ajax-form-field-wrapper="email">
+                          <label>Email</label>
+                          <input name="content[email]" placeholder="" type="text" value="" required style="width: 80%;" />
+                        </li>
+
+                        <li class="selection_field" data-ajax-form-field-wrapper="member_number">
+                          <label>Associado/a da AAUM, AAEUM ou AFUM?</label>
+                          <select data-id="association-state">
+                            <option>Não associado</option>
+                            <option>Associado</option>
+                          </select>
+                          <br>
+                          <br>
+                          <label>Número de associado</label>
+                          <input data-id="member-number" name="content[member_number]" placeholder="" type="text" value="" required disabled />
+                        </li>
+                      </ul>
+                    </div>
+
+                    <div style="float: right; width: 50%;">
+                      <ul style="padding: 20px;">
+                        <li class="text_label" style="font-size: larger; font-weight: bold; line-height: 24px;">
+                          <label style="padding-bottom: 0;">
+                            <input type="checkbox" data-id="extra-fields">
+                            Pretendo fatura emitida em nome de outra entidade
+                          </label>
+                        </li>
+
+                        <li class="text_field" data-ajax-form-field-wrapper="company_name">
+                          <label>Empresa/Organização</label>
+                          <input name="content[company_name]" placeholder="" type="text" value="" data-class="extra-field" required style="width: 80%;" disabled />
+                        </li>
+
+                        <li class="text_field" data-ajax-form-field-wrapper="company_address">
+                          <label>Morada</label>
+                          <input name="content[company_address]" placeholder="" type="text" value="" data-class="extra-field" required style="width: 80%;" disabled />
+                        </li>
+
+                        <li class="text_field" data-ajax-form-field-wrapper="company_address2">
+                          <label>Código Postal e Localidade</label>
+                          <input name="content[company_address2]" placeholder="" type="text" value="" data-class="extra-field" required style="width: 60%;" disabled />
+                        </li>
+
+                        <li class="text_field" data-ajax-form-field-wrapper="nipc">
+                          <label>NIPC</label>
+                          <input name="content[nipc]" placeholder="" type="text" data-class="extra-field" required value="" disabled />
+                        </li>
+
+                        <li style="padding-top: 90px;">
+                          <div class="actions">
+                            <button class="submitBtn" value="submit">
+                              <span>Increver no Curso</span>
+                            </button>
+                            &nbsp;
+                            <button type="reset">
+                              <span>Limpar formulário</span>
+                            </button>
+                            &nbsp;
+                            <button type="reset"
+                                    data-action="toggle-visibility"
+                                    data-toggle-visibility-method="slide"
+                                    data-toggle-visibility-target="#top-form">
+                              <span>Cancelar</span>
+                            </button>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </form>
+                <div style="clear: both;">
+                <script id="applications-form-fail-field-template-top-form" type="text/x-handlebars-template">
+                  <span class="error">{{w}}</span>
+                </script>
+
+                <script id="applications-form-success-template-top-form" type="text/x-handlebars-template">
+                  <span style="font-weight: bold; font-size: 14px; text-align: center; display: block; padding: 6px;">Obrigado pela sua inscrição. Aguarde pelo nosso contacto.</span>
+                </script>
+
+              </li>
+
+              
+<!--|============================================================ CICLO DESENVOLVIMENTO PESSOAL ==============================================|-->
+              <li style='background-color: transparent;'>
+                <h1 style='background-color: transparent; margin-top: 15px; margin-bottom: 0;'>Ciclo Desenvolvimento Pessoal</h1>
+              </li>
+              
+<!--|===================| topico 1 |================================|-->
+              {% for post in ciclo_desenvolvimento %}
+              <li class='i-0   no-image odd' id='item-28519'>
+                <div class='item'>
+                  <div class='name'>
+                    <div class='value' style="padding: 0 10px;">
+                      <div style="float: right; text-align: right;">
+                        {{post.horas}} Horas <br> 
+                        
+
+                        {{post.desconto_inscricao}}
+                      </div>
+                      <span>
+                        {{post.title}} <br />
+                        {{post.mes}}
+                      </span>
+                    </div>
+                  </div>
+
+                  <div class='text1' style="font-family: arial,helvetica,sans-serif; font-size: 12px;">
+                    <span class='value'>
+                      {% include formacao-to-post.html %}                        
+                      {{post}}
+
+                    </span>
+                  </div>
+                </div>
+              </li>
+              {% endfor %}
+              
+
+              
+<!--|===================| topico 2 |================================|-->              
+              <li style='background-color: transparent;'>
+                <h1 style='background-color: transparent; margin-top: 15px; margin-bottom: 0;'>Ciclo Competências Relacionais</h1>
+              </li>
+              
+              {% for post in ciclo_competencias %}              
+              <li class='i-0   no-image odd' id='item-28519'>
+                <div class='item'>
+                  <div class='name'>
+                    <div class='value' style="padding: 0 10px;">
+                      <div style="float: right; text-align: right;">
+                          {{post.horas}} horas <br> 
+                        
+
+                          {{post.desconto_inscricao}} 
+                      </div>
+                      <span>
+                        {{post.title}} <br />
+                        {{post.mes}}
+                      </span>
+                    </div>
+                  </div>
+
+                  <div class='text1' style="font-family: arial,helvetica,sans-serif;">
+                    <span class='value'>
+                      {% include formacao-to-post.html %}                        
+                      {{post}}
+                      
+                    </span>
+                  </div>
+                </div>
+              </li>
+              {% endfor %}
+
+<!--|===================| topico 3 |================================|-->              
+             
+              <li style='background-color: transparent;'>
+                <h1 style='background-color: transparent; margin-top: 15px; margin-bottom: 0;'>Ciclo Liderança</h1>
+              </li>
+              
+              {% for post in ciclo_lideranca %}              
+              <li class='i-0   no-image odd' id='item-28519'>
+                <div class='item'>
+                  <div class='name'>
+                    <div class='value' style="padding: 0 10px;">
+                      <div style="float: right; text-align: right;">
+                        {{post.horas}} horas <br> 
+                        
+
+                          {{post.desconto_inscricao}} 
+                      </div>
+                      <span>
+                        {{post.title}} <br />
+                        {{post.mes}}
+                      </span>
+                    </div>
+                  </div>
+
+                  <div class='text1' style="font-family: arial,helvetica,sans-serif;">
+                    <span class='value'>
+                      {% include formacao-to-post.html %}                        
+                      {{post}}
+
+                    </span>
+                  </div>
+                </div>
+              </li>
+              {% endfor %}
+
+<!--|===================| topico 4 |================================|-->              
+              <li style='background-color: transparent;'>
+                <h1 style='background-color: transparent; margin-top: 15px; margin-bottom: 0;'>Ciclo Gestão de Pessoas</h1>
+              </li>
+              
+              {% for post in ciclo_gestao %}  
+              <li class='i-0   no-image odd' id='item-28519'>
+                <div class='item'>
+                  <div class='name'>
+                    <div class='value' style="padding: 0 10px;">
+                      <div style="float: right; text-align: right;">
+                        {{post.horas}} horas <br> 
+                        
+
+                        {{post.desconto_inscricao}} 
+                      </div>
+                      <span>
+                        {{post.title}} <br />
+                        {{post.mes}}
+                      </span>
+                    </div>
+                  </div>
+
+                  <div class='text1' style="font-family: arial,helvetica,sans-serif;">
+                    <span class='value'>
+                        {% include formacao-to-post.html %}                        
+                        {{post}}
+
+                    </span>
+                  </div>
+                </div>
+              </li>
+              {% endfor %}
+
+              
+<!--|===================| topico 5 |================================|-->              
+              <li style='background-color: transparent;'>
+                <h1 style='background-color: transparent; margin-top: 15px; margin-bottom: 0;'>Ciclo Criatividade e Inovação</h1>
+              </li>
+              
+              {% for post in ciclo_criatividade %}  
+              <li class='i-0   no-image odd' id='item-28519'>
+                <div class='item'>
+                  <div class='name'>
+                    <div class='value' style="padding: 0 10px;">
+                      <div style="float: right; text-align: right;">
+                          {{post.horas}} horas <br> 
+                          
+  
+                          {{post.desconto_inscricao}} 
+                        </div>
+                        <span>
+                          {{post.title}} <br />
+                          {{post.mes}}
+                      </span>
+                    </div>
+                  </div>
+
+                  <div class='text1' style="font-family: arial,helvetica,sans-serif;">
+                    <span class='value'>
+                        {% include formacao-to-post.html %}                        
+                        {{post}}
+
+                    </span>
+                  </div>
+                </div>
+              </li>
+              {% endfor %}
+
+              
+<!--|===================| topico 6 |================================|-->              
+              <li style='background-color: transparent;'>
+                <h1 style='background-color: transparent; margin-top: 15px; margin-bottom: 0;'>Ciclo Línguas Estrangeiras</h1>
+              </li>
+              
+              {% for post in ciclo_linguas %}                
+              <li class='i-0   no-image odd' id='item-28519'>
+                <div class='item'>
+                  <div class='name'>
+                    <div class='value' style="padding: 0 10px;">
+                      <div style="float: right; text-align: right;">
+                          {{post.horas}} horas <br> 
+                          
+  
+                          {{post.desconto_inscricao}} 
+                        </div>
+                        <span>
+                          {{post.title}} <br />
+                          {{post.mes}}
+                      </span>
+                    </div>
+                  </div>
+
+                  <div class='text1' style="font-family: arial,helvetica,sans-serif;">
+                    <span class='value'>
+                        {% include formacao-to-post.html %}                        
+                        {{post}}
+                        
+                    </span>
+                  </div>
+                </div>
+              </li>
+              {% endfor %}
+
+              
+<!--|===================| topico 7 |================================|-->              
+              <li style='background-color: transparent;'>
+                <h1 style='background-color: transparent; margin-top: 15px; margin-bottom: 0;'>Ciclo Melhoria Contínua</h1>
+              </li>
+              
+              {% for post in ciclo_melhoria %}  
+              <li class='i-0   no-image odd' id='item-28519'>
+                <div class='item'>
+                  <div class='name'>
+                    <div class='value' style="padding: 0 10px;">
+                      <div style="float: right; text-align: right;">
+                          {{post.horas}} horas <br> 
+                          
+  
+                          {{post.desconto_inscricao}} 
+                        </div>
+                        <span>
+                          {{post.title}} <br />
+                          {{post.mes}}
+                      </span>
+                    </div>
+                  </div>
+
+                  <div class='text1' style="font-family: arial,helvetica,sans-serif;">
+                    <span class='value'>
+                      {% include formacao-to-post.html %}                        
+                      {{post}}
+                        
+                    </span>
+                  </div>
+                </div>
+              </li>
+              {% endfor %}
+
+              
+<!--|===================| topico 8 |================================|-->              
+              <li style='background-color: transparent;'>
+                <h1 style='background-color: transparent; margin-top: 15px; margin-bottom: 0;'>Ciclo Marketing</h1>
+              </li>
+              
+              {% for post in ciclo_marketing %} 
+              <li class='i-0   no-image odd' id='item-28519'>
+                <div class='item'>
+                  <div class='name'>
+                    <div class='value' style="padding: 0 10px;">
+                      <div style="float: right; text-align: right;">
+                          {{post.horas}} horas <br> 
+                          
+  
+                          {{post.desconto_inscricao}} 
+                        </div>
+                        <span>
+                          {{post.title}} <br />
+                          {{post.mes}}
+                      </span>
+                    </div>
+                  </div>
+
+                  <div class='text1' style="font-family: arial,helvetica,sans-serif;">
+                    <span class='value'>
+                        {% include formacao-to-post.html %}                        
+                        {{post}}
+
+                    </span>
+                  </div>
+                </div>
+              </li>
+              {% endfor %}
+
+              
+<!--|===================| topico 9 |================================|-->              
+              <li style='background-color: transparent;'>
+                <h1 style='background-color: transparent; margin-top: 15px; margin-bottom: 0;'>Ciclo Ferramentas Informáticas</h1>
+              </li>
+              
+              {% for post in ciclo_ferramentas %} 
+              <li class='i-0   no-image odd' id='item-28519'>
+                <div class='item'>
+                  <div class='name'>
+                    <div class='value' style="padding: 0 10px;">
+                      <div style="float: right; text-align: right;">
+                          {{post.horas}} horas <br> 
+                          
+  
+                          {{post.desconto_inscricao}} 
+                        </div>
+                        <span>
+                          {{post.title}} <br />
+                          {{post.mes}}
+                      </span>
+                    </div>
+                  </div>
+
+                  <div class='text1' style="font-family: arial,helvetica,sans-serif;">
+                    <span class='value'>
+                        {% include formacao-to-post.html %}                        
+                        {{post}}
+
+                    </span>
+                  </div>
+                </div>
+              </li>
+              {% endfor %}
+
+              
+<!--|===================| topico 10 |================================|-->              
+              <li style='background-color: transparent;'>
+                <h1 style='background-color: transparent; margin-top: 15px; margin-bottom: 0;'>Ciclo Higiene e Segurança no Trabalho</h1>
+              </li>
+              
+              {% for post in ciclo_higiene %}
+              <li class='i-0   no-image odd' id='item-28519'>
+                <div class='item'>
+                  <div class='name'>
+                    <div class='value' style="padding: 0 10px;">
+                      <div style="float: right; text-align: right;">
+                          {{post.horas}} horas <br> 
+                          
+  
+                          {{post.desconto_inscricao}} 
+                        </div>
+                        <span>
+                          {{post.title}} <br />
+                          {{post.mes}}
+                      </span>
+                    </div>
+                  </div>
+
+                  <div class='text1' style="font-family: arial,helvetica,sans-serif;">
+                    <span class='value'>
+                        {% include formacao-to-post.html %}                        
+                        {{post}}
+
+                    </span>
+                  </div>
+                </div>
+              </li>
+              {% endfor %}  
+              
+            </ul>
+            <div class='footer'>
+            </div>
+          </div>
+        </div>
+      </div>
+    </li>
+  </ol>
+</body>

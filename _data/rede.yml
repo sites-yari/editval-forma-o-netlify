@@ -1,0 +1,83 @@
+lista:
+  comercio:
+    - cliente: Conforsense Unipessoal Lda 
+    - cliente: Drogaria Feliz Lda 
+    - cliente: Earboxwear, SA 
+    - cliente: Farmácia S. José 
+    - cliente: Frescos do Dia - Supermercado Unipessoal Lda 
+    - cliente: Jaime Oculista Unipessoal Lda 
+    - cliente: Joarca - Armazém de Tecidos Lda 
+    - cliente: Mercado da Pedra - Comércio de Rochas Ornamentais, Lda 
+    - cliente: Nuno Miguel Faria Martins Unipessoal Lda 
+    - cliente: Pneu Feliz - Comércio de Pneus Lda 
+    - cliente: Rosa Maria Costa & Filhos Lda 
+    - cliente: Tubinox - Aços Inoxidáveis Lda 
+
+  servicos:
+    - cliente: Alberto Barbosa & Filhos, S.A. (Alfilux) 
+    - cliente: Aliqual - Segurança Alimentar e no Trabalho, Lda 
+    - cliente: Auto Sueco S.A 
+    - cliente: Bellekorpus - Formação e Comércio de Artigos para Estética Lda 
+    - cliente: Cardan S.A. 
+    - cliente: Casa de Saúde de Guimarães S.A. 
+    - cliente: Cefolgest - Formação e Consultoria Lda 
+    - cliente: Centro Social e Paroquial de Mindelo 
+    - cliente: Cobersun Lda 
+    - cliente: EDIT VALUE Consultoria Empresarial Lda 
+    - cliente: FSTC Unipessoal Lda 
+    - cliente: Foco Criativo Unipessoal Lda 
+    - cliente: Fundação Lar Santo António 
+    - cliente: Geojustiça Lda 
+    - cliente: Gizz Lda 
+    - cliente: HVB - Hospital Veterinário de Braga Lda 
+    - cliente: Japel - Montagens Elétricas Lda 
+    - cliente: Jorge Luís Navarro Lda 
+    - cliente: José Castro & Filhos S.A. 
+    - cliente: José Rodrigues Vieira & Filhos Lda (Abadia D'Este) 
+    - cliente: Pichelaria InstalJoane Lda 
+
+  industria:
+    - cliente: Amertrade Têxteis Lda 
+    - cliente: Amishoes Calçados Lda 
+    - cliente: BRC Bordados Lda 
+    - cliente: Best Wear Unipessoal Lda 
+    - cliente: Bordainveste - Fábrica de Bordados Lda 
+    - cliente: Central Carnes - Matadouro Central de Entre o Douro e Minho S.A. 
+    - cliente: Combined Tex - Comércio de Malhas Lda 
+    - cliente: FermentUM - Engenharia das Fermentações Lda 
+    - cliente: Flexicel Portugal Lda 
+    - cliente: Fábrica de Chocolates Casa Grande Lda 
+    - cliente: ICM - Indústria de Carnes do Minho S.A. 
+    - cliente: Impetus Portugal Texteis S.A. 
+    - cliente: Interhigiene - Indústria de Produtos de Higiene Lda 
+    - cliente: Lourofood Lda 
+    - cliente: Lusoimpress Artes Gráficas S.A. 
+    - cliente: Majoba - Confecções Lda | PME Líder 
+    - cliente: Malhas CEF S.A. 
+    - cliente: Nogueira & Monteiro Lda 
+    - cliente: Olivia Santos Indústria de Confeções Lda 
+    - cliente: Panizende - Panificadora de Esposende Lda 
+    - cliente: Porminho - Indústria e Comércio de Carnes Lda 
+    - cliente: Primor Carcutaria Prima S.A. 
+    - cliente: Rosa Maria Baptista - Confecções Lda 
+    - cliente: Sarreliber S.A. 
+    - cliente: Taíde Confeccções Lda
+
+  entidades:
+    - cliente: Agrupamento de Escolas Gonçalo Sampaio 
+    - cliente: Agência de Desenvolvimento Regional do Vale do Ave 
+    - cliente: Associação Comercial de Braga 
+    - cliente: Associação Empresarial de Fafe, Cabeceiras de Basto e Celorico de Basto 
+    - cliente: Associação Empresarial de Portugal 
+    - cliente: Associação Industrial do Minho 
+    - cliente: Associação Nacional de Empresárias 
+    - cliente: Bragahabit E.M. 
+    - cliente: Câmara Municipal de Amarante 
+    - cliente: Câmara Municipal de Fafe 
+    - cliente: Escola Superior de Estudos Indústriais e de Gestão 
+    - cliente: Escola de Economia e Gestão da Universidade do Minho 
+    - cliente: Fundação para a Divulvação das Tecnologias de Informação 
+    - cliente: Instituto de Apoio às Pequenas e Médias Empresas e à Inovação 
+    - cliente: Instituto de Emprego e Formação Profissional 
+    - cliente: MARP Associação de Mulheres Agricultoras e Rurais Portuguesas 
+    - cliente: Theatro Circo, S.A. 

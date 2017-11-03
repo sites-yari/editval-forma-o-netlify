@@ -1,0 +1,62 @@
+---
+layout: default
+title: Videos
+class: media-pt
+media_active?: active
+videos_active?: active
+idiom: pt
+---
+
+<body class='older_browser ev media pt'>
+  <ol class='contents '>
+    {% include menu-nested.html %}
+
+    <li class="container left">
+      <div class="content" id="content_654_container">
+        <div class="gallery">
+          <div class="head">
+            <span style="font-size: 1.2em; font-weight: bold;">Videos</span>
+          </div>
+          <ul style="margin-top: 20px; margin-left: -25px; ">
+            {% for videos in site.data.media-videos.videos %}
+            {% if videos.existencia == "Existe" %}
+            <li id="article94" style="margin: 0 0 20 25px; float: left;">
+              <div class="article clearfix">
+                <a href="#article94youtube" data-fancybox-ignore="overlay" data-fancybox-width="425" data-fancybox-height="355"
+                  style="text-decoration: none; border: 1px solid #e0e0e0; display: block; padding: 5px;
+                        width: 160px; height: 132px; overflow: hidden; color: #000; " >
+                  <div class="head" style="font-weight: bold;">
+                    <div class="title"><span>{{videos.titulo}}</span></div>
+                  </div>
+                  <div class="body">
+                    <div class="img" style="text-align: center; height: 90px; overflow: hidden;">
+                      <img alt="0" src="{{videos.image_path}}" style="height: 120px;">
+                    </div>
+                  </div>
+                  <div class="foot">
+                    <div class="text" style=" text-align: right; font-size: 0.8em; color: #aaa;">
+                      <span><div>{{videos.ano}}</div>
+                        <div>{{videos.cidade}}</div></span>
+                    </div>
+                    <div class="data">
+                      <span></span>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div id="article94youtube" style="display: none">
+                <object height="355" width="425">
+                  <param name="movie" value="{{videos.link}}">
+                  <param name="wmode" value="transparent">
+                  <embed height="355" src="{{videos.link}}" type="application/x-shockwave-flash" width="425" wmode="transparent"></embed>
+                </object>
+              </div>
+            </li>
+            {% endif %}
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+    </li>
+  </ol>
+</body>

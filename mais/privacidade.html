@@ -1,0 +1,42 @@
+---
+title: Privacidade
+class: etica-pt
+idiom: pt
+---
+
+{% include etica-head.html %}
+
+<body class="ev windows older_browser">
+    
+  <div class="" id="main_container">
+    <div id="header_container">
+      <div class="" id="container1">
+        <div class="contents">
+          <ol class="contents ">
+            <li class="container ">
+              <div class="content" id="content_642_container">
+                <div class="text ev-texto-lightbox">
+                  <div class="i">
+
+                    <h1 style="text-align:center">DECLARAÇÃO DE PRIVACIDADE</h1>
+                    <div style="text-align: center;">{{site.data.rodape.privacidade.subtitulo}}</div>
+
+                    {% for privacidade in site.data.rodape.privacidade.x %}
+                    <h2>{{privacidade.tema}}</h2>
+                    <div style="text-align: justify;">{{privacidade.text}}</div>
+                    {% endfor %}
+                    <div style="text-align: justify;"> </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+<!-- Mirrored from formacao.editvalue.com/mais/privacidade by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 28 Aug 2017 17:44:51 GMT -->
+</html>

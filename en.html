@@ -1,0 +1,85 @@
+---
+layout: default
+title: index
+class: index-en
+index_active?: active
+idiom: en
+---
+
+
+<body class='older_browser ev en en'>      
+  <ol class='contents '>
+    <li class="container left">
+      <div class='content' id='content_14987_container'>
+        <div class='list left_agenda ' id='list_157'>
+          <div class='items'>
+            
+            <ul>
+              {% for en in site.data.pagina-index.en.info %}
+              <li class='i-0   no-image odd'>
+                <div class='item'>
+                  <div class='date'>
+                    <span>{{en.data}}</span>
+                  </div>
+                  <div class='name'>
+                    <span class='label'>Nome</span>
+                    <span class='value'>{{en.titulo}}</span>
+                  </div>
+                  <div class='text1'>
+                    <span class='label'>Texto</span>
+                    <span class='value'><p>&nbsp;</p>
+                      <p>{{en.text}}</p>
+                    </span>
+                  </div>
+                </div>
+              </li>
+              {% endfor %}
+            </ul>
+
+            <div class='footer'>
+            </div>
+          </div>
+        </div>
+      </div>
+    </li>
+
+
+    
+    <li class="container left">
+      <div class='content' id='content_14985_container'>
+        <div class='list destaques_right ' id='list_156'>
+          <div class='items'>
+
+            <ul>      
+              {% for en in site.data.pagina-index.en.lista %}
+              <li class='i-0 odd'>
+                <div class='item'>
+                  <div class='folder'>
+                    <div class='name'>
+                      <a href='#'>
+                        <span class='label'>Nome</span>
+                        <span class='value'>{{en.titulo}}</span>
+                      </a>
+                    </div>
+                    <div class='image'>
+                      <img alt="{{en.titulo}}" class="blur" src='{{en.image_path}}' />
+                    </div>
+                  </div>
+                  <div class='text1'>
+                    <span class='label'>Texto</span>
+                    <span class='value'>
+                      <p>{{en.text}}</p>
+                    </span>
+                  </div>
+                </div>
+              </li>  
+              {% endfor %}   
+            </ul>
+
+            <div class='footer'>
+          </div>
+        </div>
+      </div>
+    </li>
+  </ol>
+</body>

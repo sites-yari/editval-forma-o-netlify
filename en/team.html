@@ -1,0 +1,126 @@
+---
+layout: default
+title: Team
+class: equipa-en
+equipa_active?: active
+idiom: en
+---
+
+<body class='older_browser ev team en'>
+  <ol class='contents clearfix'>
+    <li class="container left">
+      <div class='content' id='content_14993_container'>
+        <div class='list destaques_equipa ' id='list_154'>
+          <div class='items'>
+            
+            <ul>
+              <li class='i-0    odd' id='item-6784'>
+                <div class='item'>
+                  <div class='text1'>
+                    <span class='label'>Texto 1</span>
+                    <span class='value'>{{site.data.equipa.missao.en.text}}<p></p>
+                    </span>
+                  </div>
+                  <div class='folder'>
+                    <div class='name'>
+                      <span class='label'>Nome</span>
+                      <span class='value'>{{site.data.equipa.missao.en.titulo}}</span>
+                    </div>
+                    <div class='image'>
+                      <img alt="Missao1" class="blur" src='../{{site.data.equipa.missao.en.image_path}}' />
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+              <li class='i-1    even' id='item-6785'>
+                <div class='item'>
+                  <div class='text1'>
+                    <span class='label'>Texto 1</span>
+                    <span class='value'><p>{{site.data.equipa.visao.en.text}}</p>
+                    </span>
+                  </div>
+                  <div class='folder'>
+                    <div class='name'>
+                      <span class='label'>Nome</span>
+                      <span class='value'>{{site.data.equipa.visao.en.titulo}}</span>
+                    </div>
+                    <div class='image'>
+                      <img alt="Visao" class="blur" src='../{{site.data.equipa.visao.en.image_path}}' />
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+              <li class='i-2    odd' id='item-6786'>
+                <div class='item'>
+                  <div class='text1'>
+                    <span class='label'>Texto 1</span>
+                    <span class='value'><p>{{site.data.equipa.valores.en.text}}</p>
+                    </span>
+                  </div>
+                  <div class='folder'>
+                    <div class='name'>
+                      <span class='label'>Nome</span>
+                      <span class='value'>{{site.data.equipa.valores.en.titulo}}</span>
+                    </div>
+                    <div class='image'>
+                      <img alt="Valores" class="blur" src='../{{site.data.equipa.valores.en.image_path}}' />
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+
+            <div class='footer'>
+            </div>
+          </div>
+        </div>
+      </div>
+    </li>
+
+
+
+    <li class="container left">
+      <div class='content' id='content_14995_container'>
+        <div class='list equip_list ' id='list_155'>
+          <div class='items'>
+            <ul>
+              {% for equipa in site.data.equipa.lista.equipa_en%}   
+              <li class="i-0   no-image even" id="item-6859">
+                <div class="item">
+                  <div class="folder">
+                    <div class="name">
+                      <span class="label">Nome</span>
+                      <span class="value">{{equipa.nome}}</span>
+                    </div>
+                    <div class="string1">
+                      <span class="label">Função</span>
+                      <span class="value">{{equipa.cargo}}</span>
+                    </div>
+                  </div>
+                  <div class="text1">
+                    <span class="label">Texto 1</span>
+                    <span class="value"><p><p>{{equipa.texto}}</p></p>
+                    </span>
+                  </div>
+                  <div class="string2">
+                    <span class="label">Telefone</span>
+                    <span class="value">{{equipa.telefone}}</span>
+                  </div>
+                  <div class="string3" style="white-space: nowrap;">
+                    <span class="label">Email</span>
+                    <span class="value">{{equipa.email}}</span>
+                  </div>
+                </div>
+              </li>
+              {% endfor %}
+            </ul>
+            <div class='footer'>
+            </div>
+          </div>
+        </div>
+      </div>
+    </li>
+  </ol>
+</body>

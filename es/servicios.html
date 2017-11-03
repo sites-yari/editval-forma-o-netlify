@@ -1,0 +1,140 @@
+---
+layout: default
+title: Servicios
+class: servicos-es
+servicos_active?: active
+idiom: es
+---
+
+<body class='older_browser ev servicios es'>
+  <ol class='contents clearfix'>
+    <li class="container left">
+      <div class='content' id='content_15813_container'>
+        <div class='list servicos ' id='list_141'>
+          <div class='items'>
+            <ul>
+              
+              <li class='i-0   no-image odd' id='item-6738'>
+                <div class='item'>
+                  <div class='text1' style="overflow:hidden; margin-bottom: 0; height: 192px;">
+                    <span class='label'>Texto 1</span>
+                    <span class='value'>
+                        <div>
+                          {{site.data.servicos.es.solucao.saber1.text}}<br />
+                          
+                          {% for servicios in site.data.servicos.es.solucao.saber1.x %}
+                          <strong>{{servicios.tema}}</strong><br />
+                          {{servicios.text}}<br />
+                          
+                          {% endfor %}
+                        </div>
+                    </span>
+                  </div>
+                  <div class='_more_link_'>
+                    <div class='more-link'>
+                      <a href='#' class="more" data-expecial-widget="expander"><span>Saber más</span></a>
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+              <li class='i-1   no-image even' id='item-6739'>
+                <div class='item'>
+                  <div class='text1' style="overflow:hidden; margin-bottom: 0; height: 192px;">
+                    <span class='label'>Texto 1</span>
+                    <span class='value'>
+                      <div>
+                        {{site.data.servicos.es.solucao.saber2.text}}<br />
+                        
+                        {% for servicios in site.data.servicos.es.solucao.saber2.x %}
+                        <strong>{{servicios.tema}}</strong><br />
+                        {{servicios.text}}<br />
+                        
+                        {% endfor %}
+                      </div>
+                    </span>
+                  </div>
+                  <div class='_more_link_'>
+                    <div class='more-link'>
+                      <a href='#' class="more" data-expecial-widget="expander"><span>Saber más</span></a>
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+              <li class='i-2   no-image odd' id='item-6740'>
+                <div class='item'>
+                  <div class='text1' style="overflow:hidden; margin-bottom: 0; height: 192px;">
+                    <span class='label'>Texto 1</span>
+                    <span class='value'>
+                      <div>
+                        {{site.data.servicos.es.solucao.saber3.text}}<br />
+                        
+                        {% for servicios in site.data.servicos.es.solucao.saber3.x %}
+                        <strong>{{servicios.tema}}</strong><br />
+                        {{servicios.text}}<br />
+                        
+                        {% endfor %}
+                      </div>
+                    </span>
+                  </div>
+                  <div class='_more_link_'>
+                    <div class='more-link'>
+                      <a href='#' class="more" data-expecial-widget="expander"><span>Saber más</span></a>
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+            </ul>
+            <div class='footer'>
+              <table align='center' class='paginator-container'>
+                <tr>
+                  <td>
+                    <div class='paginator'></div>
+                  </td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </li>
+
+    <li class="container left">
+      <div class='content' id='content_15871_container'>
+        <div class='list areas_actuacao ' id='list_153'>
+          <h1><span class=value>Áreas de atuação</span><span class=i18n></span></h1>
+          <div class='items'>
+            
+              <ul>
+                  {% for servicios in site.data.servicos.es.areas %}
+                  <li class='i-0    even' id='item-10186'>
+                    <div class='item'>
+                      <div class='image'>
+                        <img alt="Recrutamento" class="blur" src='../{{servicios.image_path}}' />
+                      </div>
+                      <div class='folder'>
+                        <div class='name'>
+                          <span class='label'>Nome</span>
+                          <span class='value'>{{servicios.titulo}}</span>
+                        </div>
+                        <div class='text1'>
+                          <span class='label'>Texto 1</span>
+                          <span class='value'><p>{{servicios.text}}</p>
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  {% endfor %}
+                </ul>
+            
+            <div class='footer'>
+            </div>
+          </div>
+        </div>
+      </div>
+    </li>
+  </ol>
+</body>

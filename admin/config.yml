@@ -1,0 +1,662 @@
+publish_mode: editorial_workflow
+media_folder: "assets/uploads"
+
+backend:
+  name: git-gateway
+  repo: https://github.com/sites-yari/editval-formacao-netlify
+  branch: master # Branch to update (optional; defaults to master)
+  site_domain: formacao-editvalue.netlify.com
+
+collections:
+#====================| POSTS |===================================================|  
+  #-----| Read me |------------------------------|
+  - name: "posts"
+    label: "Instruções"
+    folder: "_posts"
+    create: false
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "Titulo", name: "title", widget: "string" }
+      - { label: "Data de publicação", name: "date", widget: "datetime", format: "YYYY-MM-DD" }
+
+  #-----| Artigos |-------------------------------|
+  - name: "artigos"
+    label: "Artigos"
+    folder: "_posts/artigos"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "Layout", name: "layout", widget: "hidden", default: "post-text" }
+      - { label: "Titulo", name: "title", widget: "string" }
+      - { label: "Data de Publicação", name: "data", widget: "datetime", format: "DD-MM-YYYY" }
+      - { label: "Imagem", name: "text_image_path", widget: "image" }
+      - { label: "Categoria", name: "category", widget: "hidden", default: "artigos" }
+      - { label: "Classe", name: "class", widget: "hidden", default: "media-pt" }
+      - { label: "Activo", name: "media_active?", widget: "hidden", default: "active" }
+      - { label: "artigos active?", name: "artigos_active?", widget: "hidden", default: "active" }
+      - { label: "Idioma", name: "idiom", widget: "hidden", default: "pt" }
+      - { label: "Endereço da Página", name: "permalink", widget: "string", default: "pt-media/artigos/(nome)" }
+      - { label: "Contexto", name: "body", widget: "markdown" }
+
+  #-----| Clipping |------------------------------|
+  - name: "clipping"
+    label: "Clipping"
+    folder: "_posts/clipping"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "Layout", name: "layout", widget: "hidden", default: "default" }
+      - { label: "Titulo", name: "title", widget: "string" }
+      - { label: "Categoria", name: "category", widget: "hidden", default: "clipping" }
+      - { label: "Imagem de Capa", name: "main_image_path", widget: "image" }
+      - { label: "Classe", name: "class", widget: "hidden", default: "media-pt" }
+      - { label: "Media Active?", name: "media_active?", widget: "hidden", default: "active" }
+      - { label: "clipping active?", name: "clipping_active?", widget: "hidden", default: "active" }
+      - { label: "Idioma", name: "idiom", widget: "hidden", default: "pt" }
+      - { label: "Nome do Endereço", name: "permalink", widget: "string", default: "pt-media/clipping/recortes-" }
+      - label: "Lista de Imagens"
+        name: "image_list"
+        widget: "list"
+        fields:
+          - { label: "Imagem", name: "image_path", widget: "image" }
+          - { label: "Endereço de Imagem", name: "link_image_path", widget: "image" }
+          - { label: "Titulo da Image", name: "subtitle", widget: "string" }
+          - { label: "Data publicada", name: "date", widget: "datetime", format: "DD-MM-YYYY" } 
+
+  #-----| Galeria de fotos |----------------------|
+  - name: "galeria-fotos"
+    label: "Galeria de fotos"
+    folder: "_posts/galeria-fotos"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "Layout", name: "layout", widget: "hidden", default: "default" }
+      - { label: "Titulo", name: "title", widget: "string" }
+      - { label: "Descrição", name: "description", widget: "string" }
+      - { label: "Ano de Publicação", name: "year", widget: "number" }
+      - { label: "Categoria", name: "category", widget: "hidden", default: "galeria-de-fotos" }
+      - { label: "Imagem de capa", name: "main_image_path", widget: "image" }
+      - { label: "Classe", name: "class", widget: "hidden", default: "media-pt" }
+      - { label: "Media Active?", name: "media_active?", widget: "hidden", default: "active" }
+      - { label: "galeria active?", name: "galeria_active?", widget: "hidden", default: "active" }
+      - { label: "Idioma", name: "idiom", widget: "hidden", default: "pt" }
+      - { label: "Nome do Endereço", name: "permalink", widget: "string", default: "pt-media/galeria-fotos/(nome)" }
+      - label: "Lista de Imagens"
+        name: "image_list"
+        widget: "list"
+        fields:
+          - { label: "Imagem", name: "image_path", widget: "image" }
+          - { label: "Endereço de Imagem", name: "link_image_path", widget: "image" }
+
+  #-----| Press release |-------------------------|
+  - name: "press-release"
+    label: "Press Release"
+    folder: "_posts/press-release"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "Layout", name: "layout", widget: "hidden", default: "post-text" }
+      - { label: "Titulo", name: "title", widget: "string" }
+      - { label: "Data de Publicação", name: "data", widget: "datetime", format: "DD-MM-YYYY" }
+      - { label: "Categoria", name: "category", widget: "hidden", default: "press-release" }
+      - { label: "Classe", name: "class", widget: "hidden", default: "media-pt" }
+      - { label: "Media Active?", name: "media_active?", widget: "hidden", default: "active" }
+      - { label: "press active?", name: "press_active?", widget: "hidden", default: "active" }
+      - { label: "Idioma", name: "idiom", widget: "hidden", default: "pt" }
+      - { label: "Nome do Endereço", name: "permalink", widget: "string", default: "pt-media/press-release/(nome)" }
+      - { label: "Descrição do titulo", name: "body", widget: "markdown" }
+
+  #-----| Redes |---------------------------------|
+  - name: "redes"
+    label: "Redes"
+    folder: "_posts/redes"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "Nome", name: "title", widget: "string" }
+      - { label: "Categoria", name: "category", widget: "hidden", default: "Parcerias" }
+      - { label: "Imagem", name: "imagem_image_path", widget: "image" }
+      - { label: "Endereço/link", name: "link", widget: "string" }
+      - { label: "Descrição", name: "text", widget: "string" }
+
+  #-----| FORMAÇÃO |---------------------------------|
+  - name: "formacao"
+    label: "Formação"
+    folder: "_posts/formacao"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "ID de identificação", name: "identificacao_id", widget: "string" }
+      - { label: "Nome", name: "title", widget: "string" }
+      - { label: "Horas", name: "horas", widget: "number" }
+      - { label: "Mês", name: "mes", widget: "string" }
+      - { label: "Desconto de Inscricão", name: "desconto_inscricao", widget: "string" }
+      - { label: "Categoria", name: "category", widget: "hidden", default: "formacao" }
+      - { label: "ciclo categoria", name: "ciclo_category", widget: "select", options: ["desenvolvimento_pessoal","competencias_relacionais","lideranca","gestao_pessoas","criatividade_inovacao","linguas_estrangeiras","melhoria_continua","marketing","ferramentas_informaticas","higiene_seguranca"] }
+      - { label: "formacao active?", name: "formacao_Active?", widget: "hidden", default: "active" }
+      - { label: "Classe", name: "class", widget: "hidden", default: "formacao-pt" }
+      - { label: "Idioma", name: "idiom", widget: "hidden", default: "pt" }
+
+  - name: "data" #|=====================| DATA |====================================================|
+    label: "Data"
+    editor:
+      preview: true
+    files:
+        #---| INDEX |---------------------------------------------------
+      - name: "pagina-index"
+        label: "Pagina de Inicio"
+        file: "_data/pagina-index.yml"
+        description: Everything needed for the index
+        fields:
+          - label: PT #-------PT
+            name: pt
+            widget: object
+            fields:
+              - label: Informação
+                name: info
+                widget: list
+                fields:
+                  - { label: "Data de publicação", name: "data", widget: "datetime", format: "DD-MM-YYYY" }
+                  - { label: "Titulo", name: "titulo", widget: "string" }
+                  - { label: "Descrição", name: "text", widget: "markdown" }
+              - label: Caixas de Informação
+                name: lista
+                widget: list
+                fields:
+                  - { label: "Imagem", name: "image_path", widget: "image" }
+                  - { label: "Titulo", name: "titulo", widget: "string" }
+                  - { label: "Descrição", name: "text", widget: "markdown" }
+              
+          - label: EN #-------EN
+            name: en
+            widget: object
+            fields:
+              - label: Informação
+                name: info
+                widget: list
+                fields:
+                  - { label: "Data de publicação", name: "data", widget: "datetime", format: "DD-MM-YYYY" }
+                  - { label: "Titulo", name: "titulo", widget: "string" }
+                  - { label: "Descrição", name: "text", widget: "markdown" }
+              - label: Caixas de Informação
+                name: lista
+                widget: list
+                fields:
+                  - { label: "Imagem", name: "image_path", widget: "image" }
+                  - { label: "Titulo", name: "titulo", widget: "string" }
+                  - { label: "Descrição", name: "text", widget: "markdown" }
+          - label: ES #-------ES
+            name: es
+            widget: object
+            fields:
+              - label: Informação
+                name: info
+                widget: list
+                fields:
+                  - { label: "Data de publicação", name: "data", widget: "datetime", format: "DD-MM-YYYY" }
+                  - { label: "Titulo", name: "titulo", widget: "string" }
+                  - { label: "Descrição", name: "text", widget: "markdown" }
+              - label: Caixas de Informação
+                name: lista
+                widget: list
+                fields:
+                  - { label: "Imagem", name: "image_path", widget: "image" }
+                  - { label: "Titulo", name: "titulo", widget: "string" }
+                  - { label: "Descrição", name: "text", widget: "markdown" }
+        #---| EQUIPA |------------------------------------------------------
+      - name: "equipa"
+        label: "Equipa - quem somos"
+        file: "_data/equipa.yml"
+        description: Dados da pagina equipa
+        fields:
+          - label: Missão #----- Missão
+            name: missao
+            widget: object
+            fields:
+              - label: PT
+                name: pt
+                widget: object
+                fields:
+                  - { label: "Titulo", name: "titulo", widget: "string" }
+                  - { label: "Imagem", name: "image_path", widget: "image" }
+                  - { label: "Descrição", name: "text", widget: "markdown" }
+              - label: EN
+                name: en
+                widget: object
+                fields:
+                  - { label: "Titulo", name: "titulo", widget: "string" }
+                  - { label: "Imagem", name: "image_path", widget: "image" }
+                  - { label: "Descrição", name: "text", widget: "markdown" }
+              - label: ES
+                name: es
+                widget: object
+                fields:
+                  - { label: "Titulo", name: "titulo", widget: "string" }
+                  - { label: "Imagem", name: "image_path", widget: "image" }
+                  - { label: "Descrição", name: "text", widget: "markdown" }
+          - label: Visão #----- Visão
+            name: visao
+            widget: object
+            fields:
+              - label: PT
+                name: pt
+                widget: object
+                fields:
+                  - { label: "Titulo", name: "titulo", widget: "string" }
+                  - { label: "Imagem", name: "image_path", widget: "image" }
+                  - { label: "Descrição", name: "text", widget: "markdown" }
+              - label: EN
+                name: en
+                widget: object
+                fields:
+                  - { label: "Titulo", name: "titulo", widget: "string" }
+                  - { label: "Imagem", name: "image_path", widget: "image" }
+                  - { label: "Descrição", name: "text", widget: "markdown" }
+              - label: ES
+                name: es
+                widget: object
+                fields:
+                  - { label: "Titulo", name: "titulo", widget: "string" }
+                  - { label: "Imagem", name: "image_path", widget: "image" }
+                  - { label: "Descrição", name: "text", widget: "markdown" }
+          - label: Valores #----- Valores
+            name: valores
+            widget: object
+            fields:
+              - label: PT
+                name: pt
+                widget: object
+                fields:
+                  - { label: "Titulo", name: "titulo", widget: "string" }
+                  - { label: "Imagem", name: "image_path", widget: "image" }
+                  - { label: "Descrição", name: "text", widget: "markdown" }
+              - label: EN
+                name: en
+                widget: object
+                fields:
+                  - { label: "Titulo", name: "titulo", widget: "string" }
+                  - { label: "Imagem", name: "image_path", widget: "image" }
+                  - { label: "Descrição", name: "text", widget: "markdown" }
+              - label: ES
+                name: es
+                widget: object
+                fields:
+                  - { label: "Titulo", name: "titulo", widget: "string" }
+                  - { label: "Imagem", name: "image_path", widget: "image" }
+                  - { label: "Descrição", name: "text", widget: "markdown" }
+          - label: Lista #----- Lista
+            name: lista
+            widget: object
+            fields:
+              - label: Equipa PT
+                name: equipa_pt
+                widget: list
+                fields:
+                  - { label: "Titulo", name: "nome", widget: "string" }
+                  - { label: "Cargo", name: "cargo", widget: "string" }
+                  - { label: "Descrição", name: "texto", widget: "string" }
+                  - { label: "Telefone", name: "telefone", widget: "string" }
+                  - { label: "Email", name: "email", widget: "string" }
+              - label: Equipa EN
+                name: equipa_en
+                widget: list
+                fields:
+                  - { label: "Titulo", name: "nome", widget: "string" }
+                  - { label: "Cargo", name: "cargo", widget: "string" }
+                  - { label: "Descrição", name: "texto", widget: "string" }
+                  - { label: "Telefone", name: "telefone", widget: "string" }
+                  - { label: "Email", name: "email", widget: "string" }
+              - label: Equipa ES
+                name: equipa_es
+                widget: list
+                fields:
+                  - { label: "Titulo", name: "nome", widget: "string" }
+                  - { label: "Cargo", name: "cargo", widget: "string" }
+                  - { label: "Descrição", name: "texto", widget: "string" }
+                  - { label: "Telefone", name: "telefone", widget: "string" }
+                  - { label: "Email", name: "email", widget: "string" }
+        #---| SERVIÇOS |--------------------------------------------------
+      - name: "servicos"
+        label: "Serviços - mais valor"
+        file: "_data/servicos.yml"
+        description: Dados da pagina serviços
+        fields:
+          - label: PT #----- PT
+            name: pt
+            widget: object
+            fields:
+              - label: Solução
+                name: solucao
+                widget: object
+                fields:
+                  - label: Caixa de Info 1 
+                    name: saber1
+                    widget: object
+                    fields:
+                      - { label: "Texto", name: "text", widget: "string" }
+                      - label: "Lista de temas"
+                        name: "x"
+                        widget: "list"
+                        fields:
+                          - { label: "Tema", name: "tema", widget: "string" }
+                          - { label: "Descrição do tema", name: "text", widget: "markdown" } 
+                  - label: Caixa de Info 2 
+                    name: saber2
+                    widget: object
+                    fields:
+                      - { label: "Texto", name: "text", widget: "string" }
+                      - label: "Lista de temas"
+                        name: "x"
+                        widget: "list"
+                        fields:
+                          - { label: "Tema", name: "tema", widget: "string" }
+                          - { label: "Descrição do tema", name: "text", widget: "markdown" } 
+                  - label: Caixa de Info 3
+                    name: saber3
+                    widget: object
+                    fields:
+                      - { label: "Texto", name: "text", widget: "string" }
+                      - label: "Lista de temas"
+                        name: "x"
+                        widget: "list"
+                        fields:
+                          - { label: "Tema", name: "tema", widget: "string" }
+                          - { label: "Descrição do tema", name: "text", widget: "markdown" } 
+              - label: Áreas
+                name: areas
+                widget: list
+                fields:
+                  - { label: "Titulo", name: "titulo", widget: "string" }
+                  - { label: "Imagem", name: "image_path", widget: "image" }
+                  - { label: "Descrição", name: "text", widget: "markdown" }
+          - label: EN #----- EN
+            name: en
+            widget: object
+            fields:
+              - label: Solução
+                name: solucao
+                widget: object
+                fields:
+                  - label: Caixa de Info 1 
+                    name: saber1
+                    widget: object
+                    fields:
+                      - { label: "Texto", name: "text", widget: "string" }
+                      - label: "Lista de temas"
+                        name: "x"
+                        widget: "list"
+                        fields:
+                          - { label: "Tema", name: "tema", widget: "string" }
+                          - { label: "Descrição do tema", name: "text", widget: "markdown" } 
+                  - label: Caixa de Info 2 
+                    name: saber2
+                    widget: object
+                    fields:
+                      - { label: "Texto", name: "text", widget: "string" }
+                      - label: "Lista de temas"
+                        name: "x"
+                        widget: "list"
+                        fields:
+                          - { label: "Tema", name: "tema", widget: "string" }
+                          - { label: "Descrição do tema", name: "text", widget: "markdown" } 
+                  - label: Caixa de Info 3
+                    name: saber3
+                    widget: object
+                    fields:
+                      - { label: "Texto", name: "text", widget: "string" }
+                      - label: "Lista de temas"
+                        name: "x"
+                        widget: "list"
+                        fields:
+                          - { label: "Tema", name: "tema", widget: "string" }
+                          - { label: "Descrição do tema", name: "text", widget: "markdown" } 
+              - label: Áreas
+                name: areas
+                widget: list
+                fields:
+                  - { label: "Titulo", name: "titulo", widget: "string" }
+                  - { label: "Imagem", name: "image_path", widget: "image" }
+                  - { label: "Descrição", name: "text", widget: "markdown" }
+          - label: ES #----- ES
+            name: es
+            widget: object
+            fields:
+              - label: Solução
+                name: solucao
+                widget: object
+                fields:
+                  - label: Caixa de Info 1 
+                    name: saber1
+                    widget: object
+                    fields:
+                      - { label: "Texto", name: "text", widget: "string" }
+                      - label: "Lista de temas"
+                        name: "x"
+                        widget: "list"
+                        fields:
+                          - { label: "Tema", name: "tema", widget: "string" }
+                          - { label: "Descrição do tema", name: "text", widget: "markdown" } 
+                  - label: Caixa de Info 2 
+                    name: saber2
+                    widget: object
+                    fields:
+                      - { label: "Texto", name: "text", widget: "string" }
+                      - label: "Lista de temas"
+                        name: "x"
+                        widget: "list"
+                        fields:
+                          - { label: "Tema", name: "tema", widget: "string" }
+                          - { label: "Descrição do tema", name: "text", widget: "markdown" } 
+                  - label: Caixa de Info 3
+                    name: saber3
+                    widget: object
+                    fields:
+                      - { label: "Texto", name: "text", widget: "string" }
+                      - label: "Lista de temas"
+                        name: "x"
+                        widget: "list"
+                        fields:
+                          - { label: "Tema", name: "tema", widget: "string" }
+                          - { label: "Descrição do tema", name: "text", widget: "markdown" } 
+              - label: Áreas
+                name: areas
+                widget: list
+                fields:
+                  - { label: "Titulo", name: "titulo", widget: "string" }
+                  - { label: "Imagem", name: "image_path", widget: "image" }
+                  - { label: "Descrição", name: "text", widget: "markdown" }
+        #---| REDE |-------------------------------------------------
+      - name: "rede"
+        label: "Rede - Parcerias"
+        file: "_data/rede.yml"
+        description: Dados da pagina Rede
+        fields:
+          - label: Clientes #----- clientes
+            name: clientes
+            widget: object
+            fields:
+             - label: "Industria"
+               name: "industria"
+               widget: list
+               fields:
+                - { label: "Campo Industria", name: "cliente", widget: string }
+             - label: "Comercio"
+               name: "comercio"
+               widget: list 
+               fields:
+                - { label: "Campo Comercio", name: "cliente", widget: string }
+             - label: "Serviços"
+               name: "servicos"
+               widget: list 
+               fields:
+                - { label: "Campo Serviço", name: "cliente", widget: string }
+             - label: "Entidades"
+               name: "entidades"
+               widget: list 
+               fields:
+                - { label: "Campo Entidade", name: "cliente", widget: string }
+        #---| ICONS SOCIAIS |---
+      - name: "paginas-sociais"
+        label: "Icons de páginas Sóciais"
+        file: "_data/paginas-sociais.yml"
+        description: Dados dos links das paginas sociais
+        fields:
+          - label: PT #----- PT
+            name: pt
+            widget: object
+            fields:
+              - { label: "Blogpost", name: "blogpost", widget: "string" }
+              - { label: "Twitter", name: "twitter", widget: "string" }
+              - { label: "Linked-In", name: "linked-in", widget: "string" }
+              - { label: "Facebook", name: "facebook", widget: "string" }
+          - label: EN #----- EN
+            name: en
+            widget: object
+            fields:
+              - { label: "Blogpost", name: "blogpost", widget: "string" }
+              - { label: "Twitter", name: "twitter", widget: "string" }
+              - { label: "Linked-In", name: "linked-in", widget: "string" }
+              - { label: "Facebook", name: "facebook", widget: "string" }
+          - label: ES #----- ES
+            name: es
+            widget: object
+            fields:
+              - { label: "Blogpost", name: "blogpost", widget: "string" }
+              - { label: "Twitter", name: "twitter", widget: "string" }
+              - { label: "Linked-In", name: "linked-in", widget: "string" }
+              - { label: "Facebook", name: "facebook", widget: "string" }
+        #---| MÉDIA - VIDEOS |---
+      - name: "media-videos"
+        label: "Média: Videos"
+        file: "_data/media-videos.yml"
+        description: Dados de videos
+        fields:
+          - label: Videos #----- Videos
+            name: videos
+            widget: list
+            fields:
+              - { label: "Titulo", name: "titulo", widget: "string" }
+              - { label: "Categoria", name: "category", widget: "hidden", default: "videos" }
+              - { label: "Existe o Video?", name: "existencia", widget: "select", options: ["Não Existe","Existe"] }
+              - { label: "Endereço / Link", name: "link", widget: "string" }
+              - { label: "Imagem de capa", name: "image_path", widget: "image" }
+              - { label: "Ano publicado", name: "ano", widget: number }
+              - { label: "Cidade", name: "cidade", widget: "string" }
+        #---| CONTACTOS |---
+      - name: "contactos"
+        label: "Contactos"
+        file: "_data/contactos.yml"
+        description: Dados de contactos
+        fields:
+          - label: PT #----- PT
+            name: pt
+            widget: object
+            fields:
+              - label: Sede
+                name: sede
+                widget: object
+                fields: 
+                  - { label: "Rua", name: "rua", widget: "string" }
+                  - { label: "Distrito", name: "distrito", widget: "string" }
+                  - { label: "Código-Postal", name: "postal", widget: "string" }
+              - label: Contactos
+                name: contactos
+                widget: object
+                fields: 
+                  - { label: "Telefone", name: "telefone", widget: "string" }
+                  - { label: "Fax", name: "fax", widget: "string" }
+                  - { label: "Telemovel", name: "telemovel", widget: "string" }
+                  - { label: "Email", name: "email", widget: "string" }
+              - { label: "GPS", name: "gps", widget: "string" }
+              - label: Horario
+                name: horario
+                widget: object
+                fields: 
+                  - { label: "Aberto", name: "aberto", widget: "string" }
+                  - { label: "Fechado", name: "fechado", widget: "string" }
+          - label: EN #----- EN
+            name: en
+            widget: object
+            fields:
+              - label: Sede
+                name: sede
+                widget: object
+                fields: 
+                  - { label: "Rua", name: "rua", widget: "string" }
+                  - { label: "Distrito", name: "distrito", widget: "string" }
+                  - { label: "Código-Postal", name: "postal", widget: "string" }
+              - label: Contactos
+                name: contactos
+                widget: object
+                fields: 
+                  - { label: "Telefone", name: "telefone", widget: "string" }
+                  - { label: "Fax", name: "fax", widget: "string" }
+                  - { label: "Telemovel", name: "telemovel", widget: "string" }
+                  - { label: "Email", name: "email", widget: "string" }
+              - { label: "GPS", name: "gps", widget: "string" }
+              - label: Horario
+                name: horario
+                widget: object
+                fields: 
+                  - { label: "Aberto", name: "aberto", widget: "string" }
+                  - { label: "Fechado", name: "fechado", widget: "string" }
+          - label: ES #----- ES
+            name: es
+            widget: object
+            fields:
+              - label: Sede
+                name: sede
+                widget: object
+                fields: 
+                  - { label: "Rua", name: "rua", widget: "string" }
+                  - { label: "Distrito", name: "distrito", widget: "string" }
+                  - { label: "Código-Postal", name: "postal", widget: "string" }
+              - label: Contactos
+                name: contactos
+                widget: object
+                fields: 
+                  - { label: "Telefone", name: "telefone", widget: "string" }
+                  - { label: "Fax", name: "fax", widget: "string" }
+                  - { label: "Telemovel", name: "telemovel", widget: "string" }
+                  - { label: "Email", name: "email", widget: "string" }
+              - { label: "GPS", name: "gps", widget: "string" }
+              - label: Horario
+                name: horario
+                widget: object
+                fields: 
+                  - { label: "Aberto", name: "aberto", widget: "string" }
+                  - { label: "Fechado", name: "fechado", widget: "string" }
+        #---| RODAPÉ |---
+      - name: "rodape"
+        label: "Rodapé"
+        file: "_data/rodape.yml"
+        description: Dados de rodape
+        fields:
+          - { label: "Ética", name: "etica", widget: "markdown" }
+          - { label: "Sugestões", name: "sugestoes", widget: "markdown" }
+          - { label: "Responsabilidade", name: "responsabilidade", widget: "markdown" }
+          - { label: "Newsletter", name: "newsletter", widget: "markdown" }
+          - label: Oportunidades 
+            name: oportunidades
+            widget: object
+            fields:
+              - { label: "Tema", name: "tema", widget: "string" }
+              - { label: "Texto", name: "text", widget: "markdown" }
+              - { label: "Nota", name: "nota", widget: "string" }
+          - label: Privacidade 
+            name: privacidade
+            widget: object
+            fields:
+              - { label: "Sub-Titulo", name: "subtitulo", widget: "string" }
+              - label: Lista
+                name: x
+                widget: list
+                fields:
+                  - { label: "Tema", name: "tema", widget: "string" }
+                  - { label: "Texto", name: "text", widget: "markdown" }
+          - label: Qualidade 
+            name: qualidade
+            widget: object
+            fields:
+              - { label: "Texto", name: "text", widget: "markdown" }
+              

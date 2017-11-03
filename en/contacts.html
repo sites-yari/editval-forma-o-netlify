@@ -1,0 +1,124 @@
+---
+layout: default
+title: Contacts
+class: contactos-en
+contactos_active?: active
+idiom: en
+---
+
+<body class='older_browser ev contacts en'>
+  <ol class='contents clearfix'>
+    <li class="container left">
+      <div class='content' id='content_15011_container'>
+        <div class='text contacts_title '>
+          <div class='i'>
+            <p>Contacts</p>
+          </div>
+        </div>
+      </div>
+    </li>
+    <li class="container left">
+      <div class='content' id='content_15013_container'>
+        <div class='text contactos '>
+          <div class='i'>
+            <h1>Braga | Headquarters</h1>
+            <div>{{site.data.contactos.en.sede.rua}}<br>
+              {{site.data.contactos.en.sede.distrito}}<br>
+              {{site.data.contactos.en.sede.postal}}</div>
+
+            <h1>Contacts</h1>
+            <div>Phone: {{site.data.contactos.en.contactos.telefone}}<br>
+              Fax: {{site.data.contactos.en.contactos.fax}}<br>
+              Cell Phone: {{site.data.contactos.en.contactos.telemovel}}</div>
+            <div>Email: {{site.data.contactos.en.contactos.email}}</div>
+
+            <h1>GPS</h1>
+            <div>{{site.data.contactos.en.gps}}</div>
+            
+            <h1>Opening Hours</h1>
+            <div>{{site.data.contactos.en.horario.aberto}}<br>
+              {{site.data.contactos.en.horario.fechado}}</div>
+          </div>
+        </div>
+      </div>
+    </li>
+
+    <li class="container left ">
+      <div class="content" id="content_14867_container">
+        <div id="gmap_14867" class="gmap ">
+          <div id="map_canvas_14867" style="width: 573px; height: 325px"></div>
+
+          <script src="http://maps.google.com/maps/api/js?sensor=false" type="text/javascript"></script>
+          <script type="text/javascript">
+          function gmaps14867_initialize() {
+            var latlng = new google.maps.LatLng(41.55075040161042,-8.40397096560673);
+            var myOptions = {
+              zoom: 18.0,
+              center: latlng,
+              mapTypeId: google.maps.MapTypeId.HYBRID
+            };
+
+            var map = new google.maps.Map(document.getElementById("map_canvas_14867"), myOptions);
+
+            setMarkers(map, [["EDIT VALUE® Braga", 41.55080767744252, -8.404000469905895, "EDIT VALUE®&nbsp;Sede\rBraga, Portugal\r"]]);
+
+
+          }
+
+          /**
+          * setMarkers
+          */
+          function setMarkers(map, locations) {
+
+
+            for (var i = 0; i < locations.length; i++) {
+              var mk = locations[i];
+              var myLatLng = new google.maps.LatLng(mk[1], mk[2]);
+
+              var marker = new google.maps.Marker({
+                position: myLatLng,
+                map: map,
+                  animation: google.maps.Animation.DROP,
+                title: mk[0],
+                zIndex: i
+              });
+
+              listenMarker(map, marker, mk[3]);
+
+              // This will add each local/marker to a list external to gmap
+              // The user will be able to click at each marker and see the gmap
+              // automaticaly pan the map to center the marker
+              // Because handlers are closures that both have access to markers.
+              // To "fix" this potential problem were passing the position using the eventData.
+              $("<li />")
+                .html(mk[0])
+                .bind('click', { pos: marker.getPosition() } , function(event) {
+                  map.panTo(event.data.pos);
+                })
+                .appendTo("#map_markers_14867");
+
+            }
+          }
+
+          /**
+          * listenMarker
+          */
+          function listenMarker (map, marker, message) {
+              // Add a "directions" link
+              message += "<br> <a href='http://maps.google.com/maps?saddr=&daddr=" + marker.position.toUrlValue() + "' target ='_blank'>Obter direções<\/a>";
+
+            // so marker is associated with the closure created for the listenMarker function call
+            var infowindow = new google.maps.InfoWindow({ content: message });
+            google.maps.event.addListener(marker, 'click', function() {
+              infowindow.open(map, marker);
+            });
+          }
+
+          $("document").ready(function(){ gmaps14867_initialize(); });
+          </script>
+        </div>
+      </div>
+    </li>
+
+  </ol>
+</body>

@@ -1,0 +1,143 @@
+---
+layout: default
+title: Rede
+class: rede-pt
+rede_active?: active
+idiom: pt
+---
+
+<body class='older_browser ev rede pt'>
+  <ol class="contents clearfix">
+    <li class="container left">
+      <div class="content" id="content_14845_container">
+        <div class="list parcerias " id="list_138">
+          
+          <h1 style="margin: 0 1px;">
+            <span class="value">Parcerias</span><span class="i18n"></span>
+          </h1>
+
+          <div class="items">
+            {% assign wire = site.posts | where: "category" , "Parcerias" %}                                      
+            <ul>
+              {% for post in wire %}
+              <li class="i-0 odd" id="item-28188">
+                <div class="item">
+                  <div class="image">
+                    <a href="{{post.link}}" target="_blank">
+                      <img alt="Academia-jmmsroc" class="blur" src="{{post.imagem_image_path}}">
+                    </a>
+                  </div>
+                  <div class="folder">
+                    <div class="name">
+                      <a href="{{post.link}}" target="_blank">
+                        <span class="label">Nome</span>
+                        <span class="value">{{post.title}}</span>
+                      </a>
+                    </div>
+                    <div class="text1">
+                      <span class="label">Texto 1</span>
+                      <span class="value"><p>{{post.text}}</p></span>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              {% endfor %}
+            </ul>
+          </div>
+        </div>
+      </div>
+    </li>
+  </ol>
+
+  <ol class="contents clearfix" style="padding: 20px 1px 0 1px;">
+    <li class="container">
+      <div class="content" id="content_14845_container">
+        <div class="list parcerias " id="list_138">
+          <h1>
+            <span class="value">Clientes</span><span class="i18n"></span>
+          </h1>
+        </div>
+      </div>
+    </li>
+  </ol>
+
+  <div class="content" id="content_15309_container">
+    <div class="list lista-de-clientes " id="list_134">
+
+      <div class="items">
+        <ul>
+          <li class="i-0   no-image odd" id="item-6700">
+            <div class="item">
+              <div class="name">
+                <span class="label">Nome</span>
+                <span class="value">Comércio</span>
+              </div>
+              <div class="text1" style="padding-top: 0; ">
+                  {% for rede in site.data.rede.lista.comercio %}
+                <span class="label">Texto 1</span>
+                <span class="value">
+                  {{rede.cliente}} <br>
+                </span>
+                  {% endfor %}
+              </div>
+            </div>
+          </li>
+               
+          <li class="i-1   no-image odd" id="item-6700">
+            <div class="item">
+              <div class="name">
+                <span class="label">Nome</span>
+                <span class="value">Serviços</span>
+              </div>
+              <div class="text1">
+                  {% for rede in site.data.rede.lista.servicos %} 
+                <span class="label">Texto 1</span>
+                <span class="value">
+                  {{rede.cliente}} <br>
+                </span>
+                {% endfor %}
+              </div>
+            </div>
+          </li>
+                
+          <li class="i-2   no-image odd" id="item-6700">
+            <div class="item">
+              <div class="name">
+                <span class="label">Nome</span>
+                <span class="value">Indústria</span>
+              </div>
+              <div class="text1" style="padding-top: 0;">
+                  {% for rede in site.data.rede.lista.industria %}
+                <span class="label">Texto 1</span>
+                <span class="value">
+                  {{rede.cliente}} <br>
+                </span>
+                {% endfor %}
+              </div>
+            </div>
+          </li>
+                   
+          <li class="i-3   no-image odd" id="item-6700">
+            <div class="item">
+              <div class="name">
+                <span class="label">Nome</span>
+                <span class="value">Entidades</span>
+              </div>
+              <div class="text1">
+                  {% for rede in site.data.rede.lista.entidades %} 
+                <span class="label">Texto 1</span>
+                <span class="value">
+                  {{rede.cliente}}<br>
+                </span>
+                {% endfor %}
+              </div>
+            </div>
+          </li>
+        </ul>
+
+        <div class="footer">
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
