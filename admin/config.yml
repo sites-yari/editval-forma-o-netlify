@@ -107,7 +107,7 @@ collections:
       - { label: "Descrição do titulo", name: "body", widget: "markdown" }
 
   #-----| Redes |---------------------------------|
-  - name: "redes"
+  - name: "rede"
     label: "Redes"
     folder: "_posts/redes"
     create: true
