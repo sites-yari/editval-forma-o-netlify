@@ -1,25 +1,49 @@
 ---
-layout: post
-title:  "Welcome to Jekyll!"
+title:  "read-me"
+class: test-post
 date:   2017-09-20 15:53:42 +0100
-categories: jekyll update
+categories: instrucoes
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+# Instruções de uso de CMS
+### Criar Posts
+Existem 2 formas de criar um post novo, são:
++ Pressionar no botão "+" e escolher o tipo de post que desejas;
++ ou pressionar no "+" que se situa au lado do nome·
+<br><br><br>
 
-Jekyll also offers powerful support for code snippets:
+### Editar Posts
+Para editar um posts é necessário clicar no post que deseja editar e realisar as alterações.
+<br><br><br>
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+### Editar Data
+##### Como fazer um paragrafo
+Para fazer um paragrafo basta colocar: "< br>" (sem o espaço no interior)
+##### Adicionar á lista
+Para adicionar mais campos numa lista basta clicar no "+ new (nome do campo)".
+<br><br><br>
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+### Gravar e publicar os dados
+Depois de criar/alterar os dados/posts é necessário:
++ deslocar-se ao fundo da página e carregar no "save" para gravar os dados
+<br><br>
 
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+Quando se faz "save" os dados não serão automáticamente publicadas. Para publicar posts/alterações é necessário clickar no icon que tem forma de casa ou no texto "Editorial Workflow" reencaminhando-te para a página do dashboard.
+No dashboard existe uma aréa "Draft", "Waiting for Review" e "Waiting to go live". <br>
+Cada campo tem uma função diferente:
++ **Draft** - Mostra todas as alterações mais recentes;
++ **Waiting for Review** - Aréa de espera de aprovação;
++ **Waiting to go live** - Aréa de publicação, se esperar 5s - 10s um botão aparecerá para se publicar.
+<br><br>
+**PS.:** Para mover as ações realizadas, basta arrastar a ação para um dos campos.
+<br><br><br>
+
+### Upload de Imagens (IMGs)
+Neste moment este CMS ainda não tem forma de ir buscar imagens que já foram inseridas, mas pode introduzir imagens que estão no computador.
+<br><br><br>
+
+### Fornecer nome URL
+Alguns posts podem pedir para inserir o nome para o **URL**. É **obrigatorio preencher** esse campo, já estará escrito um endereço padrão por defeito. Esse endereço está incompleto, subtitua a área que diz "(nome)" com o nome do titulo. Tenha cuidado para não deixar espaços vazios, em vez de fazer um espaço coloque um "-".
+<br><br><br>
+
+
