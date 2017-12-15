@@ -16,7 +16,7 @@
             data-ajax-form-fail-field-template="applications-form-fail-field-template-{{page.identificacao_id}}"
             data-ajax-form-success-action="replace-form"
             data-ajax-form-success-template="applications-form-success-template-{{page.identificacao_id}}"> -->
-    <form name="contact-{{page.identificacao_id}}" netlify-honeypot="bot-field" action="thank-you" netlify>                
+    <form name="contact-{{post.identificacao_id}}" netlify-honeypot="bot-field" action="thank-you" netlify>                
         <!-- <input type="hidden" name="authenticity_token" value="/glqdbel53jFDo04fFmVfNnwooSnWgFg+OxvVVCzn/o="> -->
 
         <div>
@@ -26,7 +26,7 @@
                 Para efetuar a sua pré-inscrição neste curso, preencha os campos que se seguem e no final
                 clique em &quot;Inscrever no Curso&quot;. Todos os campos são obrigatórios.
               </p>
-              <input type="hidden" name="Curso" value="{{page.identificacao_id}}" />
+              <!-- <input type="hidden" name="Curso" value="{{page.identificacao_id}}" /> -->
             </li>
 
 
