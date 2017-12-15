@@ -42,7 +42,7 @@ idiom: pt
   {% assign ciclo_linguas = site.posts | where: "ciclo_category" , "linguas_estrangeiras" %}              <!--|=======| topico 6 |=======|--> 
   {% assign ciclo_melhoria = site.posts | where: "ciclo_category" , "melhoria_continua" %}                <!--|=======| topico 7 |=======|--> 
   {% assign ciclo_marketing = site.posts | where: "ciclo_category" , "marketing" %}                       <!--|=======| topico 8 |=======|--> 
-  {% assign ciclo_ferramentas = site.posts | where: "ciclo_category" , "ferramentas_informaticas" %}    <!--|=======| topico 9 |=======|--> 
+  {% assign ciclo_ferramentas = site.posts | where: "ciclo_category" , "ferramentas_informaticas" %}      <!--|=======| topico 9 |=======|--> 
   {% assign ciclo_higiene = site.posts | where: "ciclo_category" , "higiene_seguranca" %}                 <!--|=======| topico 10 |=======|--> 
               
   <ol class='contents '>
@@ -71,14 +71,15 @@ idiom: pt
                     Inscreva-se já no nosso Plano de Formação!
                   </a>
                 </div>
-                <form id="top-form" method="POST" action="http://formacao.editvalue.com/entry_submissions/course_enrollments.json"
+                <form name="contact-Formação-Desempenho-Próximos-Cursos" netlify-honeypot="bot-field" action="thank-you" netlify>                                  
+                <!-- <form id="top-form" method="POST" action="http://formacao.editvalue.com/entry_submissions/course_enrollments.json"
                       data-visibility-group="form[id],.list.publicacoes li .text1"
                       data-ajax-form="true"
                       data-ajax-form-fail-action="render-errors"
                       data-ajax-form-fail-field-template="applications-form-fail-field-template-top-form"
                       data-ajax-form-success-action="replace-form"
-                      data-ajax-form-success-template="applications-form-success-template-top-form">
-                  <input type="hidden" name="authenticity_token" value="/glqdbel53jFDo04fFmVfNnwooSnWgFg+OxvVVCzn/o=">
+                      data-ajax-form-success-template="applications-form-success-template-top-form"> -->
+                  <!-- <input type="hidden" name="authenticity_token" value="/glqdbel53jFDo04fFmVfNnwooSnWgFg+OxvVVCzn/o="> -->
                   <div>
                     <ul style="padding: 10px 20px 0 20px;">
                       <li>
@@ -90,7 +91,7 @@ idiom: pt
 
                       <li class="selection_field" data-ajax-form-field-wrapper="course">
                         <label>Curso</label>
-                        <select name="content[course]" placeholder="" required>
+                        <select name="Curso" placeholder="" required>
                           {% for post in formacao %}
                           <option value=""></option>
                           <option value="{{post.identificacao_id}}">{{post.title}}</option>
@@ -107,32 +108,32 @@ idiom: pt
 
                         <li class="text_field required" data-ajax-form-field-wrapper="name">
                           <label>Nome</label>
-                          <input name="content[name]" placeholder="" type="text" value="" required style="width: 80%;" />
+                          <input name="Nome" placeholder="" type="text" value="" required style="width: 80%;" />
                         </li>
 
                         <li class="text_field required" data-ajax-form-field-wrapper="address">
                           <label>Morada</label>
-                          <input name="content[address]" placeholder="" type="text" value="" required style="width: 80%;" />
+                          <input name="Morada" placeholder="" type="text" value="" required style="width: 80%;" />
                         </li>
 
                         <li class="text_field required" data-ajax-form-field-wrapper="address2">
                           <label>Código Postal e Localidade</label>
-                          <input name="content[address2]" placeholder="" type="text" value="" required style="width: 60%;" />
+                          <input name="C-postal-Localidade" placeholder="" type="text" value="" required style="width: 60%;" />
                         </li>
 
                         <li class="text_field required"  data-ajax-form-field-wrapper="nif">
                           <label>N.º Identificação Fiscal</label>
-                          <input name="content[nif]" placeholder="" type="text" value="" required />
+                          <input name="NIF" placeholder="" type="text" value="" required />
                         </li>
 
                         <li class="text_field required"  data-ajax-form-field-wrapper="phone">
                           <label>Telemóvel</label>
-                          <input name="content[phone]" placeholder="" type="text" value="" required />
+                          <input name="Telemóvel" placeholder="" type="text" value="" required />
                         </li>
 
                         <li class="text_field required"  data-ajax-form-field-wrapper="email">
                           <label>Email</label>
-                          <input name="content[email]" placeholder="" type="text" value="" required style="width: 80%;" />
+                          <input name="Email" placeholder="" type="text" value="" required style="width: 80%;" />
                         </li>
 
                         <li class="selection_field" data-ajax-form-field-wrapper="member_number">
@@ -144,7 +145,7 @@ idiom: pt
                           <br>
                           <br>
                           <label>Número de associado</label>
-                          <input data-id="member-number" name="content[member_number]" placeholder="" type="text" value="" required disabled />
+                          <input data-id="member-number" name="Numero-Associado" placeholder="" type="text" value="" required disabled />
                         </li>
                       </ul>
                     </div>
@@ -160,22 +161,22 @@ idiom: pt
 
                         <li class="text_field" data-ajax-form-field-wrapper="company_name">
                           <label>Empresa/Organização</label>
-                          <input name="content[company_name]" placeholder="" type="text" value="" data-class="extra-field" required style="width: 80%;" disabled />
+                          <input name="Empresa-Organização" placeholder="" type="text" value="" data-class="extra-field" required style="width: 80%;" disabled />
                         </li>
 
                         <li class="text_field" data-ajax-form-field-wrapper="company_address">
                           <label>Morada</label>
-                          <input name="content[company_address]" placeholder="" type="text" value="" data-class="extra-field" required style="width: 80%;" disabled />
+                          <input name="Morada" placeholder="" type="text" value="" data-class="extra-field" required style="width: 80%;" disabled />
                         </li>
 
                         <li class="text_field" data-ajax-form-field-wrapper="company_address2">
                           <label>Código Postal e Localidade</label>
-                          <input name="content[company_address2]" placeholder="" type="text" value="" data-class="extra-field" required style="width: 60%;" disabled />
+                          <input name="C-postal-Localidade" placeholder="" type="text" value="" data-class="extra-field" required style="width: 60%;" disabled />
                         </li>
 
                         <li class="text_field" data-ajax-form-field-wrapper="nipc">
                           <label>NIPC</label>
-                          <input name="content[nipc]" placeholder="" type="text" data-class="extra-field" required value="" disabled />
+                          <input name="NIPC" placeholder="" type="text" data-class="extra-field" required value="" disabled />
                         </li>
 
                         <li style="padding-top: 90px;">
@@ -183,7 +184,7 @@ idiom: pt
                             <button class="submitBtn" value="submit">
                               <span>Increver no Curso</span>
                             </button>
-                            &nbsp;
+                            <!-- &nbsp;
                             <button type="reset">
                               <span>Limpar formulário</span>
                             </button>
@@ -193,7 +194,7 @@ idiom: pt
                                     data-toggle-visibility-method="slide"
                                     data-toggle-visibility-target="#top-form">
                               <span>Cancelar</span>
-                            </button>
+                            </button> -->
                           </div>
                         </li>
                       </ul>
@@ -201,13 +202,13 @@ idiom: pt
                   </div>
                 </form>
                 <div style="clear: both;">
-                <script id="applications-form-fail-field-template-top-form" type="text/x-handlebars-template">
+                <!-- <script id="applications-form-fail-field-template-top-form" type="text/x-handlebars-template">
                   <span class="error">{{w}}</span>
                 </script>
 
                 <script id="applications-form-success-template-top-form" type="text/x-handlebars-template">
                   <span style="font-weight: bold; font-size: 14px; text-align: center; display: block; padding: 6px;">Obrigado pela sua inscrição. Aguarde pelo nosso contacto.</span>
-                </script>
+                </script> -->
 
               </li>
 

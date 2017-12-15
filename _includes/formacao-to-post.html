@@ -9,15 +9,15 @@
         </a>
       </div>
 
-      <form id="{{post.identificacao_id}}" method="POST" action="http://formacao.editvalue.com/entry_submissions/course_enrollments.json"
+      <!-- <form id="{{post.identificacao_id}}" method="POST" action="http://formacao.editvalue.com/entry_submissions/course_enrollments.json"
             data-visibility-group="form[id]"
             data-ajax-form="true"
             data-ajax-form-fail-action="render-errors"
             data-ajax-form-fail-field-template="applications-form-fail-field-template-{{page.identificacao_id}}"
             data-ajax-form-success-action="replace-form"
-            data-ajax-form-success-template="applications-form-success-template-{{page.identificacao_id}}">
-            
-        <input type="hidden" name="authenticity_token" value="/glqdbel53jFDo04fFmVfNnwooSnWgFg+OxvVVCzn/o=">
+            data-ajax-form-success-template="applications-form-success-template-{{page.identificacao_id}}"> -->
+    <form name="contact-{{page.identificacao_id}}" netlify-honeypot="bot-field" action="thank-you" netlify>                
+        <!-- <input type="hidden" name="authenticity_token" value="/glqdbel53jFDo04fFmVfNnwooSnWgFg+OxvVVCzn/o="> -->
 
         <div>
           <ul style="padding: 10px 20px 0 20px;">
@@ -26,7 +26,7 @@
                 Para efetuar a sua pré-inscrição neste curso, preencha os campos que se seguem e no final
                 clique em &quot;Inscrever no Curso&quot;. Todos os campos são obrigatórios.
               </p>
-              <input type="hidden" name="content[course]" value="{{page.identificacao_id}}" />
+              <input type="hidden" name="Curso" value="{{page.identificacao_id}}" />
             </li>
 
 
@@ -39,46 +39,46 @@
 
                 <li class="text_field required" data-ajax-form-field-wrapper="name">
                     <label>Nome</label>
-                    <input name="content[name]" placeholder="" type="text" value="" required style="width: 80%;" />
+                    <input name="Nome" placeholder="" type="text" value="" required style="width: 80%;" />
                 </li>
 
                 <li class="text_field required" data-ajax-form-field-wrapper="address">
                     <label>Morada</label>
-                    <input name="content[address]" placeholder="" type="text" value="" required style="width: 80%;" />
+                    <input name="Morada" placeholder="" type="text" value="" required style="width: 80%;" />
                 </li>
 
                 <li class="text_field required" data-ajax-form-field-wrapper="address2">
                     <label>Código Postal e Localidade</label>
-                    <input name="content[address2]" placeholder="" type="text" value="" required style="width: 60%;" />
+                    <input name="C-postal-Localidade" placeholder="" type="text" value="" required style="width: 60%;" />
                 </li>
 
                 <li class="text_field required"  data-ajax-form-field-wrapper="nif">
                     <label>N.º Identificação Fiscal</label>
-                    <input name="content[nif]" placeholder="" type="text" value="" required />
+                    <input name="NIF" placeholder="" type="text" value="" required />
                 </li>
 
                 <li class="text_field required"  data-ajax-form-field-wrapper="phone">
                     <label>Telemóvel</label>
-                    <input name="content[phone]" placeholder="" type="text" value="" required />
+                    <input name="Telemóvel" placeholder="" type="text" value="" required />
                 </li>
 
                 <li class="text_field required"  data-ajax-form-field-wrapper="email">
                     <label>Email</label>
-                    <input name="content[email]" placeholder="" type="text" value="" required style="width: 80%;" />
+                    <input name="Email" placeholder="" type="text" value="" required style="width: 80%;" />
                 </li>
 
                 <li class="selection_field" data-ajax-form-field-wrapper="member_number">
                     <label>Associado/a da AAUM, AAEUM ou AFUM?</label>
                     <select data-id="association-state">
-                    <option>Não associado</option>
-                    <option>Associado</option>
+                        <option>Não associado</option>
+                        <option>Associado</option>
                     </select>
 
                     <br>
                     <br>
 
                     <label>Número de associado</label>
-                    <input data-id="member-number" name="content[member_number]" placeholder="" type="text" value="" required disabled />
+                    <input data-id="member-number" name="Numero-Associado" placeholder="" type="text" value="" required disabled />
                 </li>
 
                 </ul>
@@ -95,22 +95,22 @@
 
                 <li class="text_field" data-ajax-form-field-wrapper="company_name">
                     <label>Empresa/Organização</label>
-                    <input name="content[company_name]" placeholder="" type="text" value="" data-class="extra-field" required style="width: 80%;" disabled />
+                    <input name="Empresa-Organização" placeholder="" type="text" value="" data-class="extra-field" required style="width: 80%;" disabled />
                 </li>
 
                 <li class="text_field" data-ajax-form-field-wrapper="company_address">
                     <label>Morada</label>
-                    <input name="content[company_address]" placeholder="" type="text" value="" data-class="extra-field" required style="width: 80%;" disabled />
+                    <input name="Morada" placeholder="" type="text" value="" data-class="extra-field" required style="width: 80%;" disabled />
                 </li>
 
                 <li class="text_field" data-ajax-form-field-wrapper="company_address2">
                     <label>Código Postal e Localidade</label>
-                    <input name="content[company_address2]" placeholder="" type="text" value="" data-class="extra-field" required style="width: 60%;" disabled />
+                    <input name="C-postal-Localidade" placeholder="" type="text" value="" data-class="extra-field" required style="width: 60%;" disabled />
                 </li>
 
                 <li class="text_field" data-ajax-form-field-wrapper="nipc">
                     <label>NIPC</label>
-                    <input name="content[nipc]" placeholder="" type="text" data-class="extra-field" required value="" disabled />
+                    <input name="NIPC" placeholder="" type="text" data-class="extra-field" required value="" disabled />
                 </li>
 
                 <li style="padding-top: 90px;">
@@ -118,7 +118,7 @@
                     <button class="submitBtn" value="submit">
                         <span>Increver no Curso</span>
                     </button>
-                    &nbsp;
+                    <!-- &nbsp;
                     <button type="reset">
                         <span>Limpar formulário</span>
                     </button>
@@ -128,7 +128,7 @@
                             data-toggle-visibility-method="slide"
                             data-toggle-visibility-target="#{{post.identificacao_id}}">
                         <span>Cancelar</span>
-                    </button>
+                    </button> -->
                     </div>
                 </li>
                 </ul>
@@ -138,10 +138,10 @@
 
 
       <div style="clear: both;">
-      <script id="applications-form-fail-field-template-{{post.identificacao_id}}" type="text/x-handlebars-template">
+      <!-- <script id="applications-form-fail-field-template-{{post.identificacao_id}}" type="text/x-handlebars-template">
         <span class="error">{{message}}</span>
       </script>
 
       <script id="applications-form-success-template-{{post.identificacao_id}}" type="text/x-handlebars-template">
         <span style="font-weight: bold; font-size: 14px; text-align: center; display: block; padding: 6px;">Obrigado pela sua inscrição. Aguarde pelo nosso contacto.</span>
-      </script>
+      </script> -->
