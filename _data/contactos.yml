@@ -1,44 +1,42 @@
 pt:
-  sede:
-    rua: Praceta João Beltrão, N.º 18
-    distrito: S. Victor
-    postal: 4715-292 Braga, Portugal
   contactos:
-    telefone: +351 253 103 169
+    email: capitalhumano@editvalue.com
     fax: +351 253 103 169
+    telefone: +351 253 103 169
     telemovel: +351 933 666 145
-    email: formacao@editvalue.com
   gps: 41.550820 ºN -8.403990 ºW
   horario:
     aberto: Segunda a Sexta (9h-13h | 14h30-18h30)
-    fechado: Encerramento aos Sábados, Domingos e feriados.
-
-en:
+    fechado: 'Encerramento aos Sábados, Domingos e feriados.'
   sede:
-    rua: Praceta João Beltrão, N.º 16
     distrito: S. Victor
-    postal: 4715-292 Braga, Portugal
+    postal: '4715-292 Braga, Portugal'
+    rua: 'Praceta João Beltrão, N.º 18'
+en:
   contactos:
-    telefone: +351 253 103 169
-    fax: +351 253 103 169
-    telemovel: +351 933 666 145
     email: formacao@editvalue.com
+    fax: +351 253 103 169
+    telefone: +351 253 103 169
+    telemovel: +351 933 666 145
   gps: 41.550820 ºN -8.403990 ºW
   horario:
     aberto: Monday to Friday (9h-13h | 14h30-18h30)
-    fechado: Closed on Saturdays, Sundays and holydays.
-    
-es:
+    fechado: 'Closed on Saturdays, Sundays and holydays.'
   sede:
-    rua: Praceta João Beltrão, N.º 16
     distrito: S. Victor
-    postal: 4715-292 Braga, Portugal
+    postal: '4715-292 Braga, Portugal'
+    rua: 'Praceta João Beltrão, N.º 16'
+es:
   contactos:
-    telefone: +351 253 103 169
-    fax: +351 253 103 169
-    telemovel: +351 933 666 145
     email: formacao@editvalue.com
+    fax: +351 253 103 169
+    telefone: +351 253 103 169
+    telemovel: +351 933 666 145
   gps: 41.550820 ºN -8.403990 ºW
   horario:
     aberto: De lunes a viernes (9h-13h | 14h30-18h30)
-    fechado: Cierre los sábados, domingos y días festivos.
+    fechado: 'Cierre los sábados, domingos y días festivos.'
+  sede:
+    distrito: S. Victor
+    postal: '4715-292 Braga, Portugal'
+    rua: 'Praceta João Beltrão, N.º 16'
