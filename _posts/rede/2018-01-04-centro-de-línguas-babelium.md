@@ -2,7 +2,7 @@
 title: Centro de Línguas BabeliUM
 category: Parcerias
 imagem_image_path: /assets/uploads/babeliUM_destaque_01 (3).jpg
-link: 'https://babelium.ilch.uminho.pt/pt/'
+link: babelium.ilch.uminho.pt/pt/
 text: >-
   O Centro de Línguas BabeliUM, é um projeto de interação com a sociedade do
   Instituto de Letras e Ciências Humanas. Neste âmbito, exerce um papel ativo na
