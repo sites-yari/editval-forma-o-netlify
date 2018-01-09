@@ -7,7 +7,7 @@ desconto_inscricao: Inscrição ciclo completo com 10% desconto
 category: formacao
 ciclo_category: higiene_seguranca
 class: formacao-pt
-formacao_Active?: active
+formacao_Active: active
 idiom: pt
 ---
 
