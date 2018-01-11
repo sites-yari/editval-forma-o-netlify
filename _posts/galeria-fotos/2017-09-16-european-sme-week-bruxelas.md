@@ -1,6 +1,6 @@
 ---
 layout: post-galeria
-title: European SME Week Bruxa
+title: European SME Week Bruxelas
 description: ' '
 year: 2012
 category: galeria-de-fotos
