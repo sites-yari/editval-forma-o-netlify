@@ -1,7 +1,7 @@
 ---
 layout: post-text
 title: A minha média é maior que a tua! E quanto vale?
-data: 04-10-2015
+data: 04-10-2017
 text_image_path: images/artigos/21.jpg
 category: artigos
 class: media-pt
