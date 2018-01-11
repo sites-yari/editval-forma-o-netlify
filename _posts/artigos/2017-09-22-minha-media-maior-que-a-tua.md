@@ -1,7 +1,7 @@
 ---
 layout: post-text
 title: A minha média é maior que a tua! E quanto vale?
-data: 04-10-2017
+data: 04-10-2015
 text_image_path: images/artigos/21.jpg
 category: artigos
 class: media-pt
@@ -9,7 +9,8 @@ media_active?: active
 artigos_active?: active
 idiom: pt
 permalink: pt-media/artigos/a-minha-media-e-maior-que-a-tua-e-quanto-vale
----  
+---
+  
 
 Durante a nossa vida universitária foi-nos palestrada uma afirmação muito semelhante a esta: “Agora é que é! Daqui em diante todos os exames, trabalhos e apresentações contam para a tua média final!”. Nesse sentido, fomos instruídos a comer, beber e respirar em função da média final, sabendo que uma nota baixa reduziria drasticamente as hipóteses de encontrar um trabalho recompensador e aliciante.
 
