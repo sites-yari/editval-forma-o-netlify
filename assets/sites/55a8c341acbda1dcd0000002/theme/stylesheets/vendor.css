@@ -947,7 +947,7 @@ html {
     width: 212px;
     height: 36px;
     display: block;
-    background: transparent url("https://adagaweb.s3.amazonaws.com/sites/55a8c341acbda1dcd0000002/theme/images/foreigners/edit-value-formacao/213/46984/menu-clientes-v-sprite-media.png?1482249580") no-repeat;
+    background: transparent url("../../../../../../assets/uploads/menu-clientes-v-sprite-media.png") no-repeat;
   }
   .nested-menu.destaques_media li a {
     position: relative;
