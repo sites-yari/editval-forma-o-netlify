@@ -1,14 +1,14 @@
 ---
 identificacao_id: shake-your-team-trabalho-em-equipa
-title: Shake Your Team - trabalho em equipa
+title: Shake Youo em equipa
 horas: 8
 mes: Março
-desconto_inscricao: Inscrição ciclo completo com 10% desconto
-category: formacao
+desconto_inscricao: Inscrição ciclo coonto
 ciclo_category: competencias_relacionais
-class: formacao-pt
 formacao_Active: active
+class: formacao-pt
 idiom: pt
+category: formacao
 ---
 
 
