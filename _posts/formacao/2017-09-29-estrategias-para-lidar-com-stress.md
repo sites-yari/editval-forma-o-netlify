@@ -1,14 +1,14 @@
 ---
 identificacao_id: estrategias-para-lidar-com-o-stress
-title: Estratégias para lidar com o stress
+title: Estrara lidar com o stress
 horas: 8
 mes: Abril
 desconto_inscricao: Inscrição ciclo completo com 10% desconto
-category: formacao
-ciclo_category: desenvolvimento_pessoal
-class: formacao-pt
+ciclo_category: gestao_pessoas
 formacao_Active: active
+class: formacao-pt
 idiom: pt
+category: formacao
 ---
 
 ### **ENQUADRAMENTO**
