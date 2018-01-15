@@ -3,12 +3,12 @@ identificacao_id: equilibrar-o-uso-de-tempo
 title: Equilibrar o uso de tempo
 horas: 8
 mes: Novembro
-desconto_inscricao: Inscrição ciclo completo com 10% desconto
-category: formacao
+desconto_inscricao: Inscrição ciclo completo
 ciclo_category: desenvolvimento_pessoal
-class: formacao-pt
 formacao_Active: active
+class: formacao-pt
 idiom: pt
+category: formacao
 ---
 
 
