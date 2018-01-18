@@ -1,6 +1,6 @@
 ---
 identificacao_id: equilibrar-o-uso-de-tempo
-title: Equilibrar o uso de tempo
+title: Dinamizar e coordenar reuniões
 horas: 8
 mes: setembro
 desconto_inscricao: Inscrição ciclo completo com 10% desconto
