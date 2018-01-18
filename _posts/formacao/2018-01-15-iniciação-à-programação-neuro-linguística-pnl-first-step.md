@@ -10,12 +10,6 @@ class: formacao-pt
 idiom: pt
 category: formacao
 ---
-### **ENQUADRAMENTO**
-
-A Programação Neurolinguística é o primeiro passo a percorrer no caminho da descoberta do mundo interior, definir objetivos profissionais ou pessoais e criar um percurso. A PNL oferece conhecimentos e técnicas capazes de mudar mentalidades e provocar novas reações e comportamentos de forma efetiva através de uma abordagem muito prática. Ajuda a moldar atitudes, a criar hábitos que levarão a um maior desempenho tanto a nível pessoal como organizacional.
-
-Este curso permitir-lhe-á iniciar um processo de autoconhecimento, superação pessoal e alargamento de consciência. São dois dias de experiências intensas, em que dominarão as técnicas eficazes para utilizar a linguagem do seu cérebro, superar obstáculos, limitações e transformar comportamentos que trarão resultados ao nível do desempenho enquanto colaborador ou líder.<br><br><br>
-
 **Duração:** 2 dias - 16 h  |  **Datas:** 7 e 14 de março  |  **Valor:** 110€<br><br>
 
 **Valor Ciclo Completo c/ 10% desconto:** 207€<br><br><br><br><br>
