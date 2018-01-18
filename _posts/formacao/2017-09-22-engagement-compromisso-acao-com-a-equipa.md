@@ -1,14 +1,14 @@
 ---
 identificacao_id: engagement-do-compromisso-a-acao-com-a-equipa
-title: Engagement - do compromisso à ação com a equipa
-horas: 16
-mes: Outobro
+title: Liderança Positiva
+horas: '8'
+mes: outobro
 desconto_inscricao: Inscrição ciclo completo com 10% desconto
-category: formacao
 ciclo_category: lideranca
-class: formacao-pt
 formacao_Active: active
+class: formacao-pt
 idiom: pt
+category: formacao
 ---
 
 
@@ -17,7 +17,7 @@ Trabalhar o compromisso de uma equipa ou de uma pessoa é o caminho para a reten
 
  
 
-**Duração:** 2 dias - 16 h  \|  **Datas:** 18 e 25 de outubro  \|  **Valor:** 110€<br><br>
+**Duração:** 2 dias - 16 h  \|  **Datas:** 10 de outubro  \|  **Valor:** 50€<br><br>
 
  
 
