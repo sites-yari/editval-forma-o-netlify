@@ -16,7 +16,7 @@ A qualidade das condições de trabalho é um dos fatores fundamentais para o su
 
 **Duração:** 1 dia - 8 h  \|  **Datas:** 20 de novembro  \|  **Valor:** 60€<br><br> 
 
-**Valor Ciclo Completo c/ 10% desconto:** 252€<br><br><br><br><br>
+**Valor Ciclo Completo c/ 10% desconto:** 207€<br><br><br><br><br>
 
 **Condições Gerais**
 
