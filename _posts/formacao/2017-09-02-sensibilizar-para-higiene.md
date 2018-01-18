@@ -1,20 +1,20 @@
 ---
 identificacao_id: sensibilizar-para-a-higiene-e-seguranca-no-trabalho
-title: Sensibilizar para a Higiene e Segurança no Trabalho
+title: Higiene e Segurança no Trabalho
 horas: 8
-mes: Abril
+mes: novembro
 desconto_inscricao: Inscrição ciclo completo com 10% desconto
-category: formacao
 ciclo_category: higiene_seguranca
-class: formacao-pt
 formacao_Active: active
+class: formacao-pt
 idiom: pt
+category: formacao
 ---
 
 ### **ENQUADRAMENTO**
 A qualidade das condições de trabalho é um dos fatores fundamentais para o sucesso de um sistema produtivo. Nesse âmbito, a melhoria da produtividade e da competitividade das empresas passa, necessariamente, por uma intervenção no sentido da melhoria das condições de trabalho.<br><br><br>
 
-**Duração:** 1 dia - 8 h  \|  **Datas:** 19 de abril  \|  **Valor:** 60€<br><br> 
+**Duração:** 1 dia - 8 h  \|  **Datas:** 20 de novembro  \|  **Valor:** 60€<br><br> 
 
 **Valor Ciclo Completo c/ 10% desconto:** 252€<br><br><br><br><br>
 
