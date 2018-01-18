@@ -2,20 +2,20 @@
 identificacao_id: a-arte-de-comunicar-em-publico
 title: A Arte de comunicar em público
 horas: 8
-mes: Junho
+mes: abril
 desconto_inscricao: Inscrição ciclo completo com 10% desconto
-category: formacao
 ciclo_category: competencias_relacionais
-class: formacao-pt
 formacao_Active: active
+class: formacao-pt
 idiom: pt
+category: formacao
 ---
 
 
 ### **ENQUADRAMENTO**
 Porque falar em público assusta tanto? Simplesmente porque falar em público não é familiar e não se trabalha esta competência de public speaking antes de entrar na vida adulta. Seja para conseguir o emprego desejado, para uma reunião, apresentação de um produto ou dinamização de uma palestra, é essencial dominar técnicas que permitem criar uma maior sintonia com os interlocutores nestes diferentes contextos.<br><br><br>
 
-**Duração:** 1 dia - 8 h  \|  **Data:** 28 de junho  \|  **Valor:** 60€<br><br>
+**Duração:** 1 dia - 8 h  \|  **Data:** 5 de abril  \|  **Valor:** 60€<br><br>
  
 
 **Valor Ciclo Completo c/ 10% desconto:** 162€ <br><br><br><br><br>
