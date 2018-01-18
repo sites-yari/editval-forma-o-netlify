@@ -20,7 +20,7 @@ A expressão Primeiros Socorros traduz os cuidados imediatos prestados no local 
 
  
 
-**Valor Ciclo Completo c/ 10% desconto:** 252€<br><br><br><br><br>
+**Valor Ciclo Completo c/ 10% desconto:** 207€<br><br><br><br><br>
 
 **Condições Gerais**
 
