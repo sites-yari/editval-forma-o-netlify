@@ -1,20 +1,20 @@
 ---
 identificacao_id: automatizar-tarefas-no-excel-nivel-avancado
-title: Automatizar tarefas no Excel (nível avançado)
-horas: 16
-mes: Outobro
+title: Apresentações dinâmicas no Power Point
+horas: '8'
+mes: março
 desconto_inscricao: Inscrição ciclo completo com 10% desconto
-category: formacao
 ciclo_category: ferramentas_informaticas
-class: formacao-pt
 formacao_Active: active
+class: formacao-pt
 idiom: pt
+category: formacao
 ---
 
 ### **ENQUADRAMENTO**
-Reconhecendo a importância do Microsoft Excel para o desenvolvimento de inúmeras tarefas, pretende-se com o presente curso dotar os formandos de conhecimentos que lhes permitam apresentar soluções flexíveis quanto ao modo como se gere o trabalho a efetuar, utilizar comandos que se aplicam a operações de tratamento de tipos de dados específicos e utilizar as facilidades avançadas do Microsoft Excel no que respeita à gestão de ficheiros e explorar mais profundamente as facilidades de ligação de múltiplas folhas. <br><br><br>
+Reconhecendo a importância do Microsoft Power Point para o desenvolvimento de inúmeras tarefas, pretende-se com o presente curso dotar os formandos de conhecimentos que lhes permitam apresentar soluções flexíveis quanto ao modo como se gere o trabalho a efetuar, utilizar comandos que se aplicam a operações de tratamento de tipos de dados específicos e utilizar as facilidades avançadas do Microsoft Power Point no que respeita à gestão de ficheiros e explorar mais profundamente as facilidades de ligação de múltiplas folhas. <br><br><br>
 
-**Duração:** 2 dias - 16 h  \|  **Datas:** 18 e 25 de outubro  \|  **Valor:** 110€<br><br> 
+**Duração:** 1 dias - 8 h  \|  **Datas:** 22 de março  \|  **Valor:** 60€<br><br> 
 
 **Valor Ciclo Completo c/ 10% desconto:** 297€<br><br><br><br><br>
 
