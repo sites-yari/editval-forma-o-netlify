@@ -2,13 +2,13 @@
 identificacao_id: equilibrar-o-uso-de-tempo
 title: Equilibrar o uso de tempo
 horas: 8
-mes: Novembro
+mes: setembro
 desconto_inscricao: Inscrição ciclo completo com 10% desconto
-category: formacao
 ciclo_category: desenvolvimento_pessoal
-class: formacao-pt
 formacao_Active: active
+class: formacao-pt
 idiom: pt
+category: formacao
 ---
 
 
@@ -18,7 +18,7 @@ Nos dias de hoje, o bom senso não é, a maior parte das vezes, suficiente para 
 
  
 
-**Duração:** 1 dia - 8 h  \|  **Data:** 15 de novembro  \|  **Valor:** 60€<br><br>
+**Duração:** 1 dia - 8 h  \|  **Data:** 20 de setembro  \|  **Valor:** 60€<br><br>
 
  
 
