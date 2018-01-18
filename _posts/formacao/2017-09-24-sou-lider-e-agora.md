@@ -1,14 +1,14 @@
 ---
 identificacao_id: sou-lider-e-agora
-title: Sou líder, e agora?
+title: 'Sou líder, e agora?'
 horas: 8
 mes: Fevereiro
 desconto_inscricao: Inscrição ciclo completo com 10% desconto
-category: formacao
 ciclo_category: lideranca
-class: formacao-pt
 formacao_Active: active
+class: formacao-pt
 idiom: pt
+category: formacao
 ---
 
 
@@ -17,7 +17,7 @@ O processo de liderança é função de cada situação, o que faz com que um(a)
 
  
 
-**Duração:** 1 dia - 8 h  \|  **Data:** 1 de fevereiro  \|  **Valor:** 60€<br><br> 
+**Duração:** 1 dia - 8 h  \|  **Data:** 15 de fevereiro  \|  **Valor:** 60€<br><br> 
 
  
 
