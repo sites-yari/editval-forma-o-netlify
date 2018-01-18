@@ -1,22 +1,22 @@
 ---
 identificacao_id: posturas-e-lesoes-no-posto-de-trabalho
-title: Posturas e Lesões no Posto de Trabalho
+title: Medidas de Autoproteção e Evacuação
 horas: 8
-mes: Fevereiro
+mes: novembro
 desconto_inscricao: Inscrição ciclo completo com 10% desconto
-category: formacao
 ciclo_category: higiene_seguranca
-class: formacao-pt
 formacao_Active: active
+class: formacao-pt
 idiom: pt
+category: formacao
 ---
 
 ### **ENQUADRAMENTO**
 A produtividade aumenta quando se consegue identificar as posturas erradas, reduzir pressão nas costas, articulações e músculos. O objetivo é adaptar a tarefa à pessoa não comprometendo as suas capacidades e limitações potenciando o máximo conforto, segurança e eficácia.<br><br><br>
 
-**Duração:** 1 dia - 8 h  \|  **Datas:** 15 de fevereiro  \|  **Valor:** 60€<br><br>
+**Duração:** 1 dia - 8 h  \|  **Datas:** 20 de novembro  \|  **Valor:** 60€<br><br>
 
-**Valor Ciclo Completo c/ 10% desconto:** 252€<br><br><br><br><br>
+**Valor Ciclo Completo c/ 10% desconto:** 207€<br><br><br><br><br>
 
 **Condições Gerais**
 * **\-** Desconto de 10% na inscrição num ciclo completo de formação.
