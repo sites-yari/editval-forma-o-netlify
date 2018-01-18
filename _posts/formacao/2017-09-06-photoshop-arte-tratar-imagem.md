@@ -2,19 +2,19 @@
 identificacao_id: photoshop-a-arte-de-tratar-a-imagem
 title: Photoshop - a arte de tratar a imagem
 horas: 16
-mes: Abril
+mes: julho
 desconto_inscricao: Inscrição ciclo completo com 10% desconto
-category: formacao
 ciclo_category: ferramentas_informaticas
-class: formacao-pt
 formacao_Active: active
+class: formacao-pt
 idiom: pt
+category: formacao
 ---
 
 ### **ENQUADRAMENTO**
 O Adobe Photoshop é o software padrão do mercado para edição, composição e produção digital de imagem e continua a liderar como o mais completo e profissional editor de imagens e fotografias. No entanto, para o utilizar com eficácia é preciso dominar as suas ferramentas. Deste modo, todos os recursos de tratamento de imagem serão aplicados da melhor forma e produzirão resultados de maior qualidade. Dentro das vantagens deste software de edição temos efeitos e resultados únicos, além da organização que o mesmo oferece, importando facilmente fotos e vídeos, assim como arquivos media de um meio móvel.  <br><br><br>
 
-**Duração:** 2 dias - 16 h  \|  **Datas:** 5 e 12 de abril  \|  **Valor:** 110€<br><br> 
+**Duração:** 2 dias - 16 h  \|  **Datas:** 9 e 16 de julho  \|  **Valor:** 110€<br><br> 
 
 **Valor Ciclo Completo c/ 10% desconto:** 297€<br><br><br><br><br>
 
