@@ -1,20 +1,20 @@
 ---
 identificacao_id: 5-passos-no-excel-nivel-intermedio
-title: 5 passos no Excel (nível intermédio)
-horas: 16
-mes: Julho
+title: Apresentações dinâmicas no Power Point
+horas: '8'
+mes: março
 desconto_inscricao: Inscrição ciclo completo com 10% desconto
-category: formacao
 ciclo_category: ferramentas_informaticas
-class: formacao-pt
 formacao_Active: active
+class: formacao-pt
 idiom: pt
+category: formacao
 ---
 
 ### **ENQUADRAMENTO**
-O Microsoft Excel é uma das ferramentas fundamentais no trabalho das empresas e pessoas. O software da Microsoft oferece uma infinidade de possibilidades de tarefas que facilitam a vida nos escritórios. Seja para utilizasção como ferramenta de gestão financeira ou para diferentes cálculos de controlo, o Microsoft Excel é praticamente indispensável para qualquer organização. Utilizado por milhões de pessoas diariamente, o Microsoft Excel apresenta inúmeras funções e tarefas. Por isso, conhecê-las e dominá-las é hoje uma competência essencial a qualquer profissional. <br><br><br>
+O Microsoft Power Point é uma das ferramentas fundamentais no trabalho das empresas e pessoas. O software da Microsoft oferece uma infinidade de possibilidades de tarefas que facilitam a vida nos escritórios. Seja para utilizasção como ferramenta de gestão financeira ou para diferentes cálculos de controlo, o Microsoft Power Point é praticamente indispensável para qualquer organização. Utilizado por milhões de pessoas diariamente, o Microsoft Power Point apresenta inúmeras funções e tarefas. Por isso, conhecê-las e dominá-las é hoje uma competência essencial a qualquer profissional. <br><br><br>
 
-**Duração:** 2 dias - 16 h  \|  **Datas:** 3 e 10 de julho  \|  **Valor:** 110€<br><br> 
+**Duração:** 1 dias - 8 h  \|  **Datas:** 22 de março  \|  **Valor:** 60€<br><br> 
 
 **Valor Ciclo Completo c/ 10% desconto:** 297€<br><br><br><br><br>
 
