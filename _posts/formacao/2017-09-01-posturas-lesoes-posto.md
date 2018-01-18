@@ -1,6 +1,6 @@
 ---
 identificacao_id: posturas-e-lesoes-no-posto-de-trabalho
-title: Medidas de Autoproteção e Evacuação
+title: Medidas de Autoproteção e Evacuaçao
 horas: 8
 mes: novembro
 desconto_inscricao: Inscrição ciclo completo com 10% desconto
