@@ -2,13 +2,13 @@
 identificacao_id: estrategias-para-lidar-com-o-stress
 title: Estratégias para lidar com o stress
 horas: 8
-mes: Abril
+mes: junho
 desconto_inscricao: Inscrição ciclo completo com 10% desconto
-category: formacao
 ciclo_category: desenvolvimento_pessoal
-class: formacao-pt
 formacao_Active: active
+class: formacao-pt
 idiom: pt
+category: formacao
 ---
 
 ### **ENQUADRAMENTO**
@@ -17,7 +17,7 @@ São amplamente conhecidos os problemas físicos, psicológicos e comportamentai
 
  
 
-**Duração:** 1 dia - 8 h  \|  **Data:** 3 de abril  \|  **Valor:** 60€<br><br>
+**Duração:** 1 dia - 8 h  \|  **Data:** 20 de junho  \|  **Valor:** 60€<br><br>
  
 
 **Valor Ciclo Completo c/ 10% desconto:** 207€<br><br><br><br><br>
