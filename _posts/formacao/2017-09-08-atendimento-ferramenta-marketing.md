@@ -1,21 +1,21 @@
 ---
 identificacao_id: atendimento-como-ferramenta-do-marketing-relacional
-title: Atendimento como ferramenta do Marketing Relacional
+title: 'SMILE: técnicas de marketing relacional'
 horas: 8
-mes: Junho
+mes: abril
 desconto_inscricao: Inscrição ciclo completo com 10% desconto
-category: formacao
 ciclo_category: marketing
-class: formacao-pt
 formacao_Active: active
+class: formacao-pt
 idiom: pt
+category: formacao
 ---
 
 
 ### **ENQUADRAMENTO**
 Atender clientes é atender pessoas. O atendimento adequado é apontado por muitos especialistas como sendo fulcral para a diferenciação de uma empresa dos seus concorrentes. Quando uma equipa é capaz de tornar agradável o contacto com o cliente, a probabilidade de retorno é considerável. O propósito fundamental do marketing de relacionamento é conquistar e manter clientes, desenvolvendo relacionamentos de longa duração e que sejam interessantes para o cliente e para a empresa. Ao colocar-se no lugar do cliente, o prestador de serviços/produto entende melhor as suas necessidades. Ao compreender melhor o cliente, a empresa dá o primeiro passo para um atendimento diferenciado. A competitividade tem vindo a crescer dia após dia, o nível de exigência dos clientes aprimorou-se e a qualidade passou a ser o principal fator de diferenciação.<br><br><br>
 
-**Duração:** 1 dia - 8 h  \|  **Datas:** 1 de junho  \|  **Valor:** 60€<br><br> 
+**Duração:** 1 dia - 8 h  \|  **Datas:** 17 de abril  \|  **Valor:** 60€<br><br> 
 
  
 
