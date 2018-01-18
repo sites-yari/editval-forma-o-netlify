@@ -2,13 +2,13 @@
 identificacao_id: primeiros-socorros
 title: Primeiros Socorros
 horas: 16
-mes: Novembro
+mes: setembro
 desconto_inscricao: Inscrição ciclo completo com 10% desconto
-category: formacao
 ciclo_category: higiene_seguranca
-class: formacao-pt
 formacao_Active: active
+class: formacao-pt
 idiom: pt
+category: formacao
 ---
 
 ### **ENQUADRAMENTO**
@@ -16,11 +16,11 @@ A expressão Primeiros Socorros traduz os cuidados imediatos prestados no local 
 
  
 
-**Duração:** 2 dias - 16 h  \|  **Datas:** 6 e 13 de novembro  \|  **Valor:** 110€<br><br> 
+**Duração:** 2 dias - 16 h  \|  **Datas:** 11 e 13 de setembro  \|  **Valor:** 110€<br><br> 
 
  
 
-**Valor Ciclo Completo c/ 10% desconto:** 252€<br><br><br><br><br>
+**Valor Ciclo Completo c/ 10% desconto:** 207€<br><br><br><br><br>
 
 **Condições Gerais**
 
