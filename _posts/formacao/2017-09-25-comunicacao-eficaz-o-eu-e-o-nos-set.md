@@ -2,13 +2,13 @@
 identificacao_id: comunicacao-eficaz-o-eu-e-o-nos
 title: Comunicação eficaz- o eu e o nós
 horas: 8
-mes: Setembro
+mes: fevereiro
 desconto_inscricao: Inscrição ciclo completo com 10% desconto
-category: formacao
 ciclo_category: competencias_relacionais
-class: formacao-pt
 formacao_Active: active
+class: formacao-pt
 idiom: pt
+category: formacao
 ---
 
 
@@ -17,7 +17,7 @@ Todas as interações entre pessoas têm na sua base o processo de comunicação
 
  
 
-**Duração:** 1 dia - 8 h  \|  **Data:** 27 de setembro  \|  **Valor:** 60€<br><br>
+**Duração:** 1 dia - 8 h  \|  **Data:** 27 de fevereiro  \|  **Valor:** 60€<br><br>
 
  
 
