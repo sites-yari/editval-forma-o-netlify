@@ -26,11 +26,38 @@ idiom: pt
   </style>
 
   <script>
-    $(document).on("ready", function () {
-      if (window.location.hash != "#inscricao") {
-          $("#inscricao-link").trigger("click");
-      }
-    });
+    $(document).ready(function () {
+      $('#test_desapear_form').hide();
+
+      $('#inscricao-link').on('click', function () {
+          if ($('#test_desapear_form').is(':visible')) {
+              $('#test_desapear_form').fadeOut(500, function () {
+                  $('div.panel').animate({
+                      'width': 'hide'
+                  }, 1000);
+              });
+          } else {
+              $('#test_desapear_form').show();
+          };
+      });
+  });
+
+
+  $(document).ready(function () {
+      $('#test_desapear_form_course').hide();
+
+      $('#subscribe_course').on('click', function () {
+          if ($('#test_desapear_form_course').is(':visible')) {
+              $('#test_desapear_form_course').fadeOut(500, function () {
+                  $('div.panel').animate({
+                      'width': 'hide'
+                  }, 1000);
+              });
+          } else {
+              $('#test_desapear_form_course').show();
+          };
+      });
+  });
   </script>
 
   {% assign formacao = site.posts | where: "category" , "formacao" %}
@@ -71,7 +98,7 @@ idiom: pt
                     Inscreva-se já no nosso Plano de Formação!
                   </a>
                 </div>
-                <form name="contact-Formação-Desempenho-Próximos-Cursos" netlify-honeypot="bot-field" action="../../../../obrigado.html" netlify>                                  
+                <form id="test_desapear_form"name="contact-Formação-Desempenho-Próximos-Cursos" netlify-honeypot="bot-field" action="../../../../obrigado.html" netlify>                                  
                 <!-- <form id="top-form" method="POST" action="http://formacao.editvalue.com/entry_submissions/course_enrollments.json"
                       data-visibility-group="form[id],.list.publicacoes li .text1"
                       data-ajax-form="true"
