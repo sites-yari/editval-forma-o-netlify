@@ -44,17 +44,17 @@ idiom: pt
 
 
   $(document).ready(function () {
-      $('#test_desapear_form_course').hide();
+      $('.test_desapear_form_course').hide();
 
-      $('#subscribe_course').on('click', function () {
-          if ($('#test_desapear_form_course').is(':visible')) {
-              $('#test_desapear_form_course').fadeOut(500, function () {
+      $('.subscribe_course').on('click', function () {
+          if ($('.test_desapear_form_course').is(':visible')) {
+              $('.test_desapear_form_course').fadeOut(500, function () {
                   $('div.panel').animate({
                       'width': 'hide'
                   }, 1000);
               });
           } else {
-              $('#test_desapear_form_course').show();
+              $('.test_desapear_form_course').show();
           };
       });
   });
