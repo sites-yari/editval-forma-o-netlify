@@ -30,3 +30,6 @@ pagination:
   collection: 'posts'
 
 permalink: /:year/:month/:title.html
+
+include:
+  - _redirects
