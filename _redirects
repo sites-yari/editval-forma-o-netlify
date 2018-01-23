@@ -1,2 +1,2 @@
-# redirect old subdomains to new ones.
-http://formacao.editvalue.com/* http://capitalhumano.editvalue.com/index.html 301!
+# Redirect domain aliases to primary domain
+http://formacao.editvalue.com/* http://capitalhumano.editvalue.com/:splat 301!
