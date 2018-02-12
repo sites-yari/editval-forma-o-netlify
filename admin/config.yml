@@ -9,18 +9,6 @@ backend:
 
 collections:
 #====================| POSTS |===================================================|  
-  #-----| Read me |------------------------------|
-  - name: "posts"
-    label: "Instruções"
-    folder: "_posts"
-    create: false
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-    fields:
-      - { label: "Titulo", name: "title", widget: "string" }
-      - { label: "Data de publicação", name: "date", widget: "datetime", format: "YYYY-MM-DD" }
-      - { label: "categories", name: "categories", widget: "hidden", default: "instrucoes"}
-      - { label: "Classe", name: "class", widget: "hidden", default: "test-post" }
-      - { label: "Instruções", name: "body", widget: "markdown" }
 
   #-----| Artigos |-------------------------------|
   - name: "artigos"
