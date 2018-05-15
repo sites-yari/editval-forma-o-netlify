@@ -2,14 +2,15 @@
 layout: post-text
 title: Quem é a pessoa mais importante na sua organização?
 data: 06-09-2017
-text_image_path: images/artigos/18.jpg
+text_image_path: /assets/uploads/bg_sprite_v3_formacao30f4.png
 category: artigos
 class: media-pt
 media_active?: active
 artigos_active?: active
 idiom: pt
 permalink: pt-media/artigos/quem-e-a-pessoa-mais-importante-na-sua-organizacao
----  
+---
+  
 
 Muitas pessoas têm dúvidas sobre quem é a pessoa mais importante para uma organização. Há comparações entre as pessoas de um mesmo setor, entre pessoas de diferentes áreas, assim como comparações entre as pessoas que ocupam diferentes funções.
 
