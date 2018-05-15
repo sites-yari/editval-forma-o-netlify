@@ -26,11 +26,38 @@ idiom: pt
   </style>
 
   <script>
-    $(document).on("ready", function () {
-      if (window.location.hash != "#inscricao") {
-          $("#inscricao-link").trigger("click");
-      }
-    });
+    $(document).ready(function () {
+      $('#test_desapear_form').hide();
+
+      $('#inscricao-link').on('click', function () {
+          if ($('#test_desapear_form').is(':visible')) {
+              $('#test_desapear_form').fadeOut(500, function () {
+                  $('div.panel').animate({
+                      'width': 'hide'
+                  }, 1000);
+              });
+          } else {
+              $('#test_desapear_form').show();
+          };
+      });
+  });
+
+
+  $(document).ready(function () {
+      $('.test_desapear_form_course').hide();
+
+      $('.subscribe_course').on('click', function () {
+          if ($('.test_desapear_form_course').is(':visible')) {
+              $('.test_desapear_form_course').fadeOut(500, function () {
+                  $('div.panel').animate({
+                      'width': 'hide'
+                  }, 1000);
+              });
+          } else {
+              $('.test_desapear_form_course').show();
+          };
+      });
+  });
   </script>
 
   {% assign formacao = site.posts | where: "category" , "formacao" %}
@@ -71,7 +98,7 @@ idiom: pt
                     Inscreva-se já no nosso Plano de Formação!
                   </a>
                 </div>
-                <form name="contact-Formação-Desempenho-Próximos-Cursos" netlify-honeypot="bot-field" action="thank-you" netlify>                                  
+                <form id="test_desapear_form"name="contact-Formação-Desempenho-Próximos-Cursos" netlify-honeypot="bot-field" action="../../../../obrigado.html" netlify>                                  
                 <!-- <form id="top-form" method="POST" action="http://formacao.editvalue.com/entry_submissions/course_enrollments.json"
                       data-visibility-group="form[id],.list.publicacoes li .text1"
                       data-ajax-form="true"
@@ -145,7 +172,7 @@ idiom: pt
                           <br>
                           <br>
                           <label>Número de associado</label>
-                          <input data-id="member-number" name="Numero-Associado" placeholder="" type="text" value="" required disabled />
+                          <input data-id="member-number" name="Numero-Associado" placeholder="" type="text" value="" required  />
                         </li>
                       </ul>
                     </div>
@@ -161,22 +188,22 @@ idiom: pt
 
                         <li class="text_field" data-ajax-form-field-wrapper="company_name">
                           <label>Empresa/Organização</label>
-                          <input name="Empresa-Organização" placeholder="" type="text" value="" data-class="extra-field" required style="width: 80%;" disabled />
+                          <input name="Empresa-Organização" placeholder="" type="text" value="" data-class="extra-field" required style="width: 80%;"  />
                         </li>
 
                         <li class="text_field" data-ajax-form-field-wrapper="company_address">
                           <label>Morada</label>
-                          <input name="Morada" placeholder="" type="text" value="" data-class="extra-field" required style="width: 80%;" disabled />
+                          <input name="Morada" placeholder="" type="text" value="" data-class="extra-field" required style="width: 80%;"  />
                         </li>
 
                         <li class="text_field" data-ajax-form-field-wrapper="company_address2">
                           <label>Código Postal e Localidade</label>
-                          <input name="C-postal-Localidade" placeholder="" type="text" value="" data-class="extra-field" required style="width: 60%;" disabled />
+                          <input name="C-postal-Localidade" placeholder="" type="text" value="" data-class="extra-field" required style="width: 60%;"  />
                         </li>
 
                         <li class="text_field" data-ajax-form-field-wrapper="nipc">
                           <label>NIPC</label>
-                          <input name="NIPC" placeholder="" type="text" data-class="extra-field" required value="" disabled />
+                          <input name="NIPC" placeholder="" type="text" data-class="extra-field" required value=""  />
                         </li>
 
                         <li style="padding-top: 90px;">
@@ -319,7 +346,7 @@ idiom: pt
               </li>
               {% endfor %}
 
-<!--|===================| topico 4 |================================|-->              
+<!--|===================| topico 4 |================================|          
               <li style='background-color: transparent;'>
                 <h1 style='background-color: transparent; margin-top: 15px; margin-bottom: 0;'>Ciclo Gestão de Pessoas</h1>
               </li>
@@ -351,10 +378,10 @@ idiom: pt
                   </div>
                 </div>
               </li>
-              {% endfor %}
+              {% endfor %}-->    
 
               
-<!--|===================| topico 5 |================================|-->              
+<!--|===================| topico 5 |================================|            
               <li style='background-color: transparent;'>
                 <h1 style='background-color: transparent; margin-top: 15px; margin-bottom: 0;'>Ciclo Criatividade e Inovação</h1>
               </li>
@@ -386,10 +413,10 @@ idiom: pt
                   </div>
                 </div>
               </li>
-              {% endfor %}
+              {% endfor %}-->  
 
               
-<!--|===================| topico 6 |================================|-->              
+<!--|===================| topico 6 |================================|            
               <li style='background-color: transparent;'>
                 <h1 style='background-color: transparent; margin-top: 15px; margin-bottom: 0;'>Ciclo Línguas Estrangeiras</h1>
               </li>
@@ -421,10 +448,10 @@ idiom: pt
                   </div>
                 </div>
               </li>
-              {% endfor %}
+              {% endfor %}-->  
 
               
-<!--|===================| topico 7 |================================|-->              
+<!--|===================| topico 7 |================================|          
               <li style='background-color: transparent;'>
                 <h1 style='background-color: transparent; margin-top: 15px; margin-bottom: 0;'>Ciclo Melhoria Contínua</h1>
               </li>
@@ -456,7 +483,7 @@ idiom: pt
                   </div>
                 </div>
               </li>
-              {% endfor %}
+              {% endfor %}-->    
 
               
 <!--|===================| topico 8 |================================|-->              

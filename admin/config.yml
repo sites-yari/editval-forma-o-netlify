@@ -9,16 +9,6 @@ backend:
 
 collections:
 #====================| POSTS |===================================================|  
-  #-----| Read me |------------------------------|
-  - name: "posts"
-    label: "Instruções"
-    folder: "_posts"
-    create: false
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-    fields:
-      - { label: "Titulo", name: "title", widget: "string" }
-      - { label: "Data de publicação", name: "date", widget: "datetime", format: "YYYY-MM-DD" }
-      - { label: "Instruções", name: "body", widget: "markdown" }
 
   #-----| Artigos |-------------------------------|
   - name: "artigos"
@@ -127,16 +117,17 @@ collections:
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
-      - { label: "ID de identificação", name: "identificacao_id", widget: "string" }
+      - { label: "ID de identificação", name: "identificacao_id", widget: "hidden", default: "new_form" }
       - { label: "Nome", name: "title", widget: "string" }
       - { label: "Horas", name: "horas", widget: "number" }
       - { label: "Mês", name: "mes", widget: "string" }
       - { label: "Desconto de Inscricão", name: "desconto_inscricao", widget: "string" }
-      - { label: "Categoria", name: "category", widget: "hidden", default: "formacao" }
-      - { label: "ciclo categoria", name: "ciclo_category", widget: "select", options: ["desenvolvimento_pessoal","competencias_relacionais","lideranca","gestao_pessoas","criatividade_inovacao","linguas_estrangeiras","melhoria_continua","marketing","ferramentas_informaticas","higiene_seguranca"] }
-      - { label: "formacao active?", name: "formacao_Active?", widget: "hidden", default: "active" }
+      - { label: "ciclo categoria", name: "ciclo_category", widget: "select", options: ["desenvolvimento_pessoal","competencias_relacionais","lideranca","marketing","ferramentas_informaticas","higiene_seguranca"] }
+      - { label: "Descrição", name: "body", widget: "markdown" }
+      - { label: "formacao active", name: "formacao_Active", widget: "hidden", default: "active" }
       - { label: "Classe", name: "class", widget: "hidden", default: "formacao-pt" }
       - { label: "Idioma", name: "idiom", widget: "hidden", default: "pt" }
+      - { label: "Categoria", name: "category", widget: "hidden", default: "formacao" }
 
   - name: "data" #|=====================| DATA |====================================================|
     label: "Data"

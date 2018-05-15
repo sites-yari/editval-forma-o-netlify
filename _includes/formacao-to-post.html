@@ -2,6 +2,8 @@
     
     <div style="text-align: center;">
         <a href="#"
+          id="subscribe_course"
+          class="subscribe_course"
           data-action="toggle-visibility"
           data-toggle-visibility-method="slide"
           data-toggle-visibility-target="#{{post.identificacao_id}}">
@@ -16,7 +18,7 @@
             data-ajax-form-fail-field-template="applications-form-fail-field-template-{{page.identificacao_id}}"
             data-ajax-form-success-action="replace-form"
             data-ajax-form-success-template="applications-form-success-template-{{page.identificacao_id}}"> -->
-    <form name="contact-{{post.identificacao_id}}" netlify-honeypot="bot-field" action="thank-you" netlify>                
+    <form id="test_desapear_form_course" class="test_desapear_form_course" name="contact-{{post.identificacao_id}}" netlify-honeypot="bot-field" action="../../../../obrigado.html" netlify>                
         <!-- <input type="hidden" name="authenticity_token" value="/glqdbel53jFDo04fFmVfNnwooSnWgFg+OxvVVCzn/o="> -->
 
         <div>
@@ -78,7 +80,7 @@
                     <br>
 
                     <label>Número de associado</label>
-                    <input data-id="member-number" name="Numero-Associado" placeholder="" type="text" value="" required disabled />
+                    <input data-id="member-number" name="Numero-Associado" placeholder="" type="text" value="" required />
                 </li>
 
                 </ul>
@@ -95,22 +97,22 @@
 
                 <li class="text_field" data-ajax-form-field-wrapper="company_name">
                     <label>Empresa/Organização</label>
-                    <input name="Empresa-Organização" placeholder="" type="text" value="" data-class="extra-field" required style="width: 80%;" disabled />
+                    <input name="Empresa-Organização" placeholder="" type="text" value="" data-class="extra-field" required style="width: 80%;"  />
                 </li>
 
                 <li class="text_field" data-ajax-form-field-wrapper="company_address">
                     <label>Morada</label>
-                    <input name="Morada" placeholder="" type="text" value="" data-class="extra-field" required style="width: 80%;" disabled />
+                    <input name="Morada" placeholder="" type="text" value="" data-class="extra-field" required style="width: 80%;"  />
                 </li>
 
                 <li class="text_field" data-ajax-form-field-wrapper="company_address2">
                     <label>Código Postal e Localidade</label>
-                    <input name="C-postal-Localidade" placeholder="" type="text" value="" data-class="extra-field" required style="width: 60%;" disabled />
+                    <input name="C-postal-Localidade" placeholder="" type="text" value="" data-class="extra-field" required style="width: 60%;"  />
                 </li>
 
                 <li class="text_field" data-ajax-form-field-wrapper="nipc">
                     <label>NIPC</label>
-                    <input name="NIPC" placeholder="" type="text" data-class="extra-field" required value="" disabled />
+                    <input name="NIPC" placeholder="" type="text" data-class="extra-field" required value=""  />
                 </li>
 
                 <li style="padding-top: 90px;">

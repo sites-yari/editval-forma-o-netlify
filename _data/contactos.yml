@@ -7,10 +7,10 @@ pt:
     telefone: +351 253 103 169
     fax: +351 253 103 169
     telemovel: +351 933 666 145
-    email: formacao@editvalue.com
+    email: capitalhumano@editvalue.com
   gps: 41.550820 ºN -8.403990 ºW
   horario:
-    aberto: Segunda a Sexta (9h-13h | 14h30-18h30)
+    aberto: Segunda a Sexta (9h-13h | 14h00-18h00)
     fechado: Encerramento aos Sábados, Domingos e feriados.
 
 en:
@@ -22,10 +22,10 @@ en:
     telefone: +351 253 103 169
     fax: +351 253 103 169
     telemovel: +351 933 666 145
-    email: formacao@editvalue.com
+    email: capitalhumano@editvalue.com
   gps: 41.550820 ºN -8.403990 ºW
   horario:
-    aberto: Monday to Friday (9h-13h | 14h30-18h30)
+    aberto: Monday to Friday (9h-13h | 14h00-18h00)
     fechado: Closed on Saturdays, Sundays and holydays.
     
 es:
@@ -37,8 +37,8 @@ es:
     telefone: +351 253 103 169
     fax: +351 253 103 169
     telemovel: +351 933 666 145
-    email: formacao@editvalue.com
+    email: capitalhumano@editvalue.com
   gps: 41.550820 ºN -8.403990 ºW
   horario:
-    aberto: De lunes a viernes (9h-13h | 14h30-18h30)
+    aberto: De lunes a viernes (9h-13h | 14h00-18h00)
     fechado: Cierre los sábados, domingos y días festivos.

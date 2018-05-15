@@ -1,0 +1,2 @@
+# Redirect domain aliases to primary domain
+http://formacao.editvalue.com/* http://capitalhumano.editvalue.com/:splat 301!
