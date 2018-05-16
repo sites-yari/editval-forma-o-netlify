@@ -23,7 +23,7 @@ Porém, é imperativo apetrechar o nosso canivete suíço de mais utensílios, o
 A todos aqueles que já terminaram os seus estudos e ingressaram no mundo do trabalho, sugiro que reflitam um pouco e auscultem onde estão os colegas de universidade que terminaram com as melhores e piores médias. A que conclusão chegam? Como diria o grande liricista americano Nipsey Hussle “Podes ser tudo o que quiseres… menos mediano”.
 <br><br><br>
  
-**Tiago Gouveia (ADD TEST)**
+**Tiago Gouveia**
 
 Responsável Desenvolvimento RH
 
