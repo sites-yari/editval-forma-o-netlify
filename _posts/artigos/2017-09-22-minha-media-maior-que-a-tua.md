@@ -9,7 +9,8 @@ media_active?: active
 artigos_active?: active
 idiom: pt
 permalink: pt-media/artigos/a-minha-media-e-maior-que-a-tua-e-quanto-vale
----  
+---
+  
 
 Durante a nossa vida universitária foi-nos palestrada uma afirmação muito semelhante a esta: “Agora é que é! Daqui em diante todos os exames, trabalhos e apresentações contam para a tua média final!”. Nesse sentido, fomos instruídos a comer, beber e respirar em função da média final, sabendo que uma nota baixa reduziria drasticamente as hipóteses de encontrar um trabalho recompensador e aliciante.
 
@@ -22,7 +23,7 @@ Porém, é imperativo apetrechar o nosso canivete suíço de mais utensílios, o
 A todos aqueles que já terminaram os seus estudos e ingressaram no mundo do trabalho, sugiro que reflitam um pouco e auscultem onde estão os colegas de universidade que terminaram com as melhores e piores médias. A que conclusão chegam? Como diria o grande liricista americano Nipsey Hussle “Podes ser tudo o que quiseres… menos mediano”.
 <br><br><br>
  
-**Tiago Gouveia**
+**Tiago Gouveia (ADD TEST)**
 
 Responsável Desenvolvimento RH
 
