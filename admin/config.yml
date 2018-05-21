@@ -63,7 +63,7 @@ collections:
     fields:
       - { label: "Layout", name: "layout", widget: "hidden", default: "default" }
       - { label: "Titulo", name: "title", widget: "string" }
-      - { label: "Descrição", name: "description", widget: "string" }
+      - { label: "Descrição", name: "description", widget: "string", required: false }
       - { label: "Ano de Publicação", name: "year", widget: "number" }
       - { label: "Categoria", name: "category", widget: "hidden", default: "galeria-de-fotos" }
       - { label: "Imagem de capa", name: "main_image_path", widget: "image" }
