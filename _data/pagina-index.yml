@@ -10,8 +10,7 @@ pt:
       text: alguma coisa (teste
       titulo: teste
   lista:
-    - image_path: >-
-        images/dynamic/W1siZnUiLCJodHRwczovL2FkYWdhd2ViLnMzLmFtYXpvbmF/teambuilding_2d192.jpg
+    - image_path: /assets/uploads/babeliUM_destaque_01 (3).jpg
       text: >-
         Estruturados a partir de objetivos concretos, os programas teambuilding
         da EDIT VALUE® CAPITAL HUMANO reforçam a identidade da empresa através
