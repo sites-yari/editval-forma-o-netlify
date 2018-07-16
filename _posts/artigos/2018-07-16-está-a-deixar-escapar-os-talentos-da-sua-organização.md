@@ -10,4 +10,4 @@ artigos_active?: active
 idiom: pt
 permalink: pt-media/artigos/esta-a-deixar-escapar-os-talentos-da-sua-organização
 ---
-texto aqui
+**texto** aqui
