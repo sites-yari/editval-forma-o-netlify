@@ -1,5 +1,5 @@
 ---
-identificacao_id: equilibrar-o-uso-de-tempo
+identificacao_id: dinamizar-e-coordenar-reunioes
 title: Dinamizar e coordenar reuniões
 horas: 8
 mes: setembro

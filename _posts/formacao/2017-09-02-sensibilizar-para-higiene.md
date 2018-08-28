@@ -1,5 +1,5 @@
 ---
-identificacao_id: sensibilizar-para-a-higiene-e-seguranca-no-trabalho
+identificacao_id: higiene-e-seguranca-no-trabalho
 title: Higiene e Segurança no Trabalho
 horas: 8
 mes: novembro
