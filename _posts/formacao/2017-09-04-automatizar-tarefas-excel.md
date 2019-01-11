@@ -3,7 +3,7 @@ identificacao_id: automatizar-tarefas-no-excel-nivel-avancado
 title: Apresentações dinâmicas no Power Point
 horas: '8'
 mes: março
-desconto_inscricao: Inscrição ciclo completo com 10% desconto
+desconto_inscricao: Inscrição ciclo completo com 10% descontos
 ciclo_category: ferramentas_informaticas
 formacao_Active: active
 class: formacao-pt
