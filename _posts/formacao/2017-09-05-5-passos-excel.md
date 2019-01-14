@@ -13,7 +13,7 @@ category: formacao
 
 **Duração:** 2 dias - 16 h  \|  **Datas:** 20 e 27 de novembro  \|  **Valor:** 110€<br><br> 
 
-**Valor Ciclo Completo c/ 10% desconto:** 297€<br><br><br><br><br>
+<!-- **Valor Ciclo Completo c/ 10% desconto:** 297€<br><br><br><br><br> -->
 
 **Condições Gerais**
 * **\-** Desconto de 10% na inscrição num ciclo completo de formação ou em 3 ações de formação

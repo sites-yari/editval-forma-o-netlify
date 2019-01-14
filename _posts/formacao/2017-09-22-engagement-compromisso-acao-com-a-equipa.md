@@ -16,7 +16,7 @@ category: formacao
 
  
 
-**Valor Ciclo Completo c/ 10% desconto:** 252€<br><br><br><br><br>
+<!-- **Valor Ciclo Completo c/ 10% desconto:** 252€<br><br><br><br><br> -->
 
 **Condições Gerais**
 * **\-** Desconto de 10% na inscrição num ciclo completo de formação ou em 3 ações de formação

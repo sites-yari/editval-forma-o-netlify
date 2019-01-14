@@ -13,7 +13,7 @@ category: formacao
 
 **Duração:** 1 dia - 8 h  \|  **Datas:** 26 de fevereiro  \|  **Valor:** 65€<br><br>
 
-**Valor Ciclo Completo c/ 10% desconto:** 207€<br><br><br><br><br>
+<!-- **Valor Ciclo Completo c/ 10% desconto:** 207€<br><br><br><br><br> -->
 
 **Condições Gerais**
 * **\-** Desconto de 10% na inscrição num ciclo completo de formação ou em 3 ações de formação
