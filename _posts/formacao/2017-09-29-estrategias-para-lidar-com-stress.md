@@ -14,7 +14,7 @@ category: formacao
 **Duração:** 1 dia - 8 h  \|  **Data:** 20 de março  \|  **Valor:** 65€<br><br>
  
 
-**Valor Ciclo Completo c/ 10% desconto:** 207€<br><br><br><br><br>
+<!-- **Valor Ciclo Completo c/ 10% desconto:** 207€<br><br><br><br><br> -->
 
  
 

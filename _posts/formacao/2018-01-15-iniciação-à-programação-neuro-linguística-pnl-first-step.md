@@ -12,7 +12,7 @@ category: formacao
 ---
 **Duração:** 2 dias - 16 h  \|  **Datas:** 08 e 15 de abril  \|  **Valor:** 110€<br><br>
 
-**Valor Ciclo Completo c/ 10% desconto:** 207€<br><br><br><br><br>
+<!-- **Valor Ciclo Completo c/ 10% desconto:** 207€<br><br><br><br><br> -->
 
 **Condições Gerais**
 * **\-** Desconto de 10% na inscrição num ciclo completo de formação ou em 3 ações de formação
