@@ -1,7 +1,7 @@
 ---
 identificacao_id: inteligencia-emocional-na-lideranca
 title: Inteligência Emocional na Liderança
-horas: 16
+horas: 8
 mes: maio
 desconto_inscricao: Inscrição ciclo completo com 10% desconto
 ciclo_category: lideranca
@@ -11,7 +11,7 @@ idiom: pt
 category: formacao
 ---
 
-**Duração:** 2 dias - 16 h  \|  **Datas:** 16 e 23 de maio  \|  **Valor:** 110€<br><br>
+**Duração:** 1 dia - 8 h  \|  **Datas:** 29 de maio  \|  **Valor:** 65€<br><br>
 
  
 

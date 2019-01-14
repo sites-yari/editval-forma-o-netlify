@@ -2,7 +2,7 @@
 identificacao_id: 5-passos-no-excel-nivel-intermedio
 title: 5 passos no Excel (nível intermédio)
 horas: 16
-mes: novembro e dezembro
+mes: novembro
 desconto_inscricao: Inscrição ciclo completo com 10% desconto
 ciclo_category: ferramentas_informaticas
 formacao_Active: active
@@ -11,7 +11,7 @@ idiom: pt
 category: formacao
 ---
 
-**Duração:** 2 dias - 16 h  \|  **Datas:** 28 de novembro e 5 de dezembro  \|  **Valor:** 110€<br><br> 
+**Duração:** 2 dias - 16 h  \|  **Datas:** 20 e 27 de novembro  \|  **Valor:** 110€<br><br> 
 
 **Valor Ciclo Completo c/ 10% desconto:** 297€<br><br><br><br><br>
 

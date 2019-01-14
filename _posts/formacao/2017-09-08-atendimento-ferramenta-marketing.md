@@ -1,8 +1,8 @@
 ---
-identificacao_id: atendimento-como-ferramenta-do-marketing-relacional
-title: 'SMILE: técnicas de marketing relacional'
+identificacao_id: business-model-canvas
+title: Business Model Canvas
 horas: 8
-mes: abril
+mes: setembro
 desconto_inscricao: Inscrição ciclo completo com 10% desconto
 ciclo_category: marketing
 formacao_Active: active
@@ -11,7 +11,7 @@ idiom: pt
 category: formacao
 ---
 
-**Duração:** 1 dia - 8 h  \|  **Datas:** 17 de abril  \|  **Valor:** 60€<br><br> 
+**Duração:** 1 dia - 8 h  \|  **Datas:** 25 de setembro  \|  **Valor:** 65€<br><br> 
 
  
 
