@@ -1,8 +1,8 @@
 ---
-identificacao_id: estrategias-para-lidar-com-o-stress
-title: Estratégias para lidar com o stress
+identificacao_id: equilibrar-o-uso-do-tempo
+title: Equilibrar o uso do tempo
 horas: 8
-mes: junho
+mes: março
 desconto_inscricao: Inscrição ciclo completo com 10% desconto
 ciclo_category: desenvolvimento_pessoal
 formacao_Active: active
@@ -11,7 +11,7 @@ idiom: pt
 category: formacao
 ---
 
-**Duração:** 1 dia - 8 h  \|  **Data:** 20 de junho  \|  **Valor:** 60€<br><br>
+**Duração:** 1 dia - 8 h  \|  **Data:** 20 de março  \|  **Valor:** 65€<br><br>
  
 
 **Valor Ciclo Completo c/ 10% desconto:** 207€<br><br><br><br><br>

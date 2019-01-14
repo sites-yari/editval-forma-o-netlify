@@ -1,8 +1,8 @@
 ---
-identificacao_id: a-arte-de-comunicar-em-publico
-title: A Arte de comunicar em público
+identificacao_id: gerir-e-dinamizar-reunioes
+title: Gerir e dinamizar reuniões
 horas: 8
-mes: abril
+mes: junho
 desconto_inscricao: Inscrição ciclo completo com 10% desconto
 ciclo_category: competencias_relacionais
 formacao_Active: active
@@ -12,7 +12,7 @@ category: formacao
 ---
 
 
-**Duração:** 1 dia - 8 h  \|  **Data:** 5 de abril  \|  **Valor:** 60€<br><br>
+**Duração:** 1 dia - 8 h  \|  **Data:** 05 de junho  \|  **Valor:** 65€<br><br>
  
 
 **Valor Ciclo Completo c/ 10% desconto:** 162€ <br><br><br><br><br>

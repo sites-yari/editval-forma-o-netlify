@@ -1,8 +1,8 @@
 ---
-identificacao_id: posturas-e-lesoes-no-posto-de-trabalho
+identificacao_id: medidas-de-autoprotecao-e-evacuacao
 title: Medidas de Autoproteção e Evacuação
 horas: 8
-mes: julho
+mes: fevereiro
 desconto_inscricao: Inscrição ciclo completo com 10% desconto
 ciclo_category: higiene_seguranca
 formacao_Active: active
@@ -11,7 +11,7 @@ idiom: pt
 category: formacao
 ---
 
-**Duração:** 1 dia - 8 h  \|  **Datas:** 3 de julho  \|  **Valor:** 60€<br><br>
+**Duração:** 1 dia - 8 h  \|  **Datas:** 26 de fevereiro  \|  **Valor:** 65€<br><br>
 
 **Valor Ciclo Completo c/ 10% desconto:** 207€<br><br><br><br><br>
 

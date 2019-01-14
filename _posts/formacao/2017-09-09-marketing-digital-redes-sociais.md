@@ -1,8 +1,8 @@
 ---
-identificacao_id: marketing-digital-e-redes-sociais
-title: Marketing Digital e Redes Sociais
+identificacao_id: gerir-e-animar-o-instagram
+title: Gerir e animar o Instagram
 horas: 8
-mes: junho
+mes: abril
 desconto_inscricao: Inscrição ciclo completo com 10% desconto
 category: formacao
 ciclo_category: marketing
@@ -12,7 +12,7 @@ idiom: pt
 ---
 
 
-**Duração:** 1 dia - 8 h  \|  **Datas:** 5 de junho  \|  **Valor:** 60€<br><br> 
+**Duração:** 1 dia - 8 h  \|  **Datas:** 10 de abril  \|  **Valor:** 65€<br><br> 
 
  
 

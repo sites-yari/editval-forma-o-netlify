@@ -1,8 +1,8 @@
 ---
-identificacao_id: photoshop-a-arte-de-tratar-a-imagem
-title: Photoshop - a arte de tratar a imagem
-horas: 16
-mes: julho
+identificacao_id: ferramentas-para-as-redes-sociais
+title: Ferramentas para as Redes Sociais
+horas: 8
+mes: outobro
 desconto_inscricao: Inscrição ciclo completo com 10% desconto
 ciclo_category: ferramentas_informaticas
 formacao_Active: active
@@ -11,7 +11,7 @@ idiom: pt
 category: formacao
 ---
 
-**Duração:** 2 dias - 16 h  \|  **Datas:** 9 e 16 de julho  \|  **Valor:** 110€<br><br> 
+**Duração:** 1 dia - 8 h  \|  **Datas:** 9 de outobro  \|  **Valor:** 65€<br><br> 
 
 **Valor Ciclo Completo c/ 10% desconto:** 297€<br><br><br><br><br>
 

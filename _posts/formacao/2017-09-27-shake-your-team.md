@@ -2,7 +2,7 @@
 identificacao_id: shake-your-team-trabalho-em-equipa
 title: Shake Your Team - trabalho em equipa
 horas: 8
-mes: outubro
+mes: setembro
 desconto_inscricao: Inscrição ciclo completo com 10% desconto
 ciclo_category: competencias_relacionais
 formacao_Active: active
@@ -12,7 +12,7 @@ category: formacao
 ---
 
 
-**Duração:** 1 dia - 8 h  \|  **Data:** 25 de outobro  \|  **Valor:** 60€<br><br>
+**Duração:** 1 dia - 8 h  \|  **Data:** 18 de setembro  \|  **Valor:** 65€<br><br>
 
  
 

@@ -2,7 +2,7 @@
 identificacao_id: comunicacao-eficaz-o-eu-e-o-nos
 title: Comunicação eficaz- o eu e o nós
 horas: 8
-mes: fevereiro
+mes: março
 desconto_inscricao: Inscrição ciclo completo com 10% desconto
 ciclo_category: competencias_relacionais
 formacao_Active: active
@@ -11,7 +11,7 @@ idiom: pt
 category: formacao
 ---
 
-**Duração:** 1 dia - 8 h  \|  **Data:** 27 de fevereiro  \|  **Valor:** 60€<br><br>
+**Duração:** 1 dia - 8 h  \|  **Data:** 13 de março  \|  **Valor:** 65€<br><br>
 
  
 

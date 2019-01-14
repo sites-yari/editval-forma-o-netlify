@@ -1,8 +1,8 @@
 ---
-identificacao_id: dinamizar-e-coordenar-reunioes
-title: Dinamizar e coordenar reuniões
+identificacao_id: criatividade-e-inteligencia-emocional
+title: Criatividade e Inteligência Emocional
 horas: 8
-mes: setembro
+mes: fevereiro
 desconto_inscricao: Inscrição ciclo completo com 10% desconto
 ciclo_category: desenvolvimento_pessoal
 formacao_Active: active
@@ -11,7 +11,7 @@ idiom: pt
 category: formacao
 ---
 
-**Duração:** 1 dia - 8 h  \|  **Data:** 20 de setembro  \|  **Valor:** 60€<br><br>
+**Duração:** 1 dia - 8 h  \|  **Data:** 14 de fevereiro  \|  **Valor:** 65€<br><br>
 
  
 

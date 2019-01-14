@@ -1,6 +1,6 @@
 ---
-identificacao_id: liderança-positiva
-title: Liderança Positiva
+identificacao_id: liderar-e-gerir-a-mudanca
+title: Liderar e Gerir a Mudança
 horas: '8'
 mes: outubro
 desconto_inscricao: Inscrição ciclo completo com 10% desconto
@@ -12,7 +12,7 @@ category: formacao
 ---
 
 
-**Duração:** 2 dias - 16 h  \|  **Datas:** 10 de outubro  \|  **Valor:** 50€<br><br>
+**Duração:** 1 dia - 8 h  \|  **Datas:** 16 de outubro  \|  **Valor:** 65€<br><br>
 
  
 
