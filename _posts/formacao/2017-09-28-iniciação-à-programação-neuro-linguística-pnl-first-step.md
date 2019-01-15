@@ -1,5 +1,5 @@
 ---
-identificacao_id: ciclo-desenvolvimento-pessoal
+identificacao_id: desenvolver-atraves-do-pnl
 title: Desenvolver através do PNL (Programação Neurolinguística)
 horas: '16'
 mes: abril

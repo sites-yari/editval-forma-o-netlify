@@ -2,7 +2,7 @@
 identificacao_id: ferramentas-para-as-redes-sociais
 title: Ferramentas para as Redes Sociais
 horas: 8
-mes: outobro
+mes: outubro
 desconto_inscricao: Inscrição ciclo completo com 10% desconto
 ciclo_category: ferramentas_informaticas
 formacao_Active: active
@@ -11,7 +11,7 @@ idiom: pt
 category: formacao
 ---
 
-**Duração:** 1 dia - 8 h  \|  **Datas:** 9 de outobro  \|  **Valor:** 65€<br><br> 
+**Duração:** 1 dia - 8 h  \|  **Datas:** 9 de outubro  \|  **Valor:** 65€<br><br> 
 
 <!-- **Valor Ciclo Completo c/ 10% desconto:** 297€<br><br><br><br><br> -->
 
